@@ -1,0 +1,274 @@
+﻿Log file open, 11/26/18 10:02:16
+LogInit:Display: Running engine for game: ProjetManoir
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-72524328) SRandInit(-72524328).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.163169
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.26-15.02.16:945][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.26-15.02.16:945][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.26-15.02.16:984][  0]LogInit: Computer: 329-A4
+[2018.11.26-15.02.16:984][  0]LogInit: User: ccote
+[2018.11.26-15.02.16:984][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.11.26-15.02.16:984][  0]LogInit: High frequency timer resolution =3.314089 MHz
+[2018.11.26-15.02.16:984][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.11.26-15.02.16:984][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.26-15.02.16:984][  0]LogMemory: Process Physical Memory: 273.50 MB used, 273.50 MB peak
+[2018.11.26-15.02.16:984][  0]LogMemory: Process Virtual Memory: 267.45 MB used, 267.45 MB peak
+[2018.11.26-15.02.16:984][  0]LogMemory: Physical Memory: 8737.40 MB used,  23965.81 MB free, 32703.21 MB total
+[2018.11.26-15.02.16:984][  0]LogMemory: Virtual Memory: 4782.28 MB used,  23965.81 MB free, 134217728.00 MB total
+[2018.11.26-15.02.17:139][  0]LogInit: Using OS detected language (fr-CA).
+[2018.11.26-15.02.17:139][  0]LogInit: Using OS detected locale (fr-CA).
+[2018.11.26-15.02.17:143][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the language.
+[2018.11.26-15.02.17:144][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the locale.
+[2018.11.26-15.02.18:378][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.26-15.02.18:472][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.11.26-15.02.18:472][  0]LogD3D11RHI:       6061/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.26-15.02.18:476][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.26-15.02.18:476][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.26-15.02.18:476][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.26-15.02.18:485][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.26-15.02.18:485][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.26-15.02.18:485][  0]LogWindows: EnumDisplayDevices:
+[2018.11.26-15.02.18:485][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.11.26-15.02.18:486][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.26-15.02.18:486][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.26-15.02.18:486][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.26-15.02.18:487][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.26-15.02.18:487][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.11.26-15.02.18:487][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.26-15.02.18:487][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.26-15.02.18:487][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.11.26-15.02.18:530][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.26-15.02.18:542][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.11.26-15.02.18:593][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Intermediate/Shaders/WorkingDirectory/13264/).
+[2018.11.26-15.02.18:593][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ccote/AppData/Local/Temp/UnrealShaderWorkingDir/9C5D3A054F400E94FBDFB7A795EEBB03/'.
+[2018.11.26-15.02.18:593][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.11.26-15.02.19:955][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.26-15.02.20:066][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.11.26-15.02.20:192][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.26-15.02.20:317][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.11.26-15.02.20:413][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.11.26-15.02.20:506][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.26-15.02.20:624][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.26-15.02.20:725][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.26-15.02.20:823][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.11.26-15.02.20:934][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-15.02.21:059][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.26-15.02.21:159][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.26-15.02.21:275][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.26-15.02.21:386][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.26-15.02.21:492][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.26-15.02.21:705][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.26-15.02.21:705][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.26-15.02.21:782][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.11.26-15.02.21:976][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.11.26-15.02.22:048][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.11.26-15.02.22:159][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.26-15.02.22:293][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.26-15.02.22:400][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.26-15.02.22:505][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.11.26-15.02.22:505][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.11.26-15.02.23:528][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.11.26-15.02.23:626][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/ccote/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.26-15.02.23:626][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ccote/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.11.26-15.02.23:626][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.26-15.02.23:627][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.26-15.02.23:627][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.26-15.02.23:627][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.26-15.02.23:654][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.26-15.02.23:668][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ccote/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.26-15.02.23:679][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.26-15.02.23:679][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.26-15.02.23:680][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.26-15.02.23:680][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.26-15.02.24:168][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.26-15.02.24:273][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.11.26-15.02.24:530][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.26-15.02.24:646][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.26-15.02.24:771][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.26-15.02.24:771][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.11.26-15.02.24:771][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.11.26-15.02.25:644][  0]LogNetVersion: ProjetManoir , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 221314123)
+[2018.11.26-15.02.25:754][  0]LogAssetRegistry: FAssetRegistry took 0.0375 seconds to start up
+[2018.11.26-15.02.25:943][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.135608 seconds
+[2018.11.26-15.02.25:953][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.11.26-15.02.25:953][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.11.26-15.02.25:953][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.26-15.02.26:102][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.11.26-15.02.30:437][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.11.26-15.02.30:509][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.26-15.02.30:587][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.26-15.02.30:588][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-15.02.31:651][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.11.26-15.02.32:442][  0]SourceControl: Info Source control is disabled
+[2018.11.26-15.02.32:493][  0]SourceControl: Info Source control is disabled
+[2018.11.26-15.02.32:600][  0]SourceControl: Info Source control is disabled
+[2018.11.26-15.02.32:697][  0]SourceControl: Info Source control is disabled
+[2018.11.26-15.02.34:136][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.26-15.02.34:564][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2018.11.26-15.02.34:565][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 16.0.671/bin
+[2018.11.26-15.02.34:565][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.26-15.02.34:569][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.26-15.02.34:574][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.26-15.02.34:642][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-15.02.34:643][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/', and we were unable to create a new request.
+[2018.11.26-15.02.35:484][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2018.11.26-15.02.36:450][  0]LogEngine: Initializing Engine...
+[2018.11.26-15.02.36:451][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.26-15.02.36:655][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.26-15.02.36:655][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.26-15.02.36:897][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.26-15.02.36:912][  0]LogInit: XAudio2 using 'Acer X263W-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-15.02.36:931][  0]LogInit: FAudioDevice initialized.
+[2018.11.26-15.02.36:995][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/ccote/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.26-15.02.37:013][  0]LogInit: Texture streaming: Enabled
+[2018.11.26-15.02.37:197][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.26-15.02.37:198][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FBC4970D-474C-1578-2780-979501ED1910}
+[2018.11.26-15.02.37:615][  0]LogInit: Transaction tracking system initialized
+[2018.11.26-15.02.38:212][  0]BlueprintLog: New page: Editor Load
+[2018.11.26-15.02.40:052][  0]LocalizationService: Info Localization service is disabled
+[2018.11.26-15.02.41:353][  0]LogConsoleResponse:Display: 
+[2018.11.26-15.02.41:541][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.26-15.02.41:541][  0]LogCook:Display: Mobile HDR setting 1
+[2018.11.26-15.02.42:580][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' took 0.08s
+[2018.11.26-15.02.42:782][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2018.11.26-15.02.43:653][  0]SourceControl: Info Source control is disabled
+[2018.11.26-15.02.43:654][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.26-15.02.43:654][  0]LightingResults: New page: Lighting Build
+[2018.11.26-15.02.43:744][  0]MapCheck: New page: Map Check
+[2018.11.26-15.02.43:744][  0]LightingResults: New page: Lighting Build
+[2018.11.26-15.02.44:014][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.11.26-15.02.44:014][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.11.26-15.02.44:020][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.26-15.02.44:042][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.26-15.02.44:115][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.574ms to complete.
+[2018.11.26-15.02.44:115][  0]LogFileHelpers: Loading map 'Template_Default' took 0.461
+[2018.11.26-15.02.44:314][  0]LogCollectionManager: Loaded 0 collections in 0.005131 seconds
+[2018.11.26-15.02.44:481][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' took 0.01s
+[2018.11.26-15.02.44:481][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' took 0.01s
+[2018.11.26-15.02.44:481][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' took 0.01s
+[2018.11.26-15.02.44:481][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.11.26-15.02.44:493][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2376 classes and 504 folders.
+[2018.11.26-15.02.44:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.26-15.02.44:695][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.11.26-15.02.44:771][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.26-15.02.44:851][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.11.26-15.02.44:857][  0]LogSlate: Took 0.000421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.26-15.02.44:860][  0]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.26-15.02.44:868][  0]LogSlate: Took 0.000473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.26-15.02.44:994][  0]LogRenderer: Reallocating scene render targets to support 1208x652 NumSamples 1 (Frame:1).
+[2018.11.26-15.02.45:286][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.26-15.02.45:286][  0]LogLoad: (Engine Initialization) Total time: 32.03 seconds
+[2018.11.26-15.02.45:286][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2018.11.26-15.02.45:286][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.11.26-15.02.45:626][  0]LogOcInput: OculusInput pre-init called
+[2018.11.26-15.02.45:626][  0]LogHMD: Starting GearVRController plugin
+[2018.11.26-15.02.45:643][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-15.02.45:643][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-15.02.45:643][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-15.02.45:648][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.26-15.02.45:712][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.26-15.02.45:968][  1]LogAssetRegistry: Asset discovery search completed in 20.2358 seconds
+[2018.11.26-15.02.45:969][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.26-15.02.45:969][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2018.11.26-15.02.45:969][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-15.02.45:970][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/', and we were unable to create a new request.
+[2018.11.26-15.02.45:970][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-15.02.45:971][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/', and we were unable to create a new request.
+[2018.11.26-15.02.45:971][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-15.02.45:972][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/', and we were unable to create a new request.
+[2018.11.26-15.02.46:638][  3]LogSlate: Took 0.000499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.26-15.04.04:203][501]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.26-15.04.04:302][501]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-15.04.04:409][501]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-15.04.04:428][501]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-15.04.04:472][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.11.26-15.04.04:476][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.11.26-15.04.04:480][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.11.26-15.04.04:484][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.11.26-15.04.04:493][501]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.26-15.04.04:728][506]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.26-15.04.05:473][543]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-15.04.05:473][543]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-15.04.05:473][543]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-15.04.05:473][543]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-15.04.07:416][706]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-15.04.07:546][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.11.26-15.04.07:553][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.11.26-15.04.07:561][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.11.26-15.04.07:569][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.11.26-15.04.07:937][718]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.11.26-15.04.07:937][718]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-15.04.07:937][718]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-15.04.07:937][718]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-15.05.54:754][190]LogLinker: Can't find file '/Engine/Transient'
+[2018.11.26-15.05.54:754][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:754][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:755][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_20.MaterialExpressionTextureCoordinate_0"')'
+[2018.11.26-15.05.54:755][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:756][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_21.MaterialExpressionScalarParameter_0"')'
+[2018.11.26-15.05.54:756][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_22.MaterialExpressionComponentMask_0"')'
+[2018.11.26-15.05.54:756][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:757][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_25.MaterialExpressionScalarParameter_1"')'
+[2018.11.26-15.05.54:757][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_23.MaterialExpressionMultiply_0"')'
+[2018.11.26-15.05.54:757][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:758][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:758][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_24.MaterialExpressionAdd_0"')'
+[2018.11.26-15.05.54:758][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_31.MaterialExpressionAdd_2"')'
+[2018.11.26-15.05.54:759][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:759][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:759][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_20.MaterialExpressionTextureCoordinate_0"')'
+[2018.11.26-15.05.54:760][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:760][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_27.MaterialExpressionScalarParameter_2"')'
+[2018.11.26-15.05.54:760][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionComponentMask'"MaterialGraphNode_28.MaterialExpressionComponentMask_1"')'
+[2018.11.26-15.05.54:761][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:761][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''
+[2018.11.26-15.05.54:762][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_30.MaterialExpressionScalarParameter_3"')'
+[2018.11.26-15.05.54:762][190]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_29.MaterialExpressionMultiply_1"')'
+[2018.11.26-15.05.54:762][190]LogProperty:Warning: ObjectProperty /Script/Engine.MaterialExpression:Material: unresolved reference to 'PreviewMaterial'"/Engine/Transient.Master_UgarteRock"''

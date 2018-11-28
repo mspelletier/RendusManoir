@@ -1,0 +1,1184 @@
+﻿Log file open, 11/26/18 09:29:35
+LogInit:Display: Running engine for game: ProjetManoir
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1936295028) SRandInit(1936295028).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 6.006913
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.26-14.29.38:576][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.26-14.29.38:576][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.26-14.29.38:787][  0]LogInit: Computer: 329-A4
+[2018.11.26-14.29.38:787][  0]LogInit: User: ccote
+[2018.11.26-14.29.38:787][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.11.26-14.29.38:787][  0]LogInit: High frequency timer resolution =3.314089 MHz
+[2018.11.26-14.29.38:788][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.11.26-14.29.38:788][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.26-14.29.38:788][  0]LogMemory: Process Physical Memory: 277.20 MB used, 277.20 MB peak
+[2018.11.26-14.29.38:788][  0]LogMemory: Process Virtual Memory: 269.71 MB used, 269.71 MB peak
+[2018.11.26-14.29.38:788][  0]LogMemory: Physical Memory: 7611.29 MB used,  25091.93 MB free, 32703.21 MB total
+[2018.11.26-14.29.38:788][  0]LogMemory: Virtual Memory: 4784.88 MB used,  25091.93 MB free, 134217728.00 MB total
+[2018.11.26-14.29.43:533][  0]LogInit: Using OS detected language (fr-CA).
+[2018.11.26-14.29.43:533][  0]LogInit: Using OS detected locale (fr-CA).
+[2018.11.26-14.29.44:007][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the language.
+[2018.11.26-14.29.44:008][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the locale.
+[2018.11.26-14.29.54:418][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.26-14.29.54:512][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.11.26-14.29.54:512][  0]LogD3D11RHI:       6061/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.26-14.29.54:515][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.26-14.29.54:515][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.26-14.29.54:515][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.26-14.29.54:525][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.26-14.29.54:525][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.26-14.29.54:525][  0]LogWindows: EnumDisplayDevices:
+[2018.11.26-14.29.54:525][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.11.26-14.29.54:525][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.26-14.29.54:525][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.26-14.29.54:526][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.26-14.29.54:526][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.26-14.29.54:526][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.11.26-14.29.54:526][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.26-14.29.54:526][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.26-14.29.54:526][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.11.26-14.29.54:571][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.26-14.29.55:175][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.11.26-14.29.55:505][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Intermediate/Shaders/WorkingDirectory/14456/).
+[2018.11.26-14.29.55:505][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ccote/AppData/Local/Temp/UnrealShaderWorkingDir/4CCDE00D4701700FA17C5F91075E90BC/'.
+[2018.11.26-14.29.55:562][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.11.26-14.30.08:298][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.26-14.30.08:408][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.11.26-14.30.08:494][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.26-14.30.08:590][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.11.26-14.30.08:709][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.11.26-14.30.08:801][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.26-14.30.08:894][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.26-14.30.08:985][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.26-14.30.09:061][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.11.26-14.30.09:169][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-14.30.09:260][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.26-14.30.09:349][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.26-14.30.09:440][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.26-14.30.09:532][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.26-14.30.09:637][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.26-14.30.09:808][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.26-14.30.09:808][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.26-14.30.09:878][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.11.26-14.30.10:399][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.11.26-14.30.10:459][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.11.26-14.30.10:566][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.26-14.30.10:650][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.26-14.30.10:735][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.26-14.30.10:857][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.11.26-14.30.10:857][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.11.26-14.30.16:736][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.11.26-14.30.16:736][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2018.11.26-14.30.16:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.26-14.30.16:737][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.26-14.30.16:737][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.26-14.30.16:737][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.26-14.30.16:965][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.26-14.30.16:978][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ccote/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.26-14.30.17:436][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.26-14.30.17:474][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.26-14.30.17:737][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.26-14.30.17:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.26-14.31.07:162][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.26-14.31.11:106][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.11.26-14.31.13:545][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.26-14.31.14:255][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.26-14.31.14:344][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.26-14.31.14:344][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.11.26-14.31.14:344][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.11.26-14.31.33:168][  0]LogNetVersion: ProjetManoir , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 221314123)
+[2018.11.26-14.31.34:176][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
+[2018.11.26-14.31.34:345][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.083194 seconds
+[2018.11.26-14.31.34:354][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.11.26-14.31.34:354][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.11.26-14.31.34:354][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.26-14.31.34:489][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.11.26-14.32.24:023][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.11.26-14.32.24:195][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.26-14.32.24:263][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.26-14.32.24:263][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-14.32.27:421][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.11.26-14.32.29:561][  0]SourceControl: Info Source control is disabled
+[2018.11.26-14.32.29:964][  0]SourceControl: Info Source control is disabled
+[2018.11.26-14.32.30:062][  0]SourceControl: Info Source control is disabled
+[2018.11.26-14.32.30:157][  0]SourceControl: Info Source control is disabled
+[2018.11.26-14.32.32:513][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.26-14.32.33:458][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2018.11.26-14.32.33:489][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 16.0.671/bin
+[2018.11.26-14.32.33:597][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.26-14.32.33:674][  0]LogStaticMesh: Building static mesh houdini_logo...
+[2018.11.26-14.32.33:676][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.11.26-14.32.33:792][  0]LogStaticMesh: Built static mesh [0.12s] /HoudiniEngine/houdini_logo.houdini_logo
+[2018.11.26-14.32.34:020][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.26-14.32.34:023][  0]LogMaterial: Missing cached shader map for material houdini_default_material, compiling. 
+[2018.11.26-14.32.34:333][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.26-14.32.57:993][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-14.32.57:994][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/', and we were unable to create a new request.
+[2018.11.26-14.33.44:543][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2018.11.26-14.33.46:727][  0]LogEngine: Initializing Engine...
+[2018.11.26-14.33.46:787][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.26-14.33.51:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.26-14.33.51:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.26-14.33.52:533][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.26-14.33.52:966][  0]LogInit: XAudio2 using 'Acer X263W-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-14.33.53:045][  0]LogInit: FAudioDevice initialized.
+[2018.11.26-14.33.53:095][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/ccote/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.26-14.33.53:117][  0]LogInit: Texture streaming: Enabled
+[2018.11.26-14.33.53:420][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.26-14.33.54:575][  0]LogInit: Transaction tracking system initialized
+[2018.11.26-14.33.55:211][  0]BlueprintLog: New page: Editor Load
+[2018.11.26-14.33.57:145][  0]LocalizationService: Info Localization service is disabled
+[2018.11.26-14.33.59:083][  0]LogConsoleResponse:Display: 
+[2018.11.26-14.34.03:365][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.26-14.34.03:365][  0]LogCook:Display: Mobile HDR setting 1
+[2018.11.26-14.34.04:195][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' took 0.06s
+[2018.11.26-14.34.06:029][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2018.11.26-14.34.07:930][  0]SourceControl: Info Source control is disabled
+[2018.11.26-14.34.07:930][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.26-14.34.07:979][  0]LightingResults: New page: Lighting Build
+[2018.11.26-14.34.08:120][  0]MapCheck: New page: Map Check
+[2018.11.26-14.34.08:120][  0]LightingResults: New page: Lighting Build
+[2018.11.26-14.34.10:721][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.11.26-14.34.10:790][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.11.26-14.34.11:181][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.26-14.34.11:208][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.26-14.34.11:291][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.068ms to complete.
+[2018.11.26-14.34.11:291][  0]LogFileHelpers: Loading map 'Template_Default' took 3.361
+[2018.11.26-14.34.11:882][  0]LogCollectionManager: Loaded 0 collections in 0.005328 seconds
+[2018.11.26-14.34.12:032][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' took 0.01s
+[2018.11.26-14.34.12:033][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' took 0.01s
+[2018.11.26-14.34.12:033][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' took 0.01s
+[2018.11.26-14.34.12:033][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2018.11.26-14.34.12:049][  0]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2376 classes and 504 folders.
+[2018.11.26-14.34.12:174][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.26-14.34.15:170][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.11.26-14.34.15:299][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.26-14.34.15:577][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.11.26-14.34.15:683][  0]LogSlate: Took 0.094848 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.26-14.34.15:722][  0]LogSlate: Took 0.035420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.26-14.34.15:870][  0]LogSlate: Took 0.089112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.26-14.34.16:232][  0]LogRenderer: Reallocating scene render targets to support 1208x652 NumSamples 1 (Frame:1).
+[2018.11.26-14.34.17:476][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.11.26-14.34.17:476][  0]LogLoad: (Engine Initialization) Total time: 315.87 seconds
+[2018.11.26-14.34.17:476][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.73 seconds
+[2018.11.26-14.34.17:476][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.11.26-14.34.17:816][  0]LogOcInput: OculusInput pre-init called
+[2018.11.26-14.34.17:816][  0]LogHMD: Starting GearVRController plugin
+[2018.11.26-14.34.17:864][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-14.34.17:864][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-14.34.17:864][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-14.34.17:874][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.26-14.34.18:165][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-14.34.18:166][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/', and we were unable to create a new request.
+[2018.11.26-14.34.18:166][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-14.34.18:166][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/', and we were unable to create a new request.
+[2018.11.26-14.34.18:166][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.26-14.34.18:167][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/', and we were unable to create a new request.
+[2018.11.26-14.34.18:487][  2]LogAssetRegistry: Asset discovery search completed in 164.3317 seconds
+[2018.11.26-14.34.18:489][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.26-14.34.18:489][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2018.11.26-14.34.22:169][ 13]LogSlate: Took 0.012208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.26-14.34.27:821][134]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.26-14.34.28:090][134]LogStaticMesh: Building static mesh AR-Window_4M_01...
+[2018.11.26-14.34.28:110][134]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Window_4M_01.AR-Window_4M_01
+[2018.11.26-14.34.28:112][134]LogStaticMesh: Building static mesh AR-WallTop_7M_01...
+[2018.11.26-14.34.28:122][134]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-WallTop_7M_01.AR-WallTop_7M_01
+[2018.11.26-14.34.28:124][134]LogStaticMesh: Building static mesh AR-WallTop_2M_01...
+[2018.11.26-14.34.28:128][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallTop_2M_01.AR-WallTop_2M_01
+[2018.11.26-14.34.28:198][134]LogStaticMesh: Building static mesh AR-WallStairs_03...
+[2018.11.26-14.34.28:201][134]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/AR-WallStairs_03.AR-WallStairs_03
+[2018.11.26-14.34.28:202][134]LogStaticMesh: Building static mesh AR-Window_4M_01a...
+[2018.11.26-14.34.28:206][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Window_4M_01a.AR-Window_4M_01a
+[2018.11.26-14.34.28:206][134]LogStaticMesh: Building static mesh PR-Carpet_01...
+[2018.11.26-14.34.28:208][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/PR-Carpet_01.PR-Carpet_01
+[2018.11.26-14.34.28:289][134]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.11.26-14.34.28:502][134]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.11.26-14.34.28:603][134]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.11.26-14.34.28:747][134]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.11.26-14.34.28:835][134]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 2048X1024)
+[2018.11.26-14.34.28:932][134]LogStaticMesh: Building static mesh AR-Ceiling_01...
+[2018.11.26-14.34.28:937][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Ceiling_01.AR-Ceiling_01
+[2018.11.26-14.34.28:939][134]LogStaticMesh: Building static mesh AR-Ceiling_02...
+[2018.11.26-14.34.28:942][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Ceiling_02.AR-Ceiling_02
+[2018.11.26-14.34.28:943][134]LogStaticMesh: Building static mesh AR-CeilingBeam_02...
+[2018.11.26-14.34.28:971][134]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-CeilingBeam_02.AR-CeilingBeam_02
+[2018.11.26-14.34.28:973][134]LogStaticMesh: Building static mesh AR-CorridorFake_01...
+[2018.11.26-14.34.28:985][134]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-CorridorFake_01.AR-CorridorFake_01
+[2018.11.26-14.34.28:986][134]LogStaticMesh: Building static mesh AR-CorridorFake_01a...
+[2018.11.26-14.34.28:987][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-CorridorFake_01a.AR-CorridorFake_01a
+[2018.11.26-14.34.28:987][134]LogStaticMesh: Building static mesh AR-Curtain01...
+[2018.11.26-14.34.28:998][134]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-Curtain01.AR-Curtain01
+[2018.11.26-14.34.28:999][134]LogStaticMesh: Building static mesh AR-Door_01...
+[2018.11.26-14.34.29:001][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Door_01.AR-Door_01
+[2018.11.26-14.34.29:001][134]LogStaticMesh: Building static mesh AR-DoorFrame_150cm_01...
+[2018.11.26-14.34.29:004][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-DoorFrame_150cm_01.AR-DoorFrame_150cm_01
+[2018.11.26-14.34.29:005][134]LogStaticMesh: Building static mesh AR-DoorFrame_2M_003...
+[2018.11.26-14.34.29:009][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-DoorFrame_2M_003.AR-DoorFrame_2M_003
+[2018.11.26-14.34.29:010][134]LogStaticMesh: Building static mesh AR-DoorFrame_2M_02...
+[2018.11.26-14.34.29:030][134]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-DoorFrame_2M_02.AR-DoorFrame_2M_02
+[2018.11.26-14.34.29:065][134]LogStaticMesh: Building static mesh AR-Exterior01...
+[2018.11.26-14.34.29:070][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Exterior01.AR-Exterior01
+[2018.11.26-14.34.29:071][134]LogStaticMesh: Building static mesh AR-Fireplace_01...
+[2018.11.26-14.34.29:091][134]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Fireplace_01.AR-Fireplace_01
+[2018.11.26-14.34.29:104][134]LogStaticMesh: Building static mesh AR-Floor_2X2_01...
+[2018.11.26-14.34.29:105][134]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-Floor_2X2_01.AR-Floor_2X2_01
+[2018.11.26-14.34.29:105][134]LogStaticMesh: Building static mesh AR-RampPost_01...
+[2018.11.26-14.34.29:123][134]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-RampPost_01.AR-RampPost_01
+[2018.11.26-14.34.29:126][134]LogStaticMesh: Building static mesh AR-RampPost_02...
+[2018.11.26-14.34.29:145][134]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-RampPost_02.AR-RampPost_02
+[2018.11.26-14.34.29:148][134]LogStaticMesh: Building static mesh AR-Staircase_01...
+[2018.11.26-14.34.29:187][134]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-Staircase_01.AR-Staircase_01
+[2018.11.26-14.34.29:192][134]LogStaticMesh: Building static mesh AR-Staircase_02...
+[2018.11.26-14.34.29:231][134]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-Staircase_02.AR-Staircase_02
+[2018.11.26-14.34.29:235][134]LogStaticMesh: Building static mesh AR-StaircaseFloor_01...
+[2018.11.26-14.34.29:235][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-StaircaseFloor_01.AR-StaircaseFloor_01
+[2018.11.26-14.34.29:255][134]LogStaticMesh: Building static mesh AR-StairCaseRampCorner_01...
+[2018.11.26-14.34.29:268][134]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-StairCaseRampCorner_01.AR-StairCaseRampCorner_01
+[2018.11.26-14.34.29:270][134]LogStaticMesh: Building static mesh AR-StaircaseRug_01...
+[2018.11.26-14.34.29:373][134]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/AR-StaircaseRug_01.AR-StaircaseRug_01
+[2018.11.26-14.34.29:390][134]LogStaticMesh: Building static mesh AR-StairCaseWall_01...
+[2018.11.26-14.34.29:402][134]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-StairCaseWall_01.AR-StairCaseWall_01
+[2018.11.26-14.34.29:403][134]LogStaticMesh: Building static mesh AR-StairCaseWall_02...
+[2018.11.26-14.34.29:426][134]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-StairCaseWall_02.AR-StairCaseWall_02
+[2018.11.26-14.34.29:428][134]LogStaticMesh: Building static mesh AR-StairCaseWall_02a...
+[2018.11.26-14.34.29:431][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-StairCaseWall_02a.AR-StairCaseWall_02a
+[2018.11.26-14.34.29:431][134]LogStaticMesh: Building static mesh AR-StairCaseWall_03...
+[2018.11.26-14.34.29:457][134]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-StairCaseWall_03.AR-StairCaseWall_03
+[2018.11.26-14.34.29:460][134]LogStaticMesh: Building static mesh AR-TopWallTrim_01...
+[2018.11.26-14.34.29:462][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-TopWallTrim_01.AR-TopWallTrim_01
+[2018.11.26-14.34.29:463][134]LogStaticMesh: Building static mesh AR-Wall_1M_01...
+[2018.11.26-14.34.29:466][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Wall_1M_01.AR-Wall_1M_01
+[2018.11.26-14.34.29:504][134]LogStaticMesh: Building static mesh AR-Wall_2M_01...
+[2018.11.26-14.34.29:508][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Wall_2M_01.AR-Wall_2M_01
+[2018.11.26-14.34.29:509][134]LogStaticMesh: Building static mesh AR-WallCorner_01...
+[2018.11.26-14.34.29:510][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallCorner_01.AR-WallCorner_01
+[2018.11.26-14.34.29:510][134]LogStaticMesh: Building static mesh AR-WallCornerRound_01...
+[2018.11.26-14.34.29:533][134]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallCornerRound_01.AR-WallCornerRound_01
+[2018.11.26-14.34.29:544][134]LogStaticMesh: Building static mesh AR-WallStairs_01...
+[2018.11.26-14.34.29:546][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallStairs_01.AR-WallStairs_01
+[2018.11.26-14.34.29:547][134]LogStaticMesh: Building static mesh AR-WallStairs_02...
+[2018.11.26-14.34.29:549][134]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallStairs_02.AR-WallStairs_02
+[2018.11.26-14.34.29:551][134]LogMaterial: Missing cached shader map for material WorldGridMaterial2side, compiling. 
+[2018.11.26-14.34.29:678][134]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.26-14.34.29:683][134]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.26-14.34.29:733][134]LogAIModule: Creating AISystem for world Manoir
+[2018.11.26-14.34.29:760][134]Cmd: MAP LOAD FILE="//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Manoir.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.26-14.34.29:760][134]LightingResults: New page: Lighting Build
+[2018.11.26-14.34.29:761][134]LoadErrors: New page: Loading map: Manoir.umap
+[2018.11.26-14.34.29:762][134]MapCheck: New page: Map Check
+[2018.11.26-14.34.29:762][134]LightingResults: New page: Lighting Build
+[2018.11.26-14.34.29:789][134]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.26-14.34.29:828][134]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.26-14.34.29:914][134]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.624ms to complete.
+[2018.11.26-14.34.29:914][134]LogFileHelpers: Loading map 'Manoir' took 0.156
+[2018.11.26-14.34.35:903][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_03)
+[2018.11.26-14.34.40:161][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_8)
+[2018.11.26-14.34.45:773][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_6)
+[2018.11.26-14.34.51:323][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.11.26-14.34.54:991][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_5)
+[2018.11.26-14.34.55:945][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.11.26-14.35.03:090][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.11.26-14.35.04:482][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_5)
+[2018.11.26-14.35.07:764][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.11.26-14.35.12:540][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.35.16:305][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_26)
+[2018.11.26-14.35.18:091][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.35.32:415][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_26)
+[2018.11.26-14.35.33:345][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.35.46:229][ 41]Cmd: MODE GRID=0
+[2018.11.26-14.36.10:252][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_5)
+[2018.11.26-14.36.16:402][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.36.23:579][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.11.26-14.36.27:012][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.11.26-14.36.27:901][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_4)
+[2018.11.26-14.36.34:100][265]Cmd: TRANSACTION UNDO
+[2018.11.26-14.36.34:100][265]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.36.34:147][265]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.26-14.36.35:131][339]Cmd: MODE GRID=1
+[2018.11.26-14.36.40:971][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.36.47:506][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Curtain2)
+[2018.11.26-14.36.48:571][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.36.57:254][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Curtain2)
+[2018.11.26-14.37.01:726][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Exterior01)
+[2018.11.26-14.37.02:439][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Exterior01)
+[2018.11.26-14.37.11:509][390]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.11:509][390]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.37.13:116][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_15)
+[2018.11.26-14.37.14:715][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Curtain2)
+[2018.11.26-14.37.15:951][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.37.20:765][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Curtain2)
+[2018.11.26-14.37.23:889][679]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.23:889][679]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.37.24:106][698]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.24:106][698]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.37.24:261][706]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.24:261][706]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.37.24:389][716]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.24:389][716]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.37.24:680][743]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.24:680][743]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.37.25:003][775]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.25:003][775]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.37.25:226][797]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.25:226][797]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.37.25:633][837]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.25:633][837]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.37.25:958][874]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.25:958][874]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.37.26:160][893]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.26:160][893]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.37.26:315][908]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.26:315][908]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.37.26:732][951]Cmd: TRANSACTION UNDO
+[2018.11.26-14.37.26:733][951]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.37.27:816][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.11.26-14.37.31:038][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_2M_01)
+[2018.11.26-14.37.42:393][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.11.26-14.37.43:188][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_2M_01)
+[2018.11.26-14.37.56:475][198]Cmd: MODE GRID=0
+[2018.11.26-14.38.07:594][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_24)
+[2018.11.26-14.38.09:846][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_2M_01)
+[2018.11.26-14.38.14:689][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.11.26-14.38.15:516][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_2M_01)
+[2018.11.26-14.38.20:467][795]Cmd: MODE SCALEGRID=0
+[2018.11.26-14.38.23:737][169]Cmd: TRANSACTION UNDO
+[2018.11.26-14.38.23:737][169]LogEditorTransaction: Undo Scale Actors
+[2018.11.26-14.38.32:943][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_4)
+[2018.11.26-14.38.35:905][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_2M_01)
+[2018.11.26-14.38.46:218][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.11.26-14.38.48:537][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_2M_01)
+[2018.11.26-14.38.54:982][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_4)
+[2018.11.26-14.39.00:076][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_03)
+[2018.11.26-14.39.02:597][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_01)
+[2018.11.26-14.39.10:842][260]Cmd: TRANSACTION UNDO
+[2018.11.26-14.39.10:842][260]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.39.11:410][310]Cmd: TRANSACTION UNDO
+[2018.11.26-14.39.11:410][310]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.39.12:814][462]Cmd: MODE SCALEGRID=1
+[2018.11.26-14.39.14:250][620]Cmd: MODE SCALEGRID=0
+[2018.11.26-14.39.17:079][930]Cmd: TRANSACTION UNDO
+[2018.11.26-14.39.17:079][930]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.39.17:889][  7]Cmd: MODE GRID=1
+[2018.11.26-14.39.20:482][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_01)
+[2018.11.26-14.39.25:935][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_01)
+[2018.11.26-14.39.29:156][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_2)
+[2018.11.26-14.39.33:014][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_2)
+[2018.11.26-14.39.37:630][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Fireplace_01)
+[2018.11.26-14.39.38:088][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Fireplace_01)
+[2018.11.26-14.39.38:957][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Fireplace_01)
+[2018.11.26-14.39.42:702][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_2)
+[2018.11.26-14.39.45:443][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_3)
+[2018.11.26-14.39.51:933][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.39.55:854][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_2)
+[2018.11.26-14.39.59:151][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.40.03:980][859]Cmd: TRANSACTION UNDO
+[2018.11.26-14.40.03:980][859]LogEditorTransaction: Undo Scale Actors
+[2018.11.26-14.40.09:771][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_2)
+[2018.11.26-14.40.14:750][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.40.30:776][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_01)
+[2018.11.26-14.40.36:209][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.40.37:421][479]Cmd: MODE GRID=0
+[2018.11.26-14.40.40:353][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_01)
+[2018.11.26-14.40.58:041][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Fireplace_01)
+[2018.11.26-14.41.08:759][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_9)
+[2018.11.26-14.41.12:807][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Fireplace_01)
+[2018.11.26-14.41.14:500][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_01)
+[2018.11.26-14.41.18:637][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCornerRound_01)
+[2018.11.26-14.41.21:187][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_18)
+[2018.11.26-14.41.23:707][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.41.24:319][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_2M_01)
+[2018.11.26-14.41.57:377][418]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 \\rd-srvhd2\Enseignement\Utilisateurs\ccote\Home\Documents\Allegorithmic\Substance Designer\Tapestry_01.sbsar)
+[2018.11.26-14.41.59:565][418]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.03:709][805]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.03:820][805]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.03:834][805]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.03:876][805]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.11.26-14.42.03:880][805]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.11.26-14.42.03:884][805]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.11.26-14.42.03:888][805]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.11.26-14.42.03:906][805]LogSlate: Took 0.006385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.26-14.42.04:101][806]LogSlate: Took 0.001133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.26-14.42.04:784][833]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.11.26-14.42.04:784][833]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.04:784][833]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.42.04:784][833]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.42.20:825][991]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.21:246][  7]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.11.26-14.42.21:246][  7]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.21:246][  7]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.42.21:246][  7]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.42.23:064][142]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.23:082][142]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.11.26-14.42.23:521][158]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.11.26-14.42.23:521][158]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.23:521][158]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.42.23:521][158]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.42.24:603][236]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.24:621][236]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.11.26-14.42.25:046][251]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.11.26-14.42.25:046][251]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.25:046][251]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.42.25:046][251]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.42.25:973][318]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.25:993][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.11.26-14.42.26:429][334]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.11.26-14.42.26:429][334]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.26:429][334]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.42.26:429][334]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.42.27:854][440]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.27:871][440]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.11.26-14.42.29:484][545]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.11.26-14.42.29:484][545]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.29:484][545]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.42.29:484][545]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.42.31:688][701]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.32:130][720]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.42.32:130][720]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.32:130][720]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.42.32:130][720]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.42.33:451][814]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.33:889][833]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.42.33:889][833]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.33:889][833]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.42.33:889][833]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.42.35:961][978]LogMaterialEditor: Applying material Tapestry_MAT
+[2018.11.26-14.42.36:637][978]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.36:687][978]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.36:723][978]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.42.36:761][978]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tapestry_MAT, compiling. 
+[2018.11.26-14.42.37:111][978]TextureStreamingBuild:Display: Compiling optional shaders took 0.356 seconds.
+[2018.11.26-14.42.38:443][ 74]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.42.38:443][ 74]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.42.38:443][ 74]MaterialEditorStats: Info Texture samplers: 6/16
+[2018.11.26-14.42.38:443][ 74]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.43.02:647][230]LogSavePackage: Save=1224.01ms
+[2018.11.26-14.43.02:647][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Manoir640F7C5D4B1DFFCAFA6DEA9891A9E513.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Manoir.umap'
+[2018.11.26-14.43.02:680][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Manoir.umap
+[2018.11.26-14.43.02:713][230]LogFileHelpers: Saving map 'Manoir' took 1.539
+[2018.11.26-14.43.02:717][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tapestry_01" FILE="//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_01.uasset" SILENT=true
+[2018.11.26-14.43.02:730][230]LogSavePackage: Save=6.86ms
+[2018.11.26-14.43.02:730][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Tapestry_015F89F707453DD8BE3256FA87D3E60091.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_01.uasset'
+[2018.11.26-14.43.02:740][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_01.uasset
+[2018.11.26-14.43.02:743][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tapestry_INST" FILE="//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST.uasset" SILENT=true
+[2018.11.26-14.43.02:756][230]LogSavePackage: Save=5.78ms
+[2018.11.26-14.43.02:757][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Tapestry_INST6B94BBB040B60C7EC65B4F8263E2A494.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST.uasset'
+[2018.11.26-14.43.02:767][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST.uasset
+[2018.11.26-14.43.03:188][230]LogSavePackage: Save=402.90ms
+[2018.11.26-14.43.03:189][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Tapestry_INST_basecolorE1A605704DC5A6FB57E67A91EE403D2E.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST_basecolor.uasset'
+[2018.11.26-14.43.03:202][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST_basecolor.uasset
+[2018.11.26-14.43.03:443][230]LogSavePackage: Save=228.77ms
+[2018.11.26-14.43.03:443][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Tapestry_INST_metallicCFCAA01940961EAEF970F0895EA6A681.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST_metallic.uasset'
+[2018.11.26-14.43.03:455][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST_metallic.uasset
+[2018.11.26-14.43.03:557][230]LogSavePackage: Save=81.57ms
+[2018.11.26-14.43.03:557][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Tapestry_INST_normal24B206FD47233A1EB4BC0DADCE95C0BB.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST_normal.uasset'
+[2018.11.26-14.43.03:570][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST_normal.uasset
+[2018.11.26-14.43.03:677][230]LogSavePackage: Save=88.03ms
+[2018.11.26-14.43.03:677][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Tapestry_INST_roughnessD9AE222D47F93325462891AFCAFB47BE.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST_roughness.uasset'
+[2018.11.26-14.43.03:689][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_INST_roughness.uasset
+[2018.11.26-14.43.03:711][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tapestry_MAT" FILE="//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_MAT.uasset" SILENT=true
+[2018.11.26-14.43.03:757][230]LogSavePackage: Save=39.64ms
+[2018.11.26-14.43.03:757][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Tapestry_MAT36B4E22E4FB1153A70D6D580FF0B0D16.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_MAT.uasset'
+[2018.11.26-14.43.03:769][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_MAT.uasset
+[2018.11.26-14.43.03:789][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tapestry_MAT_Inst" FILE="//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_MAT_Inst.uasset" SILENT=true
+[2018.11.26-14.43.03:814][230]LogSavePackage: Save=18.10ms
+[2018.11.26-14.43.03:814][230]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Tapestry_MAT_InstCBAD469F4E49D9CA70E43EB372BF8B8E.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_MAT_Inst.uasset'
+[2018.11.26-14.43.03:826][230]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Tapestry_MAT_Inst.uasset
+[2018.11.26-14.43.10:533][797]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.26-14.43.11:151][842]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjetManoir
+[2018.11.26-14.43.11:151][842]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.11.26-14.43.11:151][842]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.11.26-14.43.11:151][842]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.11.26-14.43.11:162][843]LogTemp: BranchPath = 329-A4/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = 329-A4/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.11.26-14.43.11:198][846]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ccote\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.26-14.44.17:039][900]Cmd: TRANSACTION UNDO
+[2018.11.26-14.44.17:039][900]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.44.17:048][900]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.44.18:007][962]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.44.18:007][962]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.44.18:007][962]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.44.18:008][962]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.44.23:785][565]Cmd: TRANSACTION UNDO
+[2018.11.26-14.44.23:785][565]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.44.23:788][565]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.44.24:208][585]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.44.24:208][585]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.44.24:208][585]MaterialEditorStats: Info Texture samplers: 5/16
+[2018.11.26-14.44.24:208][585]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.44.28:519][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_24)
+[2018.11.26-14.44.29:697][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.44.34:090][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.11.26-14.44.34:990][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.44.35:593][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.11.26-14.44.37:241][891]LogMaterial:Warning: Material /Game/Maps/Tapestry_MAT.Tapestry_MAT needed to have new flag set bUsedWithStaticLighting !
+[2018.11.26-14.44.37:241][891]LogMaterial:Warning: Material /Engine/Transient.Tapestry_MAT needed to have new flag set bUsedWithStaticLighting !
+[2018.11.26-14.44.37:243][891]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.44.37:260][891]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.44.37:826][920]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.44.37:826][920]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.44.37:826][920]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.44.37:826][920]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.44.41:170][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.44.45:946][715]Cmd: TRANSACTION UNDO
+[2018.11.26-14.44.45:946][715]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.44.45:949][715]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.44.46:484][742]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.44.46:484][742]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.44.46:484][742]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.44.46:484][742]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.44.47:554][854]Cmd: TRANSACTION UNDO
+[2018.11.26-14.44.47:554][854]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.44.47:557][854]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.44.48:098][887]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.44.48:098][887]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.44.48:098][887]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.44.48:098][887]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.44.49:331][ 19]Cmd: TRANSACTION UNDO
+[2018.11.26-14.44.49:331][ 19]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.44.49:335][ 19]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.44.49:889][ 53]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.44.49:889][ 53]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.44.49:889][ 53]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.44.49:889][ 53]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.44.55:131][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_2M_01)
+[2018.11.26-14.44.59:725][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.45.00:288][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.45.09:888][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_01)
+[2018.11.26-14.45.12:166][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.45.16:113][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.45.18:278][ 86]Cmd: DELETE
+[2018.11.26-14.45.18:278][ 86]Cmd: ACTOR DELETE
+[2018.11.26-14.45.18:279][ 86]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.26-14.45.18:292][ 86]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.11.26-14.45.19:738][258]Cmd: TRANSACTION UNDO
+[2018.11.26-14.45.19:738][258]LogEditorTransaction: Undo Delete Actors
+[2018.11.26-14.45.19:761][258]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.45.20:828][334]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.45.20:828][334]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.45.20:828][334]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.45.20:828][334]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.45.23:378][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.45.36:735][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.45.37:585][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.11.26-14.45.41:853][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallStairs_01)
+[2018.11.26-14.45.45:672][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCornerRound_01)
+[2018.11.26-14.45.49:790][328]Cmd: TRANSACTION UNDO
+[2018.11.26-14.45.49:790][328]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.45.49:803][328]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.45.50:913][386]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.45.50:913][386]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.45.50:913][386]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.45.50:913][386]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.45.51:462][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_01)
+[2018.11.26-14.46.01:105][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_02)
+[2018.11.26-14.46.04:868][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallStairs_02)
+[2018.11.26-14.46.06:954][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallStairs_4)
+[2018.11.26-14.46.10:515][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallStairs_6)
+[2018.11.26-14.46.16:213][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_02)
+[2018.11.26-14.46.19:077][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_8)
+[2018.11.26-14.46.19:840][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_02)
+[2018.11.26-14.46.28:080][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_01)
+[2018.11.26-14.46.29:640][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_3)
+[2018.11.26-14.46.30:085][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_2)
+[2018.11.26-14.46.30:489][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_01)
+[2018.11.26-14.46.31:218][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_02)
+[2018.11.26-14.51.15:171][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.51.20:705][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.11.26-14.51.26:224][861]Cmd: TRANSACTION UNDO
+[2018.11.26-14.51.26:224][861]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.51.26:228][861]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.51.27:295][939]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.51.27:296][939]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.51.27:296][939]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.51.27:296][939]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.51.27:655][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.51.28:582][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Door_2)
+[2018.11.26-14.51.30:354][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.11.26-14.51.36:485][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.51.44:246][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Curtain2)
+[2018.11.26-14.51.45:963][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Exterior01)
+[2018.11.26-14.51.46:669][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Exterior01)
+[2018.11.26-14.51.47:844][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Exterior01)
+[2018.11.26-14.51.52:804][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_01)
+[2018.11.26-14.51.55:268][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Curtain2)
+[2018.11.26-14.51.58:282][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_8)
+[2018.11.26-14.52.01:918][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.52.02:697][753]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.02:697][753]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.02:717][753]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.02:888][762]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.02:888][762]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.02:914][762]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.03:019][767]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.03:019][767]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.52.03:022][767]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.03:168][775]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.03:168][775]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.03:199][775]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.03:348][781]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.03:348][781]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.03:385][781]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.03:503][782]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.03:503][782]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.52.03:509][782]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.03:657][787]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.03:658][787]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.03:663][787]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.03:797][792]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.03:797][792]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.03:802][792]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.03:978][800]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.03:978][800]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.04:016][800]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.04:121][803]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.04:121][803]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.04:153][803]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.04:281][807]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.04:281][807]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.52.04:287][807]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.04:458][814]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.04:458][814]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.04:500][814]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.04:631][816]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.04:631][816]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.04:671][816]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.04:798][818]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.04:798][818]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.04:829][818]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.04:967][823]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.04:967][823]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.05:004][823]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.05:116][826]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.05:116][826]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.05:148][826]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.05:259][828]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.05:259][828]LogEditorTransaction: Undo Move Actors
+[2018.11.26-14.52.05:266][828]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.05:444][835]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.05:444][835]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.05:489][835]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.05:614][838]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.05:614][838]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.05:649][838]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.05:745][839]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.05:745][839]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.05:781][839]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.05:909][843]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.05:910][843]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.05:940][843]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.06:080][848]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.06:080][848]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.06:118][848]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.06:243][850]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.06:243][850]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.06:282][850]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.06:396][853]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.06:396][853]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.06:434][853]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.06:589][859]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.06:589][859]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.06:627][859]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.06:836][867]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.06:836][867]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.06:873][867]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.07:038][872]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.07:038][872]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.07:044][872]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.07:201][877]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.07:201][877]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.07:237][877]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.07:370][879]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.07:370][879]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.07:377][879]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.07:532][885]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.07:532][885]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.07:564][885]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.07:878][897]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.07:878][897]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.07:883][897]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.08:161][910]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.08:161][910]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.08:197][910]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.08:362][914]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.08:362][914]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.08:368][914]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.08:561][921]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.08:561][921]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.08:594][921]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.08:726][923]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.08:726][923]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.08:759][923]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.08:887][925]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.08:888][925]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.08:900][925]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.09:059][931]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.09:059][931]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.09:094][931]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.09:242][933]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.09:242][933]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.09:251][933]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.09:418][939]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.09:418][939]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.09:451][939]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.09:599][943]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.09:599][943]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.09:634][943]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.09:779][948]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.09:779][948]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.09:815][948]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.09:962][952]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.09:962][952]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.09:966][952]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.10:134][961]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.10:134][961]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.10:139][961]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.10:325][970]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.10:325][970]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.10:364][970]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.10:496][974]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.10:496][974]LogEditorTransaction: Undo Scale Actors
+[2018.11.26-14.52.10:503][974]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.10:686][981]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.10:686][981]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.10:730][981]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.10:873][985]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.10:873][985]LogEditorTransaction: Undo Scale Actors
+[2018.11.26-14.52.10:879][985]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.11:043][990]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.11:043][990]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.11:049][990]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.11:220][996]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.11:220][996]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.11:251][996]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.11:390][999]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.11:391][999]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.11:426][999]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.11:615][  6]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.11:615][  6]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.11:657][  6]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.11:794][ 11]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.11:794][ 11]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.11:800][ 11]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.11:931][ 14]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.11:931][ 14]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.11:969][ 14]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.12:147][ 20]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.12:147][ 20]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.12:157][ 20]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.12:315][ 25]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.12:315][ 25]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.12:349][ 25]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.12:475][ 27]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.12:475][ 27]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.12:507][ 27]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.12:672][ 32]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.12:672][ 32]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.12:706][ 32]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.12:885][ 40]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.12:885][ 40]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.12:892][ 40]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.13:083][ 46]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.13:083][ 46]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.13:119][ 46]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.13:876][ 89]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.52.13:876][ 89]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.52.13:876][ 89]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.52.13:876][ 89]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.52.43:431][480]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.43:431][480]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.43:452][480]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.43:624][491]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.43:624][491]LogEditorTransaction: Undo Replace component used material
+[2018.11.26-14.52.43:629][491]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.44:936][579]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.52.44:936][579]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.52.44:936][579]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.52.44:936][579]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.52.46:360][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.52.46:702][767]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.46:702][767]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.52.46:722][767]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.47:283][798]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.52.47:283][798]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.52.47:283][798]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.52.47:283][798]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.52.48:535][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.52.54:079][542]Cmd: EDIT CUT
+[2018.11.26-14.52.54:083][542]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.26-14.52.54:094][542]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.11.26-14.52.54:115][543]Cmd: TRANSACTION UNDO
+[2018.11.26-14.52.54:116][543]LogEditorTransaction: Undo Cut
+[2018.11.26-14.52.54:137][543]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.52.54:673][572]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.52.54:673][572]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.52.54:673][572]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.52.54:673][572]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.52.56:890][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.11.26-14.52.59:091][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.11.26-14.53.00:800][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_01)
+[2018.11.26-14.53.04:139][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallTop_7M_3)
+[2018.11.26-14.53.06:844][787]Cmd: TRANSACTION UNDO
+[2018.11.26-14.53.06:844][787]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.53.06:865][787]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.53.07:050][791]Cmd: TRANSACTION UNDO
+[2018.11.26-14.53.07:050][791]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.53.07:083][791]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.53.07:196][792]Cmd: TRANSACTION UNDO
+[2018.11.26-14.53.07:196][792]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.53.07:230][792]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.53.07:347][793]Cmd: TRANSACTION UNDO
+[2018.11.26-14.53.07:347][793]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.53.07:381][793]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.53.08:089][831]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.53.08:089][831]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.53.08:089][831]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.53.08:089][831]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.53.09:278][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallStairs_01)
+[2018.11.26-14.53.12:601][262]Cmd: TRANSACTION UNDO
+[2018.11.26-14.53.12:601][262]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.53.12:621][262]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.53.12:834][266]Cmd: TRANSACTION UNDO
+[2018.11.26-14.53.12:834][266]LogEditorTransaction: Undo Scale Actors
+[2018.11.26-14.53.12:840][266]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.53.12:964][268]Cmd: TRANSACTION UNDO
+[2018.11.26-14.53.12:964][268]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-14.53.12:997][268]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.26-14.53.13:607][298]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2018.11.26-14.53.13:607][298]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.11.26-14.53.13:607][298]MaterialEditorStats: Info Texture samplers: 7/16
+[2018.11.26-14.53.13:607][298]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.26-14.53.20:974][678]Cmd: QUIT_EDITOR
+[2018.11.26-14.53.21:001][678]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.11.26-14.53.21:020][678]LogExit: Preparing to exit.
+[2018.11.26-14.53.21:826][678]LogExit: Editor shut down
+[2018.11.26-14.53.21:831][678]LogExit: Transaction tracking system shut down
+[2018.11.26-14.53.21:997][678]LogObj: Freed 0b from 0 cluster array pools.
+[2018.11.26-14.53.21:998][678]LogExit: Object subsystem successfully closed.
+[2018.11.26-14.53.22:065][678]LogD3D11RHI: Shutdown
+[2018.11.26-14.53.22:065][678]LogD3D11RHI: CleanupD3DDevice
+[2018.11.26-14.53.22:192][678]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.26-14.53.22:216][678]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.11.26-14.53.22:216][678]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (536)
+[2018.11.26-14.53.22:216][678]LogModuleManager: Shutting down and abandoning module MaterialEditor (534)
+[2018.11.26-14.53.22:216][678]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.11.26-14.53.22:216][678]LogModuleManager: Shutting down and abandoning module CrashTracker (530)
+[2018.11.26-14.53.22:216][678]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.11.26-14.53.22:216][678]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.11.26-14.53.22:216][678]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.11.26-14.53.22:217][678]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.11.26-14.53.22:217][678]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.11.26-14.53.22:217][678]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.11.26-14.53.22:217][678]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module HoudiniEngineEditor (494)
+[2018.11.26-14.53.22:218][678]LogHoudiniEngineEditor: Shutting down the Houdini Engine Editor module.
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.11.26-14.53.22:218][678]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.11.26-14.53.22:219][678]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (450)
+[2018.11.26-14.53.22:219][678]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (448)
+[2018.11.26-14.53.22:219][678]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (446)
+[2018.11.26-14.53.22:219][678]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (444)
+[2018.11.26-14.53.22:219][678]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (443)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module UserFeedback (416)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module XmlParser (414)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module Blutility (412)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (410)
+[2018.11.26-14.53.22:329][678]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (409)
+[2018.11.26-14.53.22:330][678]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (406)
+[2018.11.26-14.53.22:330][678]LogModuleManager: Shutting down and abandoning module SettingsEditor (404)
+[2018.11.26-14.53.22:330][678]LogModuleManager: Shutting down and abandoning module ProjectLauncher (402)
+[2018.11.26-14.53.22:330][678]LogModuleManager: Shutting down and abandoning module SessionFrontend (400)
+[2018.11.26-14.53.22:330][678]LogModuleManager: Shutting down and abandoning module ProfilerClient (398)
+[2018.11.26-14.53.22:330][678]LogModuleManager: Shutting down and abandoning module DeviceManager (396)
+[2018.11.26-14.53.22:330][678]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (395)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module AutomationController (392)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module AutomationWindow (390)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module Layers (388)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (386)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module DetailCustomizations (384)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module PackagesDialog (382)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module Persona (380)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (379)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module AnimGraph (377)
+[2018.11.26-14.53.22:396][678]LogModuleManager: Shutting down and abandoning module Kismet (374)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module ClassViewer (372)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module Toolbox (370)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module ModuleUI (368)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module MovieSceneTools (366)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module OutputLog (364)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module GammaUI (362)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module Documentation (360)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (358)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module MovieScene (356)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module Niagara (354)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module NiagaraEditor (353)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (350)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.11.26-14.53.22:397][678]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.11.26-14.53.22:398][678]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.11.26-14.53.22:398][678]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.11.26-14.53.22:398][678]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.11.26-14.53.22:398][678]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.11.26-14.53.22:398][678]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module SubstanceEditor (330)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module SteamVRController (328)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module SteamVR (326)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (324)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module OculusLibrary (320)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module OculusInput (318)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (316)
+[2018.11.26-14.53.22:577][678]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (314)
+[2018.11.26-14.53.22:577][678]LogHoudiniEngine: Shutting down the Houdini Engine module.
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.11.26-14.53.22:600][678]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.11.26-14.53.22:601][678]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.11.26-14.53.22:601][678]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.11.26-14.53.22:601][678]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.11.26-14.53.22:603][678]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2018.11.26-14.53.22:603][678]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2018.11.26-14.53.22:603][678]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2018.11.26-14.53.22:603][678]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2018.11.26-14.53.22:603][678]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2018.11.26-14.53.22:603][678]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.11.26-14.53.22:704][678]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.11.26-14.53.22:804][678]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2018.11.26-14.53.22:853][678]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.11.26-14.53.22:853][678]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.11.26-14.53.22:853][678]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.11.26-14.53.22:853][678]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.11.26-14.53.22:854][678]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.11.26-14.53.22:854][678]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.11.26-14.53.22:855][678]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.11.26-14.53.22:855][678]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.11.26-14.53.22:855][678]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.11.26-14.53.22:855][678]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.11.26-14.53.22:859][678]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.11.26-14.53.22:859][678]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.11.26-14.53.22:871][678]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.11.26-14.53.22:872][678]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.11.26-14.53.22:872][678]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.11.26-14.53.22:872][678]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.11.26-14.53.22:872][678]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.11.26-14.53.22:872][678]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.11.26-14.53.22:872][678]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.11.26-14.53.22:876][678]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.11.26-14.53.22:876][678]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.11.26-14.53.22:876][678]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.11.26-14.53.22:876][678]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.11.26-14.53.22:876][678]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.11.26-14.53.22:876][678]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.11.26-14.53.23:125][678]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.11.26-14.53.23:126][678]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.11.26-14.53.23:126][678]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.11.26-14.53.23:126][678]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/' was aborted.
+[2018.11.26-14.53.23:128][678]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.11.26-14.53.23:129][678]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.11.26-14.53.23:129][678]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.11.26-14.53.23:129][678]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.11.26-14.53.23:129][678]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.11.26-14.53.23:129][678]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.11.26-14.53.23:129][678]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.11.26-14.53.23:129][678]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.11.26-14.53.23:129][678]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.11.26-14.53.23:151][678]LogDerivedDataCache: Shutdown
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.11.26-14.53.23:151][678]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.11.26-14.53.23:152][678]LogOnline:Display: Unloading online subsystem: NULL
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.11.26-14.53.23:152][678]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.11.26-14.53.23:152][678]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.26-14.53.23:153][678]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B66C928DD-4FC0-7C88-35A4-2AA6C99510B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=e2eef5974901a565799c4fbf12965752%7C2ac4c091199148449dbeb699f6040216%7C4c96a8c7-3b6d-4c54-8baa-cc2a269f5f56&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.26-14.53.23:162][678]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.11.26-14.53.23:164][678]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.11.26-14.53.23:164][678]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.11.26-14.53.23:164][678]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.11.26-14.53.23:164][678]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.11.26-14.53.23:164][678]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.11.26-14.53.23:164][678]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.11.26-14.53.23:164][678]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.11.26-14.53.23:164][678]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.26-14.53.23:166][678]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.26-14.53.23:172][678]LogExit: Exiting.
+[2018.11.26-14.53.23:229][678]Log file closed, 11/26/18 09:53:23
