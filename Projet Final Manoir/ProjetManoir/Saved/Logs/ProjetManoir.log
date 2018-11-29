@@ -1,9 +1,9 @@
-﻿Log file open, 11/27/18 09:09:39
+﻿Log file open, 11/28/18 18:36:30
 LogInit:Display: Running engine for game: ProjetManoir
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1061610041) SRandInit(1061610041).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 1.259320
+LogInit:Display: RandInit(1648179037) SRandInit(1648179037).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.430837
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,564 +50,602 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.27-14.09.41:220][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.27-14.09.41:220][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.27-14.09.41:285][  0]LogInit: Computer: 338-A3
-[2018.11.27-14.09.41:285][  0]LogInit: User: ccote
-[2018.11.27-14.09.41:285][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.27-14.09.41:285][  0]LogInit: High frequency timer resolution =3.312660 MHz
-[2018.11.27-14.09.41:285][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
-[2018.11.27-14.09.41:285][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.27-14.09.41:285][  0]LogMemory: Process Physical Memory: 274.05 MB used, 274.05 MB peak
-[2018.11.27-14.09.41:285][  0]LogMemory: Process Virtual Memory: 263.00 MB used, 263.00 MB peak
-[2018.11.27-14.09.41:285][  0]LogMemory: Physical Memory: 5579.51 MB used,  27139.69 MB free, 32719.20 MB total
-[2018.11.27-14.09.41:285][  0]LogMemory: Virtual Memory: 4772.52 MB used,  27139.69 MB free, 134217728.00 MB total
-[2018.11.27-14.09.42:231][  0]LogInit: Using OS detected language (fr-CA).
-[2018.11.27-14.09.42:231][  0]LogInit: Using OS detected locale (fr-CA).
-[2018.11.27-14.09.42:294][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the language.
-[2018.11.27-14.09.42:295][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the locale.
-[2018.11.27-14.09.43:863][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.27-14.09.43:924][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
-[2018.11.27-14.09.43:924][  0]LogD3D11RHI:       2017/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.11.27-14.09.43:927][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.27-14.09.43:927][  0]LogD3D11RHI:       0/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.27-14.09.43:927][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.27-14.09.43:935][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.27-14.09.43:936][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.27-14.09.43:936][  0]LogWindows: EnumDisplayDevices:
-[2018.11.27-14.09.43:936][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
-[2018.11.27-14.09.43:936][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2018.11.27-14.09.43:936][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2018.11.27-14.09.43:937][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
-[2018.11.27-14.09.43:937][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.11.27-14.09.43:937][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
-[2018.11.27-14.09.43:937][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.11.27-14.09.43:937][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.11.27-14.09.43:937][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.11.27-14.09.43:974][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.27-14.09.44:061][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.11.27-14.09.44:165][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Intermediate/Shaders/WorkingDirectory/9668/).
-[2018.11.27-14.09.44:166][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ccote/AppData/Local/Temp/UnrealShaderWorkingDir/37C6722E4AC51174096C048348C35914/'.
-[2018.11.27-14.09.44:166][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.11.27-14.09.47:205][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.27-14.09.47:328][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.11.27-14.09.47:460][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.27-14.09.47:593][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.11.27-14.09.47:755][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.11.27-14.09.47:880][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.27-14.09.48:004][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.27-14.09.48:131][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.27-14.09.48:246][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.11.27-14.09.48:370][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.11.27-14.09.48:495][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.11.27-14.09.48:618][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.11.27-14.09.48:739][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.11.27-14.09.48:861][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.11.27-14.09.49:017][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.11.27-14.09.49:269][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.11.27-14.09.49:269][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.11.27-14.09.49:379][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.11.27-14.09.49:658][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.11.27-14.09.49:733][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.11.27-14.09.49:853][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.27-14.09.49:975][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.27-14.09.50:098][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.27-14.09.50:222][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.11.27-14.09.50:222][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.11.27-14.09.52:817][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.11.27-14.09.52:817][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
-[2018.11.27-14.09.52:817][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.27-14.09.52:817][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.27-14.09.52:818][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.27-14.09.52:818][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.27-14.09.52:855][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.27-14.09.52:868][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ccote/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.27-14.09.52:922][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.27-14.09.52:928][  0]LogSlate: Using Freetype 2.6.0
-[2018.11.27-14.09.52:973][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.27-14.09.52:973][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.27-14.10.00:816][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.27-14.10.01:292][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.11.27-14.10.02:161][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.27-14.10.02:358][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.27-14.10.02:486][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.27-14.10.02:486][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.11.27-14.10.02:486][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.11.27-14.10.06:107][  0]LogNetVersion: ProjetManoir , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 221314123)
-[2018.11.27-14.10.06:307][  0]LogAssetRegistry: FAssetRegistry took 0.0320 seconds to start up
-[2018.11.27-14.10.07:070][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.633810 seconds
-[2018.11.27-14.10.07:091][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.11.27-14.10.07:091][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2018.11.27-14.10.07:091][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.27-14.10.07:329][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.11.27-14.10.15:677][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2018.11.27-14.10.15:814][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.27-14.10.15:907][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.27-14.10.15:908][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.11.27-14.10.17:553][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.11.27-14.10.18:596][  0]SourceControl: Info Source control is disabled
-[2018.11.27-14.10.18:741][  0]SourceControl: Info Source control is disabled
-[2018.11.27-14.10.18:896][  0]SourceControl: Info Source control is disabled
-[2018.11.27-14.10.19:023][  0]SourceControl: Info Source control is disabled
-[2018.11.27-14.10.21:088][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.27-14.10.21:662][  0]LogHoudiniEngine: Starting the Houdini Engine module.
-[2018.11.27-14.10.21:711][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 16.0.671/bin
-[2018.11.27-14.10.21:735][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.27-14.10.21:772][  0]LogStaticMesh: Building static mesh houdini_logo...
-[2018.11.27-14.10.21:773][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
-[2018.11.27-14.10.21:799][  0]LogStaticMesh: Built static mesh [0.06s] /HoudiniEngine/houdini_logo.houdini_logo
-[2018.11.27-14.10.21:908][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.27-14.10.21:970][  0]LogMaterial: Missing cached shader map for material houdini_default_material, compiling. 
-[2018.11.27-14.10.22:065][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.27-14.10.30:841][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.11.27-14.10.30:842][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/', and we were unable to create a new request.
-[2018.11.27-14.10.40:686][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
-[2018.11.27-14.10.42:296][  0]LogEngine: Initializing Engine...
-[2018.11.27-14.10.42:311][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.27-14.10.42:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.27-14.10.42:909][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.27-14.10.43:470][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.27-14.10.43:531][  0]LogInit: No audio devices found!
-[2018.11.27-14.10.43:592][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/ccote/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.11.27-14.10.43:617][  0]LogInit: Texture streaming: Enabled
-[2018.11.27-14.10.43:939][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.27-14.10.44:718][  0]LogInit: Transaction tracking system initialized
-[2018.11.27-14.10.45:672][  0]BlueprintLog: New page: Editor Load
-[2018.11.27-14.10.48:529][  0]LocalizationService: Info Localization service is disabled
-[2018.11.27-14.10.50:615][  0]LogConsoleResponse:Display: 
-[2018.11.27-14.10.51:749][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.27-14.10.51:749][  0]LogCook:Display: Mobile HDR setting 1
-[2018.11.27-14.10.52:431][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/' took 0.39s
-[2018.11.27-14.10.53:894][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
-[2018.11.27-14.10.55:285][  0]SourceControl: Info Source control is disabled
-[2018.11.27-14.10.55:285][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.27-14.10.55:292][  0]LightingResults: New page: Lighting Build
-[2018.11.27-14.10.55:425][  0]MapCheck: New page: Map Check
-[2018.11.27-14.10.55:425][  0]LightingResults: New page: Lighting Build
-[2018.11.27-14.10.55:964][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.11.27-14.10.55:977][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2018.11.27-14.10.56:069][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.27-14.10.56:092][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.27-14.10.56:183][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.627ms to complete.
-[2018.11.27-14.10.56:183][  0]LogFileHelpers: Loading map 'Template_Default' took 0.898
-[2018.11.27-14.10.56:426][  0]LogCollectionManager: Loaded 0 collections in 0.004909 seconds
-[2018.11.27-14.10.56:599][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' took 0.01s
-[2018.11.27-14.10.56:599][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' took 0.01s
-[2018.11.27-14.10.56:599][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' took 0.01s
-[2018.11.27-14.10.56:599][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
-[2018.11.27-14.10.56:608][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2376 classes and 504 folders.
-[2018.11.27-14.10.56:805][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.11.27-14.10.57:037][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.11.27-14.10.57:177][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.11.27-14.10.57:313][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.11.27-14.10.57:337][  0]LogSlate: Took 0.016455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.27-14.10.57:350][  0]LogSlate: Took 0.011162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.27-14.10.57:377][  0]LogSlate: Took 0.011613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.27-14.10.57:506][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
-[2018.11.27-14.10.57:941][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.11.27-14.10.57:941][  0]LogLoad: (Engine Initialization) Total time: 87.31 seconds
-[2018.11.27-14.10.57:941][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
-[2018.11.27-14.10.57:941][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.11.27-14.10.58:282][  0]LogOcInput: OculusInput pre-init called
-[2018.11.27-14.10.58:282][  0]LogHMD: Starting GearVRController plugin
-[2018.11.27-14.10.58:299][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.11.27-14.10.58:299][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.11.27-14.10.58:299][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.11.27-14.10.58:304][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.27-14.10.58:629][  1]LogAssetRegistry: Asset discovery search completed in 52.3418 seconds
-[2018.11.27-14.10.58:632][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.11.27-14.10.58:632][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2018.11.27-14.10.58:632][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.11.27-14.10.58:633][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Developers/ccote/Collections/', and we were unable to create a new request.
-[2018.11.27-14.10.58:633][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.11.27-14.10.58:633][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Saved/Collections/', and we were unable to create a new request.
-[2018.11.27-14.10.58:633][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.11.27-14.10.58:634][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Collections/', and we were unable to create a new request.
-[2018.11.27-14.11.02:645][ 13]LogSlate: Took 0.021039 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.11.27-14.11.05:950][ 23]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.11.27-14.11.06:972][ 23]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.27-14.11.07:979][ 23]LogStaticMesh: Building static mesh PR-Carpet_01...
-[2018.11.27-14.11.07:980][ 23]LogStaticMesh: Built static mesh [0.11s] /Game/Assets/PR-Carpet_01.PR-Carpet_01
-[2018.11.27-14.11.08:123][ 23]LogStaticMesh: Building static mesh DS-BeamLong_01...
-[2018.11.27-14.11.08:125][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/DS-BeamLong_01.DS-BeamLong_01
-[2018.11.27-14.11.08:230][ 23]LogStaticMesh: Building static mesh AR-Window_4M_01a...
-[2018.11.27-14.11.08:233][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-Window_4M_01a.AR-Window_4M_01a
-[2018.11.27-14.11.08:337][ 23]LogStaticMesh: Building static mesh AR-Window_4M_01...
-[2018.11.27-14.11.08:358][ 23]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/AR-Window_4M_01.AR-Window_4M_01
-[2018.11.27-14.11.08:425][ 23]LogStaticMesh: Building static mesh AR-WallTop_7M_01...
-[2018.11.27-14.11.08:436][ 23]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-WallTop_7M_01.AR-WallTop_7M_01
-[2018.11.27-14.11.08:528][ 23]LogStaticMesh: Building static mesh AR-WallTop_2M_01...
-[2018.11.27-14.11.08:533][ 23]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-WallTop_2M_01.AR-WallTop_2M_01
-[2018.11.27-14.11.08:613][ 23]LogStaticMesh: Building static mesh AR-WallStairs_03...
-[2018.11.27-14.11.08:614][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallStairs_03.AR-WallStairs_03
-[2018.11.27-14.11.08:656][ 23]LogStaticMesh: Building static mesh AR-WallStairs_02...
-[2018.11.27-14.11.08:658][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallStairs_02.AR-WallStairs_02
-[2018.11.27-14.11.08:783][ 23]LogStaticMesh: Building static mesh AR-WallStairs_01...
-[2018.11.27-14.11.08:785][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-WallStairs_01.AR-WallStairs_01
-[2018.11.27-14.11.08:852][ 23]LogStaticMesh: Building static mesh AR-WallCornerRound_01...
-[2018.11.27-14.11.08:888][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-WallCornerRound_01.AR-WallCornerRound_01
-[2018.11.27-14.11.08:990][ 23]LogStaticMesh: Building static mesh AR-WallCorner_01...
-[2018.11.27-14.11.08:991][ 23]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-WallCorner_01.AR-WallCorner_01
-[2018.11.27-14.11.09:051][ 23]LogStaticMesh: Building static mesh AR-Wall_2M_01...
-[2018.11.27-14.11.09:055][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-Wall_2M_01.AR-Wall_2M_01
-[2018.11.27-14.11.09:127][ 23]LogStaticMesh: Building static mesh AR-Wall_1M_01...
-[2018.11.27-14.11.09:130][ 23]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-Wall_1M_01.AR-Wall_1M_01
-[2018.11.27-14.11.09:186][ 23]LogStaticMesh: Building static mesh AR-TopWallTrim_01...
-[2018.11.27-14.11.09:188][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-TopWallTrim_01.AR-TopWallTrim_01
-[2018.11.27-14.11.09:270][ 23]LogStaticMesh: Building static mesh AR-StairCaseWall_03...
-[2018.11.27-14.11.09:291][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-StairCaseWall_03.AR-StairCaseWall_03
-[2018.11.27-14.11.09:358][ 23]LogStaticMesh: Building static mesh AR-StairCaseWall_02a...
-[2018.11.27-14.11.09:361][ 23]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-StairCaseWall_02a.AR-StairCaseWall_02a
-[2018.11.27-14.11.09:449][ 23]LogStaticMesh: Building static mesh AR-StairCaseWall_02...
-[2018.11.27-14.11.09:478][ 23]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-StairCaseWall_02.AR-StairCaseWall_02
-[2018.11.27-14.11.09:569][ 23]LogStaticMesh: Building static mesh AR-StairCaseWall_01...
-[2018.11.27-14.11.09:576][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-StairCaseWall_01.AR-StairCaseWall_01
-[2018.11.27-14.11.09:609][ 23]LogStaticMesh: Building static mesh AR-StaircaseRug_01...
-[2018.11.27-14.11.09:752][ 23]LogStaticMesh: Built static mesh [0.16s] /Game/Assets/AR-StaircaseRug_01.AR-StaircaseRug_01
-[2018.11.27-14.11.09:892][ 23]LogStaticMesh: Building static mesh AR-StairCaseRampCorner_01...
-[2018.11.27-14.11.09:903][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-StairCaseRampCorner_01.AR-StairCaseRampCorner_01
-[2018.11.27-14.11.09:976][ 23]LogStaticMesh: Building static mesh AR-StaircaseFloor_01...
-[2018.11.27-14.11.09:976][ 23]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-StaircaseFloor_01.AR-StaircaseFloor_01
-[2018.11.27-14.11.10:066][ 23]LogStaticMesh: Building static mesh AR-Staircase_02...
-[2018.11.27-14.11.10:104][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-Staircase_02.AR-Staircase_02
-[2018.11.27-14.11.10:160][ 23]LogStaticMesh: Building static mesh AR-Staircase_01...
-[2018.11.27-14.11.10:206][ 23]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/AR-Staircase_01.AR-Staircase_01
-[2018.11.27-14.11.10:267][ 23]LogStaticMesh: Building static mesh AR-RampPost_02...
-[2018.11.27-14.11.10:282][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-RampPost_02.AR-RampPost_02
-[2018.11.27-14.11.10:393][ 23]LogStaticMesh: Building static mesh AR-RampPost_01...
-[2018.11.27-14.11.10:405][ 23]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/AR-RampPost_01.AR-RampPost_01
-[2018.11.27-14.11.10:475][ 23]LogStaticMesh: Building static mesh AR-Floor_2X2_01...
-[2018.11.27-14.11.10:476][ 23]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-Floor_2X2_01.AR-Floor_2X2_01
-[2018.11.27-14.11.10:529][ 23]LogStaticMesh: Building static mesh AR-Fireplace_01...
-[2018.11.27-14.11.10:548][ 23]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-Fireplace_01.AR-Fireplace_01
-[2018.11.27-14.11.10:601][ 23]LogStaticMesh: Building static mesh AR-Exterior01...
-[2018.11.27-14.11.10:606][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Exterior01.AR-Exterior01
-[2018.11.27-14.11.10:641][ 23]LogStaticMesh: Building static mesh AR-DoorFrame_2M_02...
-[2018.11.27-14.11.10:662][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-DoorFrame_2M_02.AR-DoorFrame_2M_02
-[2018.11.27-14.11.10:699][ 23]LogStaticMesh: Building static mesh AR-DoorFrame_2M_003...
-[2018.11.27-14.11.10:703][ 23]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-DoorFrame_2M_003.AR-DoorFrame_2M_003
-[2018.11.27-14.11.10:784][ 23]LogStaticMesh: Building static mesh AR-DoorFrame_150cm_01...
-[2018.11.27-14.11.10:786][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-DoorFrame_150cm_01.AR-DoorFrame_150cm_01
-[2018.11.27-14.11.10:811][ 23]LogStaticMesh: Building static mesh AR-Door_01...
-[2018.11.27-14.11.10:812][ 23]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-Door_01.AR-Door_01
-[2018.11.27-14.11.10:904][ 23]LogStaticMesh: Building static mesh AR-Curtain01...
-[2018.11.27-14.11.10:914][ 23]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-Curtain01.AR-Curtain01
-[2018.11.27-14.11.10:975][ 23]LogStaticMesh: Building static mesh AR-CorridorFake_01a...
-[2018.11.27-14.11.10:976][ 23]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-CorridorFake_01a.AR-CorridorFake_01a
-[2018.11.27-14.11.11:016][ 23]LogStaticMesh: Building static mesh AR-CorridorFake_01...
-[2018.11.27-14.11.11:027][ 23]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-CorridorFake_01.AR-CorridorFake_01
-[2018.11.27-14.11.11:107][ 23]LogStaticMesh: Building static mesh AR-CeilingBeam_02...
-[2018.11.27-14.11.11:128][ 23]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-CeilingBeam_02.AR-CeilingBeam_02
-[2018.11.27-14.11.11:185][ 23]LogStaticMesh: Building static mesh AR-Ceiling_02...
-[2018.11.27-14.11.11:188][ 23]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-Ceiling_02.AR-Ceiling_02
-[2018.11.27-14.11.11:228][ 23]LogStaticMesh: Building static mesh AR-Ceiling_01...
-[2018.11.27-14.11.11:232][ 23]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Ceiling_01.AR-Ceiling_01
-[2018.11.27-14.11.11:909][ 23]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
-[2018.11.27-14.11.11:963][ 23]LogMaterial: Missing cached shader map for material WorldGridMaterial2side, compiling. 
-[2018.11.27-14.11.12:018][ 23]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
-[2018.11.27-14.11.12:190][ 23]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2018.11.27-14.11.12:729][ 23]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
-[2018.11.27-14.11.12:943][ 23]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2018.11.27-14.11.13:289][ 23]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
-[2018.11.27-14.11.13:431][ 23]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 2048X1024)
-[2018.11.27-14.11.13:573][ 23]LogAIModule: Creating AISystem for world Manoir
-[2018.11.27-14.11.13:612][ 23]Cmd: MAP LOAD FILE="//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir/Content/Maps/Manoir.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.27-14.11.13:612][ 23]LightingResults: New page: Lighting Build
-[2018.11.27-14.11.13:613][ 23]LoadErrors: New page: Loading map: Manoir.umap
-[2018.11.27-14.11.13:614][ 23]MapCheck: New page: Map Check
-[2018.11.27-14.11.13:614][ 23]LightingResults: New page: Lighting Build
-[2018.11.27-14.11.13:666][ 23]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.27-14.11.13:750][ 23]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.27-14.11.13:912][ 23]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 161.882ms to complete.
-[2018.11.27-14.11.13:913][ 23]LogFileHelpers: Loading map 'Manoir' took 0.302
-[2018.11.27-14.11.56:495][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Curtain01)
-[2018.11.27-14.12.00:316][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Staircase_01)
-[2018.11.27-14.12.01:951][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_01)
-[2018.11.27-14.12.02:393][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_2)
-[2018.11.27-14.12.02:781][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_2)
-[2018.11.27-14.12.04:916][ 83]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.11.27-14.12.05:090][ 84]Cmd: QUIT_EDITOR
-[2018.11.27-14.12.05:118][ 84]LogExit: Preparing to exit.
-[2018.11.27-14.12.06:189][ 84]LogExit: Editor shut down
-[2018.11.27-14.12.06:193][ 84]LogExit: Transaction tracking system shut down
-[2018.11.27-14.12.06:347][ 84]LogObj: Freed 0b from 0 cluster array pools.
-[2018.11.27-14.12.06:347][ 84]LogExit: Object subsystem successfully closed.
-[2018.11.27-14.12.06:427][ 84]LogD3D11RHI: Shutdown
-[2018.11.27-14.12.06:427][ 84]LogD3D11RHI: CleanupD3DDevice
-[2018.11.27-14.12.06:505][ 84]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module CrashTracker (530)
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2018.11.27-14.12.06:536][ 84]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2018.11.27-14.12.06:536][ 84]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module HoudiniEngineEditor (494)
-[2018.11.27-14.12.06:537][ 84]LogHoudiniEngineEditor: Shutting down the Houdini Engine Editor module.
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module Media (477)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (450)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (448)
-[2018.11.27-14.12.06:537][ 84]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (446)
-[2018.11.27-14.12.06:538][ 84]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (444)
-[2018.11.27-14.12.06:538][ 84]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (443)
-[2018.11.27-14.12.06:568][ 84]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2018.11.27-14.12.06:568][ 84]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2018.11.27-14.12.06:568][ 84]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2018.11.27-14.12.06:568][ 84]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2018.11.27-14.12.06:568][ 84]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2018.11.27-14.12.06:568][ 84]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2018.11.27-14.12.06:568][ 84]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2018.11.27-14.12.06:568][ 84]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module UserFeedback (416)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module XmlParser (414)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module Blutility (412)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (410)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (409)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (406)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module SettingsEditor (404)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module ProjectLauncher (402)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module SessionFrontend (400)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module ProfilerClient (398)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module DeviceManager (396)
-[2018.11.27-14.12.06:569][ 84]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (395)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module AutomationController (392)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module AutomationWindow (390)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module Layers (388)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (386)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module DetailCustomizations (384)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module PackagesDialog (382)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module Persona (380)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (379)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module AnimGraph (377)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module Kismet (374)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module ClassViewer (372)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module Toolbox (370)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module ModuleUI (368)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneTools (366)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module OutputLog (364)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module GammaUI (362)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module Documentation (360)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (358)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module MovieScene (356)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module Niagara (354)
-[2018.11.27-14.12.06:635][ 84]LogModuleManager: Shutting down and abandoning module NiagaraEditor (353)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (350)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2018.11.27-14.12.06:636][ 84]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2018.11.27-14.12.06:873][ 84]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2018.11.27-14.12.06:873][ 84]LogModuleManager: Shutting down and abandoning module SubstanceEditor (330)
-[2018.11.27-14.12.06:883][ 84]LogModuleManager: Shutting down and abandoning module SteamVRController (328)
-[2018.11.27-14.12.06:883][ 84]LogModuleManager: Shutting down and abandoning module SteamVR (326)
-[2018.11.27-14.12.06:884][ 84]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (324)
-[2018.11.27-14.12.06:884][ 84]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
-[2018.11.27-14.12.06:884][ 84]LogModuleManager: Shutting down and abandoning module OculusLibrary (320)
-[2018.11.27-14.12.06:884][ 84]LogModuleManager: Shutting down and abandoning module OculusInput (318)
-[2018.11.27-14.12.06:884][ 84]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (316)
-[2018.11.27-14.12.06:884][ 84]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (314)
-[2018.11.27-14.12.06:884][ 84]LogHoudiniEngine: Shutting down the Houdini Engine module.
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module CableComponent (310)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module SourceControl (269)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
-[2018.11.27-14.12.06:906][ 84]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
-[2018.11.27-14.12.06:907][ 84]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
-[2018.11.27-14.12.06:907][ 84]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.11.27-14.12.06:907][ 84]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.11.27-14.12.06:908][ 84]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
-[2018.11.27-14.12.06:908][ 84]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
-[2018.11.27-14.12.06:908][ 84]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
-[2018.11.27-14.12.06:908][ 84]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
-[2018.11.27-14.12.06:908][ 84]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
-[2018.11.27-14.12.06:908][ 84]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
-[2018.11.27-14.12.07:008][ 84]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
-[2018.11.27-14.12.07:109][ 84]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
-[2018.11.27-14.12.07:109][ 84]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2018.11.27-14.12.07:109][ 84]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2018.11.27-14.12.07:109][ 84]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2018.11.27-14.12.07:109][ 84]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2018.11.27-14.12.07:110][ 84]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2018.11.27-14.12.07:110][ 84]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2018.11.27-14.12.07:112][ 84]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2018.11.27-14.12.07:112][ 84]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2018.11.27-14.12.07:112][ 84]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2018.11.27-14.12.07:113][ 84]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2018.11.27-14.12.07:121][ 84]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2018.11.27-14.12.07:121][ 84]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2018.11.27-14.12.07:133][ 84]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2018.11.27-14.12.07:133][ 84]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2018.11.27-14.12.07:133][ 84]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2018.11.27-14.12.07:133][ 84]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2018.11.27-14.12.07:134][ 84]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2018.11.27-14.12.07:134][ 84]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2018.11.27-14.12.07:134][ 84]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2018.11.27-14.12.07:134][ 84]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2018.11.27-14.12.07:134][ 84]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2018.11.27-14.12.07:134][ 84]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2018.11.27-14.12.07:135][ 84]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2018.11.27-14.12.07:135][ 84]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2018.11.27-14.12.07:136][ 84]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2018.11.27-14.12.07:136][ 84]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2018.11.27-14.12.07:136][ 84]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2018.11.27-14.12.07:136][ 84]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2018.11.27-14.12.07:136][ 84]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2018.11.27-14.12.07:148][ 84]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2018.11.27-14.12.07:148][ 84]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2018.11.27-14.12.07:148][ 84]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2018.11.27-14.12.07:148][ 84]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2018.11.27-14.12.07:149][ 84]LogModuleManager: Shutting down and abandoning module Core (164)
-[2018.11.27-14.12.07:149][ 84]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2018.11.27-14.12.07:526][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.11.27-14.12.07:526][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.11.27-14.12.07:526][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2018.11.27-14.12.07:526][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/' was aborted.
-[2018.11.27-14.12.07:528][ 84]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2018.11.27-14.12.07:528][ 84]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2018.11.27-14.12.07:528][ 84]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2018.11.27-14.12.07:528][ 84]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2018.11.27-14.12.07:528][ 84]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2018.11.27-14.12.07:528][ 84]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2018.11.27-14.12.07:529][ 84]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2018.11.27-14.12.07:529][ 84]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2018.11.27-14.12.07:529][ 84]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.11.27-14.12.07:547][ 84]LogDerivedDataCache: Shutdown
-[2018.11.27-14.12.07:547][ 84]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.11.27-14.12.07:547][ 84]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.11.27-14.12.07:547][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.11.27-14.12.07:547][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.11.27-14.12.07:548][ 84]LogOnline:Display: Unloading online subsystem: NULL
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.11.27-14.12.07:548][ 84]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.11.27-14.12.07:548][ 84]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.11.27-14.12.07:548][ 84]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFCBECC4D-4564-7EC1-2759-91A38E449FF5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=e2eef5974901a565799c4fbf12965752%7C2ac4c091199148449dbeb699f6040216%7Cc95cefa8-154e-4e06-995e-f05a5f2995d1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.11.27-14.12.07:571][ 84]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.11.27-14.12.07:572][ 84]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2018.11.27-14.12.07:572][ 84]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.11.27-14.12.07:572][ 84]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.11.27-14.12.07:572][ 84]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.11.27-14.12.07:572][ 84]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.11.27-14.12.07:572][ 84]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.11.27-14.12.07:572][ 84]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.11.27-14.12.07:572][ 84]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.11.27-14.12.07:573][ 84]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.11.27-14.12.07:577][ 84]LogExit: Exiting.
-[2018.11.27-14.12.07:594][ 84]Log file closed, 11/27/18 09:12:07
+[2018.11.28-23.36.31:233][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-23.36.31:233][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.28-23.36.31:262][  0]LogInit: Computer: 336-B6
+[2018.11.28-23.36.31:262][  0]LogInit: User: ccote
+[2018.11.28-23.36.31:262][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.11.28-23.36.31:262][  0]LogInit: High frequency timer resolution =3.314088 MHz
+[2018.11.28-23.36.31:263][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.11.28-23.36.31:263][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.28-23.36.31:263][  0]LogMemory: Process Physical Memory: 273.58 MB used, 273.58 MB peak
+[2018.11.28-23.36.31:263][  0]LogMemory: Process Virtual Memory: 267.62 MB used, 267.62 MB peak
+[2018.11.28-23.36.31:263][  0]LogMemory: Physical Memory: 5953.09 MB used,  26749.69 MB free, 32702.79 MB total
+[2018.11.28-23.36.31:263][  0]LogMemory: Virtual Memory: 4782.23 MB used,  26749.69 MB free, 134217728.00 MB total
+[2018.11.28-23.36.31:610][  0]LogInit: Using OS detected language (fr-CA).
+[2018.11.28-23.36.31:610][  0]LogInit: Using OS detected locale (fr-CA).
+[2018.11.28-23.36.31:621][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the language.
+[2018.11.28-23.36.31:622][  0]LogTextLocalizationManager: No localization for 'fr-CA' exists, so 'en' will be used for the locale.
+[2018.11.28-23.36.32:855][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.28-23.36.32:944][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.11.28-23.36.32:944][  0]LogD3D11RHI:       6052/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.28-23.36.32:946][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.28-23.36.32:946][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.28-23.36.32:946][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.28-23.36.32:954][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.28-23.36.32:954][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.28-23.36.32:954][  0]LogWindows: EnumDisplayDevices:
+[2018.11.28-23.36.32:955][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.11.28-23.36.32:955][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.28-23.36.32:955][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.28-23.36.32:956][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.28-23.36.32:956][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.28-23.36.32:956][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.11.28-23.36.32:956][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.28-23.36.32:956][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.28-23.36.32:956][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.11.28-23.36.33:016][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.28-23.36.33:043][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.28-23.36.33:090][  0]LogShaderCompilers: Guid format shader working directory is -94 characters bigger than the processId version (//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Intermediate/Shaders/WorkingDirectory/10548/).
+[2018.11.28-23.36.33:090][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ccote/AppData/Local/Temp/UnrealShaderWorkingDir/60A39FBB40B0B77F1CC91AA8B55C5994/'.
+[2018.11.28-23.36.33:090][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.11.28-23.36.35:114][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.28-23.36.35:212][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.11.28-23.36.35:294][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.28-23.36.35:376][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.11.28-23.36.35:464][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.11.28-23.36.35:555][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.28-23.36.35:638][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.28-23.36.35:742][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.28-23.36.35:826][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.11.28-23.36.35:924][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-23.36.36:024][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.28-23.36.36:126][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.28-23.36.36:208][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.28-23.36.36:288][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.28-23.36.36:369][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.28-23.36.36:529][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.28-23.36.36:529][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.28-23.36.36:596][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.11.28-23.36.36:786][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.11.28-23.36.36:841][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.11.28-23.36.36:935][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.28-23.36.37:015][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.28-23.36.37:101][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.28-23.36.37:188][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.11.28-23.36.37:188][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.11.28-23.36.38:491][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.11.28-23.36.38:491][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
+[2018.11.28-23.36.38:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.28-23.36.38:492][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.28-23.36.38:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.28-23.36.38:492][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.28-23.36.38:516][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.28-23.36.38:528][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ccote/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.28-23.36.38:554][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.28-23.36.38:555][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.28-23.36.38:560][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.28-23.36.38:560][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.28-23.36.42:378][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-23.36.42:634][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.11.28-23.36.43:009][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.28-23.36.43:141][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.28-23.36.43:228][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.28-23.36.43:228][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.11.28-23.36.43:228][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.11.28-23.36.44:474][  0]LogNetVersion: ProjetManoir , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 221314123)
+[2018.11.28-23.36.44:582][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
+[2018.11.28-23.36.44:744][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.113998 seconds
+[2018.11.28-23.36.44:751][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.11.28-23.36.44:751][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.11.28-23.36.44:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.28-23.36.44:867][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.11.28-23.36.49:511][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.11.28-23.36.49:576][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.28-23.36.49:634][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.28-23.36.49:635][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.28-23.36.50:618][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.11.28-23.36.51:270][  0]SourceControl: Info Source control is disabled
+[2018.11.28-23.36.51:341][  0]SourceControl: Info Source control is disabled
+[2018.11.28-23.36.51:439][  0]SourceControl: Info Source control is disabled
+[2018.11.28-23.36.51:532][  0]SourceControl: Info Source control is disabled
+[2018.11.28-23.36.52:764][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.28-23.36.53:121][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2018.11.28-23.36.53:132][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 16.0.671/bin
+[2018.11.28-23.36.53:135][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.28-23.36.53:138][  0]LogStaticMesh: Building static mesh houdini_logo...
+[2018.11.28-23.36.53:140][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.11.28-23.36.53:154][  0]LogStaticMesh: Built static mesh [0.02s] /HoudiniEngine/houdini_logo.houdini_logo
+[2018.11.28-23.36.53:160][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.28-23.36.53:162][  0]LogMaterial: Missing cached shader map for material houdini_default_material, compiling. 
+[2018.11.28-23.36.53:226][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2018.11.28-23.36.54:058][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.28-23.36.54:058][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/', and we were unable to create a new request.
+[2018.11.28-23.36.56:150][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2018.11.28-23.36.57:164][  0]LogEngine: Initializing Engine...
+[2018.11.28-23.36.57:165][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.28-23.36.57:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-23.36.57:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-23.36.57:862][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.28-23.36.57:881][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-23.36.57:908][  0]LogInit: FAudioDevice initialized.
+[2018.11.28-23.36.57:964][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/ccote/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.11.28-23.36.57:974][  0]LogInit: Texture streaming: Enabled
+[2018.11.28-23.36.58:158][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.28-23.36.58:562][  0]LogInit: Transaction tracking system initialized
+[2018.11.28-23.36.59:118][  0]BlueprintLog: New page: Editor Load
+[2018.11.28-23.37.00:897][  0]LocalizationService: Info Localization service is disabled
+[2018.11.28-23.37.02:166][  0]LogConsoleResponse:Display: 
+[2018.11.28-23.37.02:389][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.28-23.37.02:389][  0]LogCook:Display: Mobile HDR setting 1
+[2018.11.28-23.37.02:988][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/' took 0.16s
+[2018.11.28-23.37.03:616][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2018.11.28-23.37.04:464][  0]SourceControl: Info Source control is disabled
+[2018.11.28-23.37.04:464][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.28-23.37.04:466][  0]LightingResults: New page: Lighting Build
+[2018.11.28-23.37.04:537][  0]MapCheck: New page: Map Check
+[2018.11.28-23.37.04:537][  0]LightingResults: New page: Lighting Build
+[2018.11.28-23.37.04:819][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.11.28-23.37.04:830][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.11.28-23.37.04:843][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.28-23.37.04:861][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.28-23.37.04:929][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.326ms to complete.
+[2018.11.28-23.37.04:929][  0]LogFileHelpers: Loading map 'Template_Default' took 0.465
+[2018.11.28-23.37.05:124][  0]LogCollectionManager: Loaded 0 collections in 0.004286 seconds
+[2018.11.28-23.37.05:267][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Collections/' took 0.01s
+[2018.11.28-23.37.05:267][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Developers/ccote/Collections/' took 0.01s
+[2018.11.28-23.37.05:267][  0]LogFileCache: Scanning file cache for directory '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Collections/' took 0.01s
+[2018.11.28-23.37.05:267][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2018.11.28-23.37.05:279][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2376 classes and 504 folders.
+[2018.11.28-23.37.05:399][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.28-23.37.05:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.11.28-23.37.05:583][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.11.28-23.37.05:655][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.11.28-23.37.05:667][  0]LogSlate: Took 0.001668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.28-23.37.05:673][  0]LogSlate: Took 0.001927 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.28-23.37.05:681][  0]LogSlate: Took 0.001422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.28-23.37.05:780][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.11.28-23.37.06:075][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.28-23.37.06:075][  0]LogLoad: (Engine Initialization) Total time: 39.87 seconds
+[2018.11.28-23.37.06:075][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2018.11.28-23.37.06:075][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.11.28-23.37.06:415][  0]LogOcInput: OculusInput pre-init called
+[2018.11.28-23.37.06:415][  0]LogHMD: Starting GearVRController plugin
+[2018.11.28-23.37.06:432][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.28-23.37.06:432][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Developers/ccote/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.28-23.37.06:432][  0]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.28-23.37.06:436][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.28-23.37.06:759][  1]LogAssetRegistry: Asset discovery search completed in 22.1998 seconds
+[2018.11.28-23.37.06:761][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.28-23.37.06:761][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2018.11.28-23.37.06:761][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.28-23.37.06:761][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Collections/', and we were unable to create a new request.
+[2018.11.28-23.37.06:761][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.28-23.37.06:762][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Collections/', and we were unable to create a new request.
+[2018.11.28-23.37.06:762][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Developers/ccote/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.11.28-23.37.06:762][  1]LogDirectoryWatcher: A directory notification failed for '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Developers/ccote/Collections/', and we were unable to create a new request.
+[2018.11.28-23.37.10:787][ 13]LogSlate: Took 0.002488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.28-23.37.13:814][ 58]LogMaterial: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.11.29-01.06.46:938][867]LogStaticMesh: Building static mesh AR-Ceiling_01...
+[2018.11.29-01.06.46:944][867]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.29-01.06.46:960][867]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Ceiling_01.AR-Ceiling_01
+[2018.11.29-01.07.00:855][947]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Ceiling_01.FBX]
+[2018.11.29-01.07.00:897][947]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Ceiling_01.FBX
+[2018.11.29-01.07.00:906][947]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.07.00:924][947]LogStaticMesh: Building static mesh AR-Ceiling_01...
+[2018.11.29-01.07.00:928][947]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Ceiling_01.AR-Ceiling_01
+[2018.11.29-01.07.00:941][947]LogEditorFactories: -- imported successfully
+[2018.11.29-01.07.00:957][947]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.11.29-01.07.02:367][ 62]LogStaticMesh: Building static mesh AR-Ceiling_02...
+[2018.11.29-01.07.02:386][ 62]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Ceiling_02.AR-Ceiling_02
+[2018.11.29-01.07.07:947][145]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Ceiling_02.FBX]
+[2018.11.29-01.07.07:985][145]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Ceiling_02.FBX
+[2018.11.29-01.07.07:993][145]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.07.08:010][145]LogStaticMesh: Building static mesh AR-Ceiling_02...
+[2018.11.29-01.07.08:013][145]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Ceiling_02.AR-Ceiling_02
+[2018.11.29-01.07.08:023][145]LogEditorFactories: -- imported successfully
+[2018.11.29-01.07.08:125][146]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.012
+[2018.11.29-01.07.08:136][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/AR-Ceiling_01] ([1] browsable assets)...
+[2018.11.29-01.07.08:161][146]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/AR-Ceiling_01.AR-Ceiling_01]
+[2018.11.29-01.07.08:161][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/AR-Ceiling_01]
+[2018.11.29-01.07.08:268][146]LogSavePackage: Save=55.54ms
+[2018.11.29-01.07.08:268][146]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Ceiling_01_Auto17DCB1C9847AE0AAB630F2FA569CA952D.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-Ceiling_01_Auto1.uasset'
+[2018.11.29-01.07.08:280][146]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-Ceiling_01_Auto1.uasset
+[2018.11.29-01.07.08:286][146]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/AR-Ceiling_02] ([1] browsable assets)...
+[2018.11.29-01.07.08:311][146]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/AR-Ceiling_02.AR-Ceiling_02]
+[2018.11.29-01.07.08:311][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/AR-Ceiling_02]
+[2018.11.29-01.07.08:396][146]LogSavePackage: Save=46.21ms
+[2018.11.29-01.07.08:396][146]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Ceiling_02_Auto1F37076F548E45C0ACEEFAE8BED3C38D7.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-Ceiling_02_Auto1.uasset'
+[2018.11.29-01.07.08:406][146]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-Ceiling_02_Auto1.uasset
+[2018.11.29-01.07.08:406][146]LogFileHelpers: Auto-saving content packages took 0.277
+[2018.11.29-01.07.09:351][228]LogStaticMesh: Building static mesh AR-CeilingBeam_02...
+[2018.11.29-01.07.09:382][228]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-CeilingBeam_02.AR-CeilingBeam_02
+[2018.11.29-01.07.14:486][310]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-CeilingBeam_02.FBX]
+[2018.11.29-01.07.14:527][310]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-CeilingBeam_02.FBX
+[2018.11.29-01.07.14:536][310]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.07.14:555][310]LogStaticMesh: Building static mesh AR-CeilingBeam_02...
+[2018.11.29-01.07.14:570][310]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-CeilingBeam_02.AR-CeilingBeam_02
+[2018.11.29-01.07.14:588][310]LogEditorFactories: -- imported successfully
+[2018.11.29-01.07.15:584][377]LogStaticMesh: Building static mesh AR-CorridorFake_01...
+[2018.11.29-01.07.15:610][377]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-CorridorFake_01.AR-CorridorFake_01
+[2018.11.29-01.07.25:886][672]LogStaticMesh: Building static mesh AR-Curtain01...
+[2018.11.29-01.07.25:909][672]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Curtain01.AR-Curtain01
+[2018.11.29-01.07.29:428][743]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Curtain01.FBX]
+[2018.11.29-01.07.29:466][743]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Curtain01.FBX
+[2018.11.29-01.07.29:474][743]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.07.29:493][743]LogStaticMesh: Building static mesh AR-Curtain01...
+[2018.11.29-01.07.29:503][743]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-Curtain01.AR-Curtain01
+[2018.11.29-01.07.29:518][743]LogEditorFactories: -- imported successfully
+[2018.11.29-01.17.08:513][350]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.012
+[2018.11.29-01.17.08:521][350]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/AR-CeilingBeam_02] ([1] browsable assets)...
+[2018.11.29-01.17.08:530][350]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/AR-CeilingBeam_02.AR-CeilingBeam_02]
+[2018.11.29-01.17.08:530][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/AR-CeilingBeam_02]
+[2018.11.29-01.17.08:650][350]LogSavePackage: Save=51.31ms
+[2018.11.29-01.17.08:650][350]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-CeilingBeam_02_Auto2A129B9814BB135FECAC94BB1EE22CE56.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-CeilingBeam_02_Auto2.uasset'
+[2018.11.29-01.17.08:658][350]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-CeilingBeam_02_Auto2.uasset
+[2018.11.29-01.17.08:662][350]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/AR-Curtain01] ([1] browsable assets)...
+[2018.11.29-01.17.08:677][350]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/AR-Curtain01.AR-Curtain01]
+[2018.11.29-01.17.08:677][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/AR-Curtain01]
+[2018.11.29-01.17.08:791][350]LogSavePackage: Save=65.64ms
+[2018.11.29-01.17.08:791][350]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Curtain01_Auto27570E7264BCA638E740D2F87F2C4F496.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-Curtain01_Auto2.uasset'
+[2018.11.29-01.17.08:801][350]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-Curtain01_Auto2.uasset
+[2018.11.29-01.17.08:801][350]LogFileHelpers: Auto-saving content packages took 0.288
+[2018.11.29-01.28.06:871][658]LogStaticMesh: Building static mesh AR-Door_01...
+[2018.11.29-01.28.06:888][658]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Door_01.AR-Door_01
+[2018.11.29-01.28.10:518][767]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Door_01.FBX]
+[2018.11.29-01.28.10:556][767]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Door_01.FBX
+[2018.11.29-01.28.10:563][767]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.28.10:579][767]LogStaticMesh: Building static mesh AR-Door_01...
+[2018.11.29-01.28.10:581][767]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Door_01.AR-Door_01
+[2018.11.29-01.28.10:598][767]LogEditorFactories: -- imported successfully
+[2018.11.29-01.28.11:954][870]LogStaticMesh: Building static mesh AR-DoorFrame_150cm_01...
+[2018.11.29-01.28.11:973][870]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-DoorFrame_150cm_01.AR-DoorFrame_150cm_01
+[2018.11.29-01.28.20:089][279]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-DoorFrame_150cm_01.FBX]
+[2018.11.29-01.28.20:130][279]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-DoorFrame_150cm_01.FBX
+[2018.11.29-01.28.20:137][279]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.28.20:154][279]LogStaticMesh: Building static mesh AR-DoorFrame_150cm_01...
+[2018.11.29-01.28.20:158][279]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-DoorFrame_150cm_01.AR-DoorFrame_150cm_01
+[2018.11.29-01.28.20:172][279]LogEditorFactories: -- imported successfully
+[2018.11.29-01.29.00:329][779]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.013
+[2018.11.29-01.29.00:337][779]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/AR-Door_01] ([1] browsable assets)...
+[2018.11.29-01.29.00:347][779]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/AR-Door_01.AR-Door_01]
+[2018.11.29-01.29.00:347][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/AR-Door_01]
+[2018.11.29-01.29.00:443][779]LogSavePackage: Save=53.17ms
+[2018.11.29-01.29.00:444][779]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Door_01_Auto324E06E3043EA42DE6918D38B186520E8.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-Door_01_Auto3.uasset'
+[2018.11.29-01.29.00:452][779]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-Door_01_Auto3.uasset
+[2018.11.29-01.29.00:461][779]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/AR-DoorFrame_150cm_01] ([1] browsable assets)...
+[2018.11.29-01.29.00:476][779]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/AR-DoorFrame_150cm_01.AR-DoorFrame_150cm_01]
+[2018.11.29-01.29.00:476][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/AR-DoorFrame_150cm_01]
+[2018.11.29-01.29.00:586][779]LogSavePackage: Save=65.17ms
+[2018.11.29-01.29.00:586][779]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-DoorFrame_150cm_01_Auto3091740DF4FC4CE83A7C629B758A22052.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-DoorFrame_150cm_01_Auto3.uasset'
+[2018.11.29-01.29.00:597][779]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/Autosaves/Game/Assets/AR-DoorFrame_150cm_01_Auto3.uasset
+[2018.11.29-01.29.00:597][779]LogFileHelpers: Auto-saving content packages took 0.267
+[2018.11.29-01.29.59:792][701]LogStaticMesh: Building static mesh AR-DoorFrame_2M_003...
+[2018.11.29-01.29.59:824][701]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-DoorFrame_2M_003.AR-DoorFrame_2M_003
+[2018.11.29-01.30.02:924][811]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-DoorFrame_2M_003.FBX]
+[2018.11.29-01.30.02:962][811]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-DoorFrame_2M_003.FBX
+[2018.11.29-01.30.02:970][811]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.30.02:985][811]LogStaticMesh: Building static mesh AR-DoorFrame_2M_003...
+[2018.11.29-01.30.02:989][811]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-DoorFrame_2M_003.AR-DoorFrame_2M_003
+[2018.11.29-01.30.03:002][811]LogEditorFactories: -- imported successfully
+[2018.11.29-01.30.04:246][924]LogStaticMesh: Building static mesh AR-DoorFrame_2M_01...
+[2018.11.29-01.30.04:266][924]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-DoorFrame_2M_01.AR-DoorFrame_2M_01
+[2018.11.29-01.30.08:024][ 53]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-DoorFrame_2M_01.FBX]
+[2018.11.29-01.30.08:067][ 53]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-DoorFrame_2M_01.FBX
+[2018.11.29-01.30.08:076][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.30.08:094][ 53]LogStaticMesh: Building static mesh AR-DoorFrame_2M_01...
+[2018.11.29-01.30.08:102][ 53]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-DoorFrame_2M_01.AR-DoorFrame_2M_01
+[2018.11.29-01.30.08:117][ 53]LogEditorFactories: -- imported successfully
+[2018.11.29-01.30.09:158][143]LogStaticMesh: Building static mesh AR-DoorFrame_2M_02...
+[2018.11.29-01.30.09:190][143]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-DoorFrame_2M_02.AR-DoorFrame_2M_02
+[2018.11.29-01.30.15:231][362]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-DoorFrame_2M_02.FBX]
+[2018.11.29-01.30.15:276][362]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-DoorFrame_2M_02.FBX
+[2018.11.29-01.30.15:285][362]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.30.15:305][362]LogStaticMesh: Building static mesh AR-DoorFrame_2M_02...
+[2018.11.29-01.30.15:320][362]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-DoorFrame_2M_02.AR-DoorFrame_2M_02
+[2018.11.29-01.30.15:337][362]LogEditorFactories: -- imported successfully
+[2018.11.29-01.31.53:661][195]LogStaticMesh: Building static mesh AR-Fireplace_01...
+[2018.11.29-01.31.53:694][195]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-Fireplace_01.AR-Fireplace_01
+[2018.11.29-01.31.57:913][284]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Fireplace_01.FBX]
+[2018.11.29-01.31.57:954][284]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Fireplace_01.FBX
+[2018.11.29-01.31.57:963][284]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.31.57:981][284]LogStaticMesh: Building static mesh AR-Fireplace_01...
+[2018.11.29-01.31.57:997][284]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Fireplace_01.AR-Fireplace_01
+[2018.11.29-01.31.58:011][284]LogEditorFactories: -- imported successfully
+[2018.11.29-01.32.00:580][505]LogStaticMesh: Building static mesh AR-RampPost_01...
+[2018.11.29-01.32.00:608][505]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-RampPost_01.AR-RampPost_01
+[2018.11.29-01.32.04:783][674]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-RampPost_01.FBX]
+[2018.11.29-01.32.04:823][674]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-RampPost_01.FBX
+[2018.11.29-01.32.04:832][674]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.32.04:854][674]LogStaticMesh: Building static mesh AR-RampPost_01...
+[2018.11.29-01.32.04:865][674]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-RampPost_01.AR-RampPost_01
+[2018.11.29-01.32.04:887][674]LogEditorFactories: -- imported successfully
+[2018.11.29-01.32.06:442][796]LogStaticMesh: Building static mesh AR-RampPost_02...
+[2018.11.29-01.32.06:474][796]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-RampPost_02.AR-RampPost_02
+[2018.11.29-01.32.09:440][894]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-RampPost_02.FBX]
+[2018.11.29-01.32.09:483][894]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-RampPost_02.FBX
+[2018.11.29-01.32.09:491][894]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.32.09:510][894]LogStaticMesh: Building static mesh AR-RampPost_02...
+[2018.11.29-01.32.09:521][894]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-RampPost_02.AR-RampPost_02
+[2018.11.29-01.32.09:537][894]LogEditorFactories: -- imported successfully
+[2018.11.29-01.32.10:953][  7]LogStaticMesh: Building static mesh AR-Staircase_01...
+[2018.11.29-01.32.11:020][  7]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/AR-Staircase_01.AR-Staircase_01
+[2018.11.29-01.32.13:984][136]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Staircase_01.FBX]
+[2018.11.29-01.32.14:027][136]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Staircase_01.FBX
+[2018.11.29-01.32.14:037][136]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.32.14:063][136]LogStaticMesh: Building static mesh AR-Staircase_01...
+[2018.11.29-01.32.14:113][136]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-Staircase_01.AR-Staircase_01
+[2018.11.29-01.32.14:141][136]LogEditorFactories: -- imported successfully
+[2018.11.29-01.32.15:356][228]LogStaticMesh: Building static mesh AR-Staircase_02...
+[2018.11.29-01.32.15:414][228]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/AR-Staircase_02.AR-Staircase_02
+[2018.11.29-01.32.18:843][315]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Staircase_02.FBX]
+[2018.11.29-01.32.18:885][315]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Staircase_02.FBX
+[2018.11.29-01.32.18:898][315]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.32.18:924][315]LogStaticMesh: Building static mesh AR-Staircase_02...
+[2018.11.29-01.32.18:968][315]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-Staircase_02.AR-Staircase_02
+[2018.11.29-01.32.18:989][315]LogEditorFactories: -- imported successfully
+[2018.11.29-01.33.21:677][227]LogStaticMesh: Building static mesh AR-StaircaseFloor_01...
+[2018.11.29-01.33.21:700][227]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-StaircaseFloor_01.AR-StaircaseFloor_01
+[2018.11.29-01.33.25:581][329]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StaircaseFloor_01.FBX]
+[2018.11.29-01.33.25:615][329]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StaircaseFloor_01.FBX
+[2018.11.29-01.33.25:622][329]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.33.25:639][329]LogStaticMesh: Building static mesh AR-StaircaseFloor_01...
+[2018.11.29-01.33.25:640][329]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-StaircaseFloor_01.AR-StaircaseFloor_01
+[2018.11.29-01.33.25:649][329]LogEditorFactories: -- imported successfully
+[2018.11.29-01.33.30:275][749]LogStaticMesh: Building static mesh AR-StairCaseRampCorner_01...
+[2018.11.29-01.33.30:306][749]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-StairCaseRampCorner_01.AR-StairCaseRampCorner_01
+[2018.11.29-01.33.36:365][862]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StaircaseRampCorner_01.FBX]
+[2018.11.29-01.33.36:405][862]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StaircaseRampCorner_01.FBX
+[2018.11.29-01.33.36:414][862]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.33.36:432][862]LogStaticMesh: Building static mesh AR-StairCaseRampCorner_01...
+[2018.11.29-01.33.36:444][862]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-StairCaseRampCorner_01.AR-StairCaseRampCorner_01
+[2018.11.29-01.33.36:462][862]LogEditorFactories: -- imported successfully
+[2018.11.29-01.33.38:098][995]LogStaticMesh: Building static mesh AR-StaircaseRug_01...
+[2018.11.29-01.33.38:216][995]LogStaticMesh: Built static mesh [0.12s] /Game/Assets/AR-StaircaseRug_01.AR-StaircaseRug_01
+[2018.11.29-01.33.46:638][322]LogStaticMesh: Building static mesh AR-StairCaseWall_01...
+[2018.11.29-01.33.46:663][322]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-StairCaseWall_01.AR-StairCaseWall_01
+[2018.11.29-01.33.54:137][450]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StairCaseWall_01.FBX]
+[2018.11.29-01.33.54:174][450]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StairCaseWall_01.FBX
+[2018.11.29-01.33.54:183][450]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.33.54:199][450]LogStaticMesh: Building static mesh AR-StairCaseWall_01...
+[2018.11.29-01.33.54:206][450]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-StairCaseWall_01.AR-StairCaseWall_01
+[2018.11.29-01.33.54:220][450]LogEditorFactories: -- imported successfully
+[2018.11.29-01.33.56:222][615]LogStaticMesh: Building static mesh AR-StairCaseWall_02...
+[2018.11.29-01.33.56:261][615]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-StairCaseWall_02.AR-StairCaseWall_02
+[2018.11.29-01.34.02:253][764]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StairCaseWall_02.FBX]
+[2018.11.29-01.34.02:293][764]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StairCaseWall_02.FBX
+[2018.11.29-01.34.02:302][764]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.34.02:322][764]LogStaticMesh: Building static mesh AR-StairCaseWall_02...
+[2018.11.29-01.34.02:347][764]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-StairCaseWall_02.AR-StairCaseWall_02
+[2018.11.29-01.34.02:366][764]LogEditorFactories: -- imported successfully
+[2018.11.29-01.34.04:751][969]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2018.11.29-01.34.04:795][969]LogStaticMesh: Building static mesh AR-StairCaseWall_02a...
+[2018.11.29-01.34.04:818][969]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-StairCaseWall_02a.AR-StairCaseWall_02a
+[2018.11.29-01.34.14:260][459]LogStaticMesh: Building static mesh AR-StairCaseWall_03...
+[2018.11.29-01.34.14:304][459]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-StairCaseWall_03.AR-StairCaseWall_03
+[2018.11.29-01.34.24:279][581]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StairCaseWall_03.FBX]
+[2018.11.29-01.34.24:324][581]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-StairCaseWall_03.FBX
+[2018.11.29-01.34.24:333][581]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.34.24:356][581]LogStaticMesh: Building static mesh AR-StairCaseWall_03...
+[2018.11.29-01.34.24:381][581]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-StairCaseWall_03.AR-StairCaseWall_03
+[2018.11.29-01.34.24:404][581]LogEditorFactories: -- imported successfully
+[2018.11.29-01.34.26:859][779]LogStaticMesh: Building static mesh AR-TopWallTrim_01...
+[2018.11.29-01.34.26:894][779]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-TopWallTrim_01.AR-TopWallTrim_01
+[2018.11.29-01.34.31:603][946]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-TopWallTrim_01.FBX]
+[2018.11.29-01.34.31:645][946]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-TopWallTrim_01.FBX
+[2018.11.29-01.34.31:652][946]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.34.31:667][946]LogStaticMesh: Building static mesh AR-TopWallTrim_01...
+[2018.11.29-01.34.31:670][946]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-TopWallTrim_01.AR-TopWallTrim_01
+[2018.11.29-01.34.31:684][946]LogEditorFactories: -- imported successfully
+[2018.11.29-01.34.33:325][ 74]LogStaticMesh: Building static mesh AR-Wall_1M_01...
+[2018.11.29-01.34.33:342][ 74]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Wall_1M_01.AR-Wall_1M_01
+[2018.11.29-01.34.45:358][172]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Wall_1M_01.FBX]
+[2018.11.29-01.34.45:398][172]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Wall_1M_01.FBX
+[2018.11.29-01.34.45:406][172]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.34.45:426][172]LogStaticMesh: Building static mesh AR-Wall_1M_01...
+[2018.11.29-01.34.45:430][172]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Wall_1M_01.AR-Wall_1M_01
+[2018.11.29-01.34.45:445][172]LogEditorFactories: -- imported successfully
+[2018.11.29-01.34.46:372][238]LogStaticMesh: Building static mesh AR-Wall_2M_01...
+[2018.11.29-01.34.46:389][238]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Wall_2M_01.AR-Wall_2M_01
+[2018.11.29-01.34.50:447][319]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallTop_2M_01.FBX]
+[2018.11.29-01.34.50:489][319]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallTop_2M_01.FBX
+[2018.11.29-01.34.50:497][319]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.34.50:514][319]LogStaticMesh: Building static mesh AR-Wall_2M_01...
+[2018.11.29-01.34.50:518][319]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Wall_2M_01.AR-Wall_2M_01
+[2018.11.29-01.34.50:534][319]LogEditorFactories: -- imported successfully
+[2018.11.29-01.34.52:631][493]LogStaticMesh: Building static mesh AR-WallCorner_01...
+[2018.11.29-01.34.52:647][493]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallCorner_01.AR-WallCorner_01
+[2018.11.29-01.34.58:502][578]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallCorner_01.FBX]
+[2018.11.29-01.34.58:541][578]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallCorner_01.FBX
+[2018.11.29-01.34.58:548][578]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.34.58:563][578]LogStaticMesh: Building static mesh AR-WallCorner_01...
+[2018.11.29-01.34.58:565][578]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallCorner_01.AR-WallCorner_01
+[2018.11.29-01.34.58:576][578]LogEditorFactories: -- imported successfully
+[2018.11.29-01.35.09:754][754]LogStaticMesh: Building static mesh AR-WallCornerRound_01...
+[2018.11.29-01.35.09:794][754]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-WallCornerRound_01.AR-WallCornerRound_01
+[2018.11.29-01.35.16:209][851]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallCornerRound_01.FBX]
+[2018.11.29-01.35.16:248][851]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallCornerRound_01.FBX
+[2018.11.29-01.35.16:258][851]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.35.16:279][851]LogStaticMesh: Building static mesh AR-WallCornerRound_01...
+[2018.11.29-01.35.16:300][851]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallCornerRound_01.AR-WallCornerRound_01
+[2018.11.29-01.35.16:322][851]LogEditorFactories: -- imported successfully
+[2018.11.29-01.35.17:722][959]LogStaticMesh: Building static mesh AR-WallStairs_01...
+[2018.11.29-01.35.17:739][959]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallStairs_01.AR-WallStairs_01
+[2018.11.29-01.35.26:903][345]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallStairs_01.FBX]
+[2018.11.29-01.35.26:941][345]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallStairs_01.FBX
+[2018.11.29-01.35.26:949][345]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.35.26:966][345]LogStaticMesh: Building static mesh AR-WallStairs_01...
+[2018.11.29-01.35.26:969][345]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallStairs_01.AR-WallStairs_01
+[2018.11.29-01.35.26:984][345]LogEditorFactories: -- imported successfully
+[2018.11.29-01.35.36:076][284]LogStaticMesh: Building static mesh AR-WallStairs_02...
+[2018.11.29-01.35.36:089][284]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-WallStairs_02.AR-WallStairs_02
+[2018.11.29-01.35.57:777][448]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallStairs_02.FBX]
+[2018.11.29-01.35.57:813][448]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallStairs_02.FBX
+[2018.11.29-01.35.57:821][448]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.35.57:836][448]LogStaticMesh: Building static mesh AR-WallStairs_02...
+[2018.11.29-01.35.57:838][448]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallStairs_02.AR-WallStairs_02
+[2018.11.29-01.35.57:848][448]LogEditorFactories: -- imported successfully
+[2018.11.29-01.35.59:974][619]LogStaticMesh: Building static mesh AR-WallStairs_03...
+[2018.11.29-01.35.59:989][619]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallStairs_03.AR-WallStairs_03
+[2018.11.29-01.36.07:238][694]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallStairs_03.FBX]
+[2018.11.29-01.36.07:277][694]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallStairs_03.FBX
+[2018.11.29-01.36.07:284][694]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.36.07:300][694]LogStaticMesh: Building static mesh AR-WallStairs_03...
+[2018.11.29-01.36.07:301][694]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallStairs_03.AR-WallStairs_03
+[2018.11.29-01.36.07:312][694]LogEditorFactories: -- imported successfully
+[2018.11.29-01.36.08:406][770]LogStaticMesh: Building static mesh AR-WallTop_2M_01...
+[2018.11.29-01.36.08:430][770]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallTop_2M_01.AR-WallTop_2M_01
+[2018.11.29-01.36.18:354][866]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallTop_2M_01.FBX]
+[2018.11.29-01.36.18:397][866]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallTop_2M_01.FBX
+[2018.11.29-01.36.18:405][866]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.36.18:421][866]LogStaticMesh: Building static mesh AR-WallTop_2M_01...
+[2018.11.29-01.36.18:426][866]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallTop_2M_01.AR-WallTop_2M_01
+[2018.11.29-01.36.18:439][866]LogEditorFactories: -- imported successfully
+[2018.11.29-01.36.19:296][915]LogStaticMesh: Building static mesh AR-WallTop_5M_01...
+[2018.11.29-01.36.19:318][915]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-WallTop_5M_01.AR-WallTop_5M_01
+[2018.11.29-01.36.29:973][ 13]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallTop_5M_01.FBX]
+[2018.11.29-01.36.30:013][ 13]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallTop_5M_01.FBX
+[2018.11.29-01.36.30:022][ 13]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.36.30:039][ 13]LogStaticMesh: Building static mesh AR-WallTop_5M_01...
+[2018.11.29-01.36.30:045][ 13]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-WallTop_5M_01.AR-WallTop_5M_01
+[2018.11.29-01.36.30:061][ 13]LogEditorFactories: -- imported successfully
+[2018.11.29-01.36.31:223][ 89]LogStaticMesh: Building static mesh AR-WallTop_7M_01...
+[2018.11.29-01.36.31:254][ 89]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-WallTop_7M_01.AR-WallTop_7M_01
+[2018.11.29-01.36.35:389][161]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallTop_7M_01.FBX]
+[2018.11.29-01.36.35:431][161]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-WallTop_7M_01.FBX
+[2018.11.29-01.36.35:439][161]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.36.35:459][161]LogStaticMesh: Building static mesh AR-WallTop_7M_01...
+[2018.11.29-01.36.35:470][161]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-WallTop_7M_01.AR-WallTop_7M_01
+[2018.11.29-01.36.35:484][161]LogEditorFactories: -- imported successfully
+[2018.11.29-01.36.36:458][226]LogStaticMesh: Building static mesh AR-Window_4M_01...
+[2018.11.29-01.36.36:507][226]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-Window_4M_01.AR-Window_4M_01
+[2018.11.29-01.36.52:141][273]LogStaticMesh: Building static mesh PR-Carpet_01...
+[2018.11.29-01.36.52:153][273]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/PR-Carpet_01.PR-Carpet_01
+[2018.11.29-01.36.56:702][332]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/PR-Carpet_01.FBX]
+[2018.11.29-01.36.56:737][332]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/PR-Carpet_01.FBX
+[2018.11.29-01.36.56:745][332]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.36.56:759][332]LogStaticMesh: Building static mesh PR-Carpet_01...
+[2018.11.29-01.36.56:761][332]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/PR-Carpet_01.PR-Carpet_01
+[2018.11.29-01.36.56:772][332]LogEditorFactories: -- imported successfully
+[2018.11.29-01.37.05:163][773]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Window_4M_01.FBX]
+[2018.11.29-01.37.05:206][773]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Window_4M_01.FBX
+[2018.11.29-01.37.05:217][773]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.37.05:235][773]LogStaticMesh: Building static mesh AR-Window_4M_01...
+[2018.11.29-01.37.05:251][773]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Window_4M_01.AR-Window_4M_01
+[2018.11.29-01.37.05:267][773]LogEditorFactories: -- imported successfully
+[2018.11.29-01.37.06:147][833]LogStaticMesh: Building static mesh AR-Window_4M_01a...
+[2018.11.29-01.37.06:162][833]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Window_4M_01a.AR-Window_4M_01a
+[2018.11.29-01.37.10:277][955]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Window_4M_01a.FBX]
+[2018.11.29-01.37.10:317][955]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR-Window_4M_01a.FBX
+[2018.11.29-01.37.10:325][955]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.37.10:340][955]LogStaticMesh: Building static mesh AR-Window_4M_01a...
+[2018.11.29-01.37.10:343][955]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Window_4M_01a.AR-Window_4M_01a
+[2018.11.29-01.37.10:354][955]LogEditorFactories: -- imported successfully
+[2018.11.29-01.37.40:814][842]LogEditorFactories: Performing atomic reimport of [//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR_StaircaseRug_01.FBX]
+[2018.11.29-01.37.40:860][842]LogFbx: Loading FBX Scene from //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/Manoir_FBX_Unwrapped/AR_StaircaseRug_01.FBX
+[2018.11.29-01.37.40:878][842]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-01.37.40:933][842]LogStaticMesh: Building static mesh AR-StaircaseRug_01...
+[2018.11.29-01.37.41:033][842]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/AR-StaircaseRug_01.AR-StaircaseRug_01
+[2018.11.29-01.37.41:093][842]LogEditorFactories: -- imported successfully
+[2018.11.29-01.38.02:848][ 88]LogSavePackage: Save=54.84ms
+[2018.11.29-01.38.02:848][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Ceiling_01832D627A41F9F02A0D109BA5B99476C0.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Ceiling_01.uasset'
+[2018.11.29-01.38.02:873][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Ceiling_01.uasset
+[2018.11.29-01.38.02:955][ 88]LogSavePackage: Save=36.43ms
+[2018.11.29-01.38.02:955][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Ceiling_0242D5755040EFC7716F0B19BB161947D1.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Ceiling_02.uasset'
+[2018.11.29-01.38.02:976][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Ceiling_02.uasset
+[2018.11.29-01.38.03:075][ 88]LogSavePackage: Save=41.97ms
+[2018.11.29-01.38.03:075][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-CeilingBeam_02D289AD004310AFB1BE5E8B9D74DEA70F.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-CeilingBeam_02.uasset'
+[2018.11.29-01.38.03:116][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-CeilingBeam_02.uasset
+[2018.11.29-01.38.03:205][ 88]LogSavePackage: Save=41.04ms
+[2018.11.29-01.38.03:205][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Curtain0112FD9FC64F5822A24E72BDA8A83C8FC8.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Curtain01.uasset'
+[2018.11.29-01.38.03:241][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Curtain01.uasset
+[2018.11.29-01.38.03:334][ 88]LogSavePackage: Save=39.21ms
+[2018.11.29-01.38.03:335][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Door_0109C595194326F61DE6DCB89999CAD257.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Door_01.uasset'
+[2018.11.29-01.38.03:354][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Door_01.uasset
+[2018.11.29-01.38.03:451][ 88]LogSavePackage: Save=41.80ms
+[2018.11.29-01.38.03:451][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-DoorFrame_150cm_012BB54F314247883C1484D3B67DD6DF91.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-DoorFrame_150cm_01.uasset'
+[2018.11.29-01.38.03:471][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-DoorFrame_150cm_01.uasset
+[2018.11.29-01.38.03:590][ 88]LogSavePackage: Save=48.56ms
+[2018.11.29-01.38.03:590][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-DoorFrame_2M_00392B9E057421B8F1BE60B87B1D7BC3061.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-DoorFrame_2M_003.uasset'
+[2018.11.29-01.38.03:611][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-DoorFrame_2M_003.uasset
+[2018.11.29-01.38.03:728][ 88]LogSavePackage: Save=56.75ms
+[2018.11.29-01.38.03:728][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-DoorFrame_2M_013939F64D450E1778EE96B7979E8768F8.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-DoorFrame_2M_01.uasset'
+[2018.11.29-01.38.03:746][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-DoorFrame_2M_01.uasset
+[2018.11.29-01.38.03:879][ 88]LogSavePackage: Save=56.57ms
+[2018.11.29-01.38.03:879][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-DoorFrame_2M_02D320D0D04A6C7F0A24C401BBFE097589.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-DoorFrame_2M_02.uasset'
+[2018.11.29-01.38.03:907][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-DoorFrame_2M_02.uasset
+[2018.11.29-01.38.04:041][ 88]LogSavePackage: Save=58.75ms
+[2018.11.29-01.38.04:041][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Fireplace_01389DA5684E3D69D17D75CFAD812C3B2C.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Fireplace_01.uasset'
+[2018.11.29-01.38.04:062][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Fireplace_01.uasset
+[2018.11.29-01.38.04:212][ 88]LogSavePackage: Save=50.48ms
+[2018.11.29-01.38.04:212][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-RampPost_0191FB8ABB40EBB2EA5DD441B06D1E283F.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-RampPost_01.uasset'
+[2018.11.29-01.38.04:232][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-RampPost_01.uasset
+[2018.11.29-01.38.04:367][ 88]LogSavePackage: Save=49.65ms
+[2018.11.29-01.38.04:367][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-RampPost_027526398345B1F0672781E5B9D1DD8D2A.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-RampPost_02.uasset'
+[2018.11.29-01.38.04:385][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-RampPost_02.uasset
+[2018.11.29-01.38.04:535][ 88]LogSavePackage: Save=67.12ms
+[2018.11.29-01.38.04:535][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Staircase_01174D83584A2B80A8A07D81ABCDC6DB43.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Staircase_01.uasset'
+[2018.11.29-01.38.04:558][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Staircase_01.uasset
+[2018.11.29-01.38.04:708][ 88]LogSavePackage: Save=61.35ms
+[2018.11.29-01.38.04:708][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Staircase_02DDE3EA484C863F13A774F6B5AB4861E1.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Staircase_02.uasset'
+[2018.11.29-01.38.04:729][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Staircase_02.uasset
+[2018.11.29-01.38.04:846][ 88]LogSavePackage: Save=43.83ms
+[2018.11.29-01.38.04:846][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-StaircaseFloor_0161010930498A27F0490BAF83B0088FF1.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StaircaseFloor_01.uasset'
+[2018.11.29-01.38.04:867][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StaircaseFloor_01.uasset
+[2018.11.29-01.38.05:004][ 88]LogSavePackage: Save=54.79ms
+[2018.11.29-01.38.05:004][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-StairCaseRampCorner_015BA9673C41DE9BDF6C783CA36BE56943.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StairCaseRampCorner_01.uasset'
+[2018.11.29-01.38.05:024][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StairCaseRampCorner_01.uasset
+[2018.11.29-01.38.05:201][ 88]LogSavePackage: Save=75.97ms
+[2018.11.29-01.38.05:201][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-StaircaseRug_01C77200D74374E0377701ECB1BCA7CF58.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StaircaseRug_01.uasset'
+[2018.11.29-01.38.05:223][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StaircaseRug_01.uasset
+[2018.11.29-01.38.05:382][ 88]LogSavePackage: Save=51.62ms
+[2018.11.29-01.38.05:382][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-StairCaseWall_018C27096D442576B506309F823A4128D5.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StairCaseWall_01.uasset'
+[2018.11.29-01.38.05:401][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StairCaseWall_01.uasset
+[2018.11.29-01.38.05:547][ 88]LogSavePackage: Save=56.63ms
+[2018.11.29-01.38.05:547][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-StairCaseWall_0205BB9ED547589FDBE5E023ADB12EB7AE.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StairCaseWall_02.uasset'
+[2018.11.29-01.38.05:567][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StairCaseWall_02.uasset
+[2018.11.29-01.38.05:723][ 88]LogSavePackage: Save=62.32ms
+[2018.11.29-01.38.05:723][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-StairCaseWall_03A77F65614ABD5DA853235AA1824AE9E8.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StairCaseWall_03.uasset'
+[2018.11.29-01.38.05:742][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-StairCaseWall_03.uasset
+[2018.11.29-01.38.05:874][ 88]LogSavePackage: Save=52.96ms
+[2018.11.29-01.38.05:874][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-TopWallTrim_01D308550D499D8DD62263DD8AAE36CE70.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-TopWallTrim_01.uasset'
+[2018.11.29-01.38.05:894][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-TopWallTrim_01.uasset
+[2018.11.29-01.38.06:028][ 88]LogSavePackage: Save=53.65ms
+[2018.11.29-01.38.06:028][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Wall_1M_0130A8C98449450D569695589E79F8041B.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Wall_1M_01.uasset'
+[2018.11.29-01.38.06:047][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Wall_1M_01.uasset
+[2018.11.29-01.38.06:173][ 88]LogSavePackage: Save=47.66ms
+[2018.11.29-01.38.06:173][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Wall_2M_01C9406A6948A93AB841B778A1F702E4F8.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Wall_2M_01.uasset'
+[2018.11.29-01.38.06:189][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Wall_2M_01.uasset
+[2018.11.29-01.38.06:319][ 88]LogSavePackage: Save=44.98ms
+[2018.11.29-01.38.06:319][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-WallCorner_016823BA204701D28B357234A0672068CC.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallCorner_01.uasset'
+[2018.11.29-01.38.06:338][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallCorner_01.uasset
+[2018.11.29-01.38.06:488][ 88]LogSavePackage: Save=66.12ms
+[2018.11.29-01.38.06:488][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-WallCornerRound_01C32BE99148696012BA350F8D71CFD914.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallCornerRound_01.uasset'
+[2018.11.29-01.38.06:507][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallCornerRound_01.uasset
+[2018.11.29-01.38.06:633][ 88]LogSavePackage: Save=41.08ms
+[2018.11.29-01.38.06:633][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-WallStairs_0155738B5E463E0DDCBF2BE9B7243C1E53.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallStairs_01.uasset'
+[2018.11.29-01.38.06:654][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallStairs_01.uasset
+[2018.11.29-01.38.06:800][ 88]LogSavePackage: Save=43.51ms
+[2018.11.29-01.38.06:800][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-WallStairs_029C371D87442A6124EF188EAD20D8EC06.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallStairs_02.uasset'
+[2018.11.29-01.38.06:820][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallStairs_02.uasset
+[2018.11.29-01.38.06:948][ 88]LogSavePackage: Save=41.53ms
+[2018.11.29-01.38.06:948][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-WallStairs_033D18C0F146B3626FE35448BD7CC1B9A4.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallStairs_03.uasset'
+[2018.11.29-01.38.06:967][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallStairs_03.uasset
+[2018.11.29-01.38.07:107][ 88]LogSavePackage: Save=53.88ms
+[2018.11.29-01.38.07:107][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-WallTop_2M_0105C498E0426CB222FAB8D4A15B32285E.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallTop_2M_01.uasset'
+[2018.11.29-01.38.07:126][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallTop_2M_01.uasset
+[2018.11.29-01.38.07:264][ 88]LogSavePackage: Save=58.53ms
+[2018.11.29-01.38.07:264][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-WallTop_5M_01BAA292C44EB3A8B2F727F488C1039436.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallTop_5M_01.uasset'
+[2018.11.29-01.38.07:283][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallTop_5M_01.uasset
+[2018.11.29-01.38.07:418][ 88]LogSavePackage: Save=54.47ms
+[2018.11.29-01.38.07:418][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-WallTop_7M_01020C42164ECA34C06407D38A92076730.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallTop_7M_01.uasset'
+[2018.11.29-01.38.07:437][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-WallTop_7M_01.uasset
+[2018.11.29-01.38.07:585][ 88]LogSavePackage: Save=59.82ms
+[2018.11.29-01.38.07:585][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Window_4M_012E76F8F141B81112881FD797C28A9E94.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Window_4M_01.uasset'
+[2018.11.29-01.38.07:604][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Window_4M_01.uasset
+[2018.11.29-01.38.07:735][ 88]LogSavePackage: Save=51.08ms
+[2018.11.29-01.38.07:735][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/PR-Carpet_010CB6EC8E4A5779A0DC5389960677B33B.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/PR-Carpet_01.uasset'
+[2018.11.29-01.38.07:754][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/PR-Carpet_01.uasset
+[2018.11.29-01.38.07:888][ 88]LogSavePackage: Save=47.99ms
+[2018.11.29-01.38.07:888][ 88]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Saved/AR-Window_4M_01a9E3A502F472FAFD852346E923F92770E.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Window_4M_01a.uasset'
+[2018.11.29-01.38.07:915][ 88]LogSavePackage:Display: Finished SavePackage //rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir/Content/Assets/AR-Window_4M_01a.uasset
