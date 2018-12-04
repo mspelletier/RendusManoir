@@ -1,0 +1,1230 @@
+﻿Log file open, 12/04/18 15:30:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProjetManoir
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.210304
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Display: Disabled plugin 'HoudiniEngine', continuing.
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  7.107s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.04-20.30.46:945][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.04-20.30.46:945][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.04-20.30.46:972][  0]LogHAL: Display: Platform has ~ 12 GB [12711497728 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.04-20.30.46:972][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.04-20.30.46:972][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.04-20.30.46:972][  0]LogInit: Computer: LAPTOP-0IGFG9CS
+[2018.12.04-20.30.46:972][  0]LogInit: User: reseo
+[2018.12.04-20.30.46:972][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.12.04-20.30.46:972][  0]LogInit: High frequency timer resolution =2.648442 MHz
+[2018.12.04-20.30.46:973][  0]LogMemory: Memory total: Physical=11.8GB (12GB approx)
+[2018.12.04-20.30.46:973][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.04-20.30.46:973][  0]LogMemory: Process Physical Memory: 103.73 MB used, 103.73 MB peak
+[2018.12.04-20.30.46:973][  0]LogMemory: Process Virtual Memory: 84.48 MB used, 84.48 MB peak
+[2018.12.04-20.30.46:973][  0]LogMemory: Physical Memory: 7589.72 MB used,  4532.91 MB free, 12122.63 MB total
+[2018.12.04-20.30.46:973][  0]LogMemory: Virtual Memory: 4643.80 MB used,  4532.91 MB free, 134217728.00 MB total
+[2018.12.04-20.30.47:003][  0]LogInit: Using OS detected language (fr-CA).
+[2018.12.04-20.30.47:003][  0]LogInit: Using OS detected locale (en-CA).
+[2018.12.04-20.30.47:005][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
+[2018.12.04-20.30.47:009][  0]LogStreaming: Display: Took  0.006s to InitEngineTextLocalization.
+[2018.12.04-20.30.47:009][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.04-20.30.47:077][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.04-20.30.47:077][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.04-20.30.47:533][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.04-20.30.47:533][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.04-20.30.47:569][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.12.04-20.30.47:569][  0]LogD3D11RHI:       2019/0/6061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.12.04-20.30.47:579][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.12.04-20.30.47:579][  0]LogD3D11RHI:       128/0/6061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.04-20.30.47:582][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.04-20.30.47:583][  0]LogD3D11RHI:       0/0/6061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.04-20.30.47:583][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.04-20.30.47:768][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.04-20.30.47:768][  0]LogD3D11RHI:     GPU DeviceId: 0x179c (for the marketing name, search the web for "GPU Device Id")
+[2018.12.04-20.30.47:769][  0]LogWindows: EnumDisplayDevices:
+[2018.12.04-20.30.47:774][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.12.04-20.30.47:775][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:1)
+[2018.12.04-20.30.47:775][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.12.04-20.30.47:775][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.04-20.30.47:775][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.12.04-20.30.47:776][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.04-20.30.47:776][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.04-20.30.47:776][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.12.04-20.30.47:799][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.04-20.30.47:819][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.04-20.30.47:821][  0]LogShaderCompilers: Guid format shader working directory is -69 characters bigger than the processId version (../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Intermediate/Shaders/WorkingDirectory/631984/).
+[2018.12.04-20.30.47:821][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/reseo/AppData/Local/Temp/UnrealShaderWorkingDir/DDEC5A9C40B89EE8F9939992CEF63275/'.
+[2018.12.04-20.30.48:256][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.04-20.30.48:278][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.04-20.30.48:301][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.04-20.30.48:319][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.04-20.30.48:339][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.04-20.30.48:361][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.04-20.30.48:383][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.04-20.30.48:401][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.04-20.30.48:410][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.04-20.30.48:528][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.04-20.30.48:615][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.04-20.30.48:615][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.04-20.30.48:658][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.04-20.30.48:658][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.04-20.30.48:680][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.04-20.30.48:704][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.04-20.30.48:725][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.04-20.30.48:748][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.04-20.30.48:764][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.04-20.30.48:764][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.04-20.30.48:872][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.04-20.30.48:872][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.04-20.30.48:872][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.04-20.30.49:901][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.04-20.30.49:976][  0]LogDerivedDataCache: Loaded boot cache 0.08s 80MB C:/Users/reseo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.04-20.30.49:977][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/reseo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.04-20.30.49:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.04-20.30.49:977][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.04-20.30.49:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.04-20.30.49:977][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.04-20.30.49:994][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.04-20.30.50:007][  0]LogDerivedDataCache: Using Local data cache path C:/Users/reseo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.04-20.30.50:007][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.04-20.30.50:007][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.04-20.30.50:033][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.04-20.30.50:036][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.04-20.30.50:038][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.04-20.30.50:144][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.12.04-20.30.50:638][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.04-20.30.50:831][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.04-20.30.50:837][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.04-20.30.50:837][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.04-20.30.50:837][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.04-20.30.50:837][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.04-20.30.50:871][  0]LogNetVersion: ProjetManoir 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2868027156)
+[2018.12.04-20.30.51:963][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.262141 seconds
+[2018.12.04-20.30.51:971][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.04-20.30.51:971][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.04-20.30.51:971][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.04-20.30.53:371][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.12.04-20.30.53:376][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.04-20.30.53:402][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.04-20.30.53:609][  0]SourceControl: Source control is disabled
+[2018.12.04-20.30.53:609][  0]SourceControl: Source control is disabled
+[2018.12.04-20.30.53:615][  0]SourceControl: Source control is disabled
+[2018.12.04-20.30.53:619][  0]SourceControl: Source control is disabled
+[2018.12.04-20.30.53:887][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.04-20.30.54:010][  0]LogOcInput: OculusInput pre-init called
+[2018.12.04-20.30.54:196][  0]LogEngine: Initializing Engine...
+[2018.12.04-20.30.54:197][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.04-20.30.54:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.04-20.30.54:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.04-20.30.54:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.04-20.30.54:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.04-20.30.54:525][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.04-20.30.54:550][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.04-20.30.54:566][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.04-20.30.54:632][  0]LogInit: FAudioDevice initialized.
+[2018.12.04-20.30.54:633][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.04-20.30.55:048][  0]LogDerivedDataCache: Saved boot cache 0.41s 80MB C:/Users/reseo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.04-20.30.55:057][  0]LogInit: Texture streaming: Enabled
+[2018.12.04-20.30.55:089][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.04-20.30.55:261][  0]LogInit: Transaction tracking system initialized
+[2018.12.04-20.30.55:325][  0]BlueprintLog: New page: Editor Load
+[2018.12.04-20.30.55:449][  0]LocalizationService: Localization service is disabled
+[2018.12.04-20.30.55:894][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.04-20.30.55:894][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.04-20.30.55:894][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.04-20.30.55:894][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.04-20.30.55:894][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.04-20.30.55:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.04-20.30.55:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.04-20.30.56:102][  0]LogFileCache: Scanning file cache for directory 'C:/Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/' took 0.02s
+[2018.12.04-20.30.56:102][  0]SourceControl: Source control is disabled
+[2018.12.04-20.30.56:102][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.04-20.30.56:102][  0]LightingResults: New page: Lighting Build
+[2018.12.04-20.30.56:107][  0]MapCheck: New page: Map Check
+[2018.12.04-20.30.56:107][  0]LightingResults: New page: Lighting Build
+[2018.12.04-20.30.56:458][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.12.04-20.30.56:472][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.04-20.30.56:510][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.04-20.30.56:644][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 133.135ms to complete.
+[2018.12.04-20.30.56:644][  0]LogFileHelpers: Loading map 'Template_Default' took 0.542
+[2018.12.04-20.30.56:818][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-20.30.56:828][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-20.30.56:838][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-20.30.56:848][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.04-20.30.56:859][  0]LogCollectionManager: Loaded 0 collections in 0.003112 seconds
+[2018.12.04-20.30.56:971][  0]LogFileCache: Scanning file cache for directory 'C:/Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Collections/' took 0.01s
+[2018.12.04-20.30.56:971][  0]LogFileCache: Scanning file cache for directory 'C:/Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Developers/reseo/Collections/' took 0.01s
+[2018.12.04-20.30.56:971][  0]LogFileCache: Scanning file cache for directory 'C:/Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Collections/' took 0.01s
+[2018.12.04-20.30.56:971][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.04-20.30.56:988][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2586 classes and 609 folders.
+[2018.12.04-20.30.57:000][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.04-20.30.57:154][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.12.04-20.30.57:171][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.12.04-20.30.57:261][  0]LogSlate: Took 0.000530 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.04-20.30.57:268][  0]LogSlate: Took 0.000431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.04-20.30.57:277][  0]LogSlate: Took 0.000677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.04-20.30.57:436][  0]LogRenderer: Reallocating scene render targets to support 760x396 Format 10 NumSamples 1 (Frame:1).
+[2018.12.04-20.30.59:278][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.04-20.30.59:279][  0]LogLoad: (Engine Initialization) Total time: 22.33 seconds
+[2018.12.04-20.30.59:279][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.04-20.30.59:299][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.04-20.30.59:350][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.04-20.30.59:368][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.04-20.30.59:528][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.12.04-20.31.06:754][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.04-20.31.13:181][809]LogAssetRegistry: Asset discovery search completed in 23.0603 seconds
+[2018.12.04-20.31.13:185][809]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.04-20.31.13:185][809]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2018.12.04-20.31.32:194][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.04-20.31.37:693][265]LogMaterial: Display: Missing cached shader map for material Wood_Plank_Cathouse_MAT, compiling. 
+[2018.12.04-20.31.37:771][266]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.04-20.31.37:771][266]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.31.37:772][266]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.04-20.31.40:945][433]LogMaterial: Display: Missing cached shader map for material Tapestry_MAT, compiling. 
+[2018.12.04-20.31.41:923][440]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.04-20.32.06:152][888]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.32.09:372][898]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.32.21:773][968]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.04-20.34.24:127][955]LogMaterial: Display: Missing cached shader map for material M_Rugà1, compiling. 
+[2018.12.04-20.34.24:324][956]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.04-20.34.24:324][956]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.34.24:324][956]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.04-20.34.29:097][ 19]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.04-20.34.29:124][ 19]LogSlate: Took 0.000845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.04-20.34.37:428][289]LogSavePackage: Moving '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Master_Rug9BA06283432933FF5C73119B78847D7E.tmp' to '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Master_Rug.uasset'
+[2018.12.04-20.34.39:404][317]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/Master_Rug.Master_Rug
+[2018.12.04-20.34.39:524][317]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.34.39:694][317]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.34.39:695][317]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.34.44:360][317]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.34.44:403][317]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.34.44:404][317]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.34.44:404][317]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.34.44:599][317]LogSlate: Took 0.041847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.04-20.34.45:962][317]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.34.45:962][317]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.34.45:963][317]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.34.45:963][317]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.34.45:963][317]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.34.45:963][317]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.34.46:329][322]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.34.46:329][322]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.34.46:484][326]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.34.49:229][433]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.34.54:372][573]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.34.55:141][574]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.34.55:141][574]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.34.55:771][574]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.12.04-20.34.56:503][574]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.34.56:503][574]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.34.56:503][574]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.34.56:503][574]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.34.56:503][574]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.34.57:507][576]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.34.57:507][576]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.34.57:517][576]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.34.58:020][582]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.34.58:427][595]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.35.04:627][664]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.35.04:701][666]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.35.05:780][681]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.35.07:027][704]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.35.07:027][704]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.35.07:456][720]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.35.13:335][880]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.04-20.35.23:265][233]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.04-20.35.23:532][244]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.04-20.35.29:801][357]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.04-20.35.31:608][369]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.04-20.35.31:610][369]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.04-20.35.31:610][369]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.04-20.35.31:610][369]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.04-20.35.38:788][562]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.35.38:927][562]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.35.38:927][562]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.35.38:927][562]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.35.38:927][562]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2018.12.04-20.35.44:284][751]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.35.44:313][751]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.04-20.35.52:293][  0]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.04-20.35.53:657][ 53]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.04-20.35.55:241][104]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.36.02:064][278]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.36.02:078][278]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.36.02:123][278]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.36.02:731][278]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.36.02:778][278]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.36.02:920][278]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.36.03:542][278]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.36.03:647][278]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.36.03:699][278]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.36.04:136][278]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.36.04:222][278]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.36.04:894][278]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.36.04:990][278]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.04-20.36.05:445][278]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.04-20.36.06:506][278]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.04-20.36.06:696][278]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.04-20.36.06:792][279]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.04-20.36.07:380][279]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.04-20.36.07:844][279]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.04-20.36.08:089][279]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.04-20.36.10:435][323]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.04-20.36.10:435][323]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.04-20.36.10:435][323]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.04-20.36.10:435][323]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.04-20.36.13:036][412]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.36.13:071][412]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.36.13:071][412]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.36.13:072][412]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.36.13:093][412]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2018.12.04-20.36.19:404][529]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.36.19:404][529]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.36.19:893][534]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.36.20:068][536]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.36.20:143][537]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.36.20:549][542]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.36.20:653][544]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.36.20:653][544]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.36.22:298][556]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.36.23:062][569]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.36.23:126][570]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.36.23:251][572]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.36.25:088][621]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.36.25:119][621]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.12.04-20.36.29:532][779]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.12.04-20.36.31:236][790]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.04-20.36.32:249][799]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.04-20.36.32:734][804]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.04-20.36.33:134][809]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.36.34:007][820]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.36.34:303][827]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.36.34:374][829]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.36.34:787][840]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.36.35:388][844]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.36.35:388][844]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.36.35:998][850]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.36.35:998][850]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.36.35:999][850]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.36.36:985][863]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.36.37:562][874]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.36.37:982][878]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.36.39:055][891]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.04-20.36.40:455][939]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.04-20.36.41:938][988]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.36.41:971][988]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.12.04-20.36.42:036][988]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.36.45:053][101]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.04-20.36.47:500][199]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.36.53:431][433]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.04-20.36.54:206][469]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.36.54:957][503]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.36.54:995][503]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.12.04-20.36.56:921][572]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.04-20.36.59:078][641]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.36.59:127][641]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2018.12.04-20.36.59:205][641]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.04-20.37.05:145][835]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.04-20.37.05:336][842]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.04-20.37.08:386][952]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.37.11:901][ 87]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.37.15:322][211]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.37.18:627][314]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.37.21:645][361]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.37.22:209][362]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.37.23:468][365]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.37.23:760][370]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.37.23:760][370]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.37.24:791][380]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.37.26:037][400]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.37.27:029][443]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.37.27:420][462]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.37.28:438][492]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.37.28:596][493]LogSlate: Took 0.015218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.04-20.37.31:330][615]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.04-20.37.32:511][666]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.04-20.37.33:309][705]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.37.35:496][760]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.37.35:509][760]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.37.35:774][762]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.37.35:998][762]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.37.35:998][762]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.37.36:126][762]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.37.36:388][762]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.37.36:405][762]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.37.36:538][762]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.37.38:465][762]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.37.38:465][762]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.37.38:465][762]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.37.38:466][762]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.04-20.37.38:466][762]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.04-20.37.39:824][762]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.04-20.37.39:830][762]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.04-20.37.39:886][762]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.04-20.37.40:656][762]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.04-20.37.40:963][762]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.04-20.37.41:061][762]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.04-20.37.43:707][820]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.37.43:732][820]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.37.43:732][820]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.37.44:420][850]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.37.47:507][966]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.37.47:539][966]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.37.48:447][  2]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.37.49:605][ 38]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.37.49:974][ 50]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.37.54:870][235]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.37.54:951][235]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.37.55:049][238]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.37.55:198][240]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.37.57:199][315]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.38.00:946][431]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.00:998][431]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.04:076][526]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.05:612][577]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.05:652][577]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.05:816][580]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.05:904][582]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.38.09:012][692]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.09:696][723]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.13:532][877]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.14:665][907]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.15:963][950]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.38.17:511][  4]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.20:998][118]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.25:010][263]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.38.25:145][267]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.38.29:138][424]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.29:202][424]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.29:415][429]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.30:541][472]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.34:104][602]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.34:456][610]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.38.35:722][646]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.35:758][646]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.37:214][703]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.38:040][733]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.38:517][739]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.38:589][739]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.39:528][774]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.41:253][844]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.41:277][844]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.44:312][964]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.46:829][ 71]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.46:861][ 72]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.38.49:778][182]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.38.56:806][398]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.38.57:170][402]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.38.57:448][406]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.38.57:647][408]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.38.58:069][411]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.38.58:506][412]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.38.59:251][414]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.38.59:766][419]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.38.59:889][421]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.38.59:982][422]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.39.02:730][429]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.39.04:965][439]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.39.05:004][440]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.04-20.39.05:264][444]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.04-20.39.07:282][454]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.04-20.39.07:694][462]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.04-20.39.07:849][466]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.04-20.39.14:058][667]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.04-20.39.14:109][668]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.39.14:165][668]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.39.14:457][674]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.39.15:610][721]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.39.18:713][846]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.39.23:050][  9]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.39.23:087][  9]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.39.23:573][ 25]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.39.24:590][ 66]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.39.24:904][ 80]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.39.27:708][184]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.39.31:202][315]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.39.31:631][326]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.39.33:424][388]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.39.33:796][400]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.39.41:000][676]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.39.41:259][688]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.39.41:481][697]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.39.44:921][838]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.39.45:447][864]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.39.45:836][882]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.39.49:944][ 43]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.39.52:293][130]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.39.54:800][227]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.39.55:280][242]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.39.58:837][335]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.39.58:935][337]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.39.59:003][338]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.39.59:290][343]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.39.59:430][345]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.39.59:508][346]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.40.01:641][349]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.40.01:641][349]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.40.02:086][352]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.40.04:673][363]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.40.04:673][363]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.04-20.40.04:779][365]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.04-20.40.05:797][374]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.05:863][374]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.06:654][399]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.09:300][474]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.40.09:669][477]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.40.10:105][481]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.40.10:520][484]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.40.10:955][488]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.40.11:762][491]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.40.11:762][491]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.40.12:337][499]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.40.12:696][507]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.40.12:734][508]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.40.12:920][512]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.40.19:775][785]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.40.31:415][255]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.40.32:368][291]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.04-20.40.33:854][351]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.04-20.40.35:843][432]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.39:408][580]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.41:186][647]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.46:202][833]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.46:271][833]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.46:438][837]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.40.47:404][872]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.40.53:599][997]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.40.53:599][997]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.40.55:521][  1]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.40.56:973][ 11]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.40.57:298][ 12]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.40.58:301][ 15]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.40.58:458][ 17]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.40.58:518][ 18]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.40.59:570][ 22]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.40.59:680][ 23]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.40.59:882][ 24]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.41.01:060][ 32]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.41.02:621][ 42]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.04-20.41.02:749][ 43]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.04-20.41.02:919][ 46]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.04-20.41.03:724][ 59]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.04-20.41.04:157][ 62]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.04-20.41.04:157][ 62]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.04-20.41.05:417][ 74]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.04-20.41.05:669][ 78]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.04-20.41.06:100][ 85]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.04-20.41.08:827][101]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.04-20.41.08:828][101]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.04-20.41.08:828][101]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.04-20.41.08:828][101]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.04-20.41.20:300][203]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.41.20:332][203]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.41.20:332][203]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.41.20:333][203]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.41.20:366][203]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.41.21:585][248]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.41.28:788][540]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.41.29:092][554]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.41.31:523][635]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.41.35:931][820]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.41.35:966][820]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.04-20.41.36:062][821]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.41.36:791][847]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.41.37:743][886]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.41.44:011][146]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.41.47:293][248]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.41.47:730][267]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.41.51:199][304]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.41.51:199][304]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.41.52:885][352]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.41.52:911][352]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.41.52:935][352]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.12.04-20.41.59:258][586]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.41.59:306][586]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.41.59:341][586]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.41.59:493][586]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.42.08:390][847]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.42.09:846][902]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.42.13:734][ 71]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.42.18:010][249]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.42.18:277][261]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.42.22:353][426]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.42.25:462][540]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.42.27:411][613]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.42.27:454][613]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.42.27:468][613]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.42.29:011][676]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.42.32:709][823]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.42.35:064][916]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.42.35:121][916]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.04-20.42.36:610][973]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.42.36:637][973]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.42.37:767][  9]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.42.40:058][ 95]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.42.46:249][316]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.42.46:770][337]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.42.49:187][422]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.42.55:215][652]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.42.56:350][696]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.42.56:351][696]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.42.57:189][736]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.42.59:143][793]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.42.59:249][797]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.43.02:975][913]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.43.07:302][ 88]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.43.07:434][ 92]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.43.09:853][188]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.43.09:917][188]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.43.14:701][372]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.43.16:367][430]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.43.24:057][725]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.43.25:067][765]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.43.26:583][817]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.43.26:624][817]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.43.28:283][881]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.43.29:751][933]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.43.29:773][933]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.43.30:584][959]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.43.38:428][254]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.43.40:941][349]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.43.41:594][370]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.43.46:962][569]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.43.48:447][586]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.04-20.43.48:447][586]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.04-20.43.48:447][586]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.04-20.43.48:447][586]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.04-20.43.48:447][586]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.04-20.43.48:567][589]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.04-20.43.52:532][740]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.04-20.43.52:850][754]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.04-20.44.01:359][ 60]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.02:168][ 74]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.03:768][125]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.07:541][271]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.44.07:617][274]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.07:708][274]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.10:809][386]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.11:622][420]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.44.11:812][428]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.44.13:377][496]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.14:212][500]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.44.14:212][500]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.44.14:212][500]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.44.14:212][500]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.04-20.44.16:589][586]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.19:213][695]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.44.19:438][703]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.19:533][703]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.44.19:533][703]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.44.19:533][703]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.44.28:075][  9]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.28:111][  9]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.29:009][ 38]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.04-20.44.29:635][ 66]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.04-20.44.29:669][ 67]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.44.31:368][127]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.41:578][509]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.41:579][509]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.44.41:579][509]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.44.41:579][509]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.44.41:603][509]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.44.41:603][509]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.44.54:702][ 89]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.44.54:703][ 89]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.44.54:703][ 89]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.44.54:703][ 89]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.00:006][340]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.00:008][340]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.00:008][340]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.00:008][340]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.00:021][340]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.04-20.45.04:438][516]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.04:440][516]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.04:440][516]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.04:440][516]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.09:695][781]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.09:696][781]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.09:696][781]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.09:696][781]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.09:736][781]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.04-20.45.11:666][869]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.11:667][869]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.11:667][869]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.11:667][869]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.20:609][292]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.20:610][292]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.20:610][292]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.20:610][292]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.22:437][380]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.22:440][380]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.22:440][380]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.22:440][380]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.25:325][506]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.25:326][506]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.25:326][506]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.25:326][506]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.25:333][506]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.25:334][506]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.25:334][506]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.25:334][506]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.27:267][595]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.27:268][595]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.27:268][595]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.27:268][595]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.33:448][851]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.33:448][851]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.33:448][851]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.33:448][851]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.33:530][852]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2018.12.04-20.45.33:575][853]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.04-20.45.39:730][ 53]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.39:731][ 53]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.39:731][ 53]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.39:731][ 53]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.43:280][187]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.43:281][187]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.43:281][187]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.43:281][187]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.46:034][308]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.46:035][308]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.46:035][308]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.46:035][308]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.46:083][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.04-20.45.49:770][474]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.49:770][474]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.49:771][474]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.49:771][474]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.49:777][474]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.49:777][474]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.56:544][793]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.56:544][793]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.56:545][793]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.56:545][793]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.45.58:335][871]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.45.58:337][871]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.45.58:337][871]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.45.58:337][871]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.12:105][410]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.12:106][410]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.12:106][410]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.12:106][410]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.14:546][525]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.14:547][525]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.14:547][525]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.14:547][525]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.19:637][766]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.19:640][766]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.19:640][766]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.19:640][766]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.19:667][766]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.46.21:579][849]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.21:581][849]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.21:581][849]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.21:581][849]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.21:647][850]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.21:648][850]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.21:648][850]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.21:649][850]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.21:682][850]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.46.23:609][933]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.23:610][933]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.23:610][933]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.23:610][933]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.28:772][189]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.28:773][189]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.28:773][189]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.28:773][189]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.28:842][189]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.46.36:634][282]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.36:635][282]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.36:635][282]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.36:635][282]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.46.56:162][124]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.46.56:163][124]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.46.56:163][124]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.46.56:163][124]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.47.02:814][414]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.47.02:815][414]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.47.02:815][414]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.47.02:815][414]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.47.02:825][414]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.04-20.47.14:634][716]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.47.14:635][716]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.47.14:635][716]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.47.14:635][716]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.47.26:919][207]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.47.26:919][207]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.47.26:920][207]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.47.26:920][207]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.47.26:926][207]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.12.04-20.47.26:940][207]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.04-20.47.26:940][207]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.04-20.47.26:958][207]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.12.04-20.47.27:013][207]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.47.27:014][207]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.47.27:014][207]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.47.27:014][207]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.47.27:061][207]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.12.04-20.47.39:444][690]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.47.39:446][690]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.47.39:446][690]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.47.39:446][690]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.47.39:505][690]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.12.04-20.47.45:292][963]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.47.45:294][963]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.47.45:294][963]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.47.45:294][963]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.47.47:149][ 32]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.47.47:150][ 32]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.47.47:150][ 32]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.47.47:150][ 32]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.47.48:860][114]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.47.48:861][114]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.47.48:861][114]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.47.48:861][114]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.48.09:678][958]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.48.09:679][958]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.48.09:679][958]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.48.09:679][958]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.48.18:615][368]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.48.18:617][368]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.48.18:617][368]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.48.18:617][368]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.48.18:627][368]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.48.18:628][368]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.48.18:628][368]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.48.18:628][368]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.48.20:608][452]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.48.20:611][452]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.48.20:611][452]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.48.20:611][452]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.48.22:066][527]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.48.22:067][527]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.48.22:067][527]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.48.22:067][527]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.48.53:149][ 90]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.48.53:151][ 90]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.48.53:151][ 90]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.48.53:151][ 90]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.48.58:161][324]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.48.58:162][324]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.48.58:162][324]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.48.58:162][324]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.48.58:192][324]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.12.04-20.49.03:052][512]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.49.03:053][512]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.49.03:053][512]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.49.03:053][512]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.49.08:878][765]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.49.08:879][765]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.49.08:879][765]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.49.08:879][765]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.49.21:339][340]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.49.21:340][340]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.49.21:340][340]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.49.21:340][340]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.49.24:530][482]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.49.24:531][482]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.49.24:531][482]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.49.24:531][482]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.49.35:111][999]LogMaterialEditor: Saving and Compiling material Master_Rug
+[2018.12.04-20.49.37:356][999]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2018.12.04-20.49.38:470][999]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.49.38:470][999]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.49.38:470][999]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.49.38:470][999]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.49.38:550][999]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.49.38:551][999]LogMaterial: Warning: C:\Users\reseo\Documents\Unreal Projects\Manoir\RendusManoir\Projet Final Manoir\ProjetManoir 4.20\Content\Materials\Master_Rug.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.49.38:551][999]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.49.38:551][999]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.49.38:557][999]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.49.38:558][999]LogMaterial: Warning: C:\Users\reseo\Documents\Unreal Projects\Manoir\RendusManoir\Projet Final Manoir\ProjetManoir 4.20\Content\Materials\Master_Rug.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.49.38:558][999]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.49.38:558][999]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.49.38:654][999]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Master_Rug, compiling. 
+[2018.12.04-20.49.38:673][999]TextureStreamingBuild: Display: Compiling optional shaders took 0.074 seconds.
+[2018.12.04-20.49.38:940][999]LogSavePackage: Moving '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Master_RugAE81265D40DFD6E3ED4D44ACEAAAAD74.tmp' to '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Master_Rug.uasset'
+[2018.12.04-20.50.18:702][842]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.50.18:705][842]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.50.18:705][842]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.50.18:705][842]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.50.34:777][653]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.50.34:781][653]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.50.34:781][653]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.50.34:781][653]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.50.34:841][653]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.04-20.50.40:105][899]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.50.40:113][899]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.50.40:113][899]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.50.40:113][899]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.50.40:151][899]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.12.04-20.51.14:175][559]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.14:178][559]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.14:178][559]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.14:178][559]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.28:682][ 97]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.28:685][ 97]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.28:685][ 97]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.28:685][ 97]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.31:349][236]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.31:351][236]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.31:351][236]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.31:351][236]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.36:888][437]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.36:893][437]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.36:893][437]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.36:893][437]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.36:915][437]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.36:917][437]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.36:917][437]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.36:917][437]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.38:871][536]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.38:875][536]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.38:875][536]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.38:875][536]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.44:110][794]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.44:113][794]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.44:113][794]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.44:113][794]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.47:144][934]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.47:147][934]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.47:148][934]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.47:148][934]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.53:122][204]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.51.53:125][204]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.51.53:126][204]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.51.53:126][204]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.51.53:158][204]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.54.58:972][150]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.54.58:975][150]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.54.58:975][150]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.54.58:975][150]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.03:440][326]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.03:444][326]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.03:444][326]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.03:444][326]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.10:416][651]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.10:420][651]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.10:420][651]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.10:420][651]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.20:378][149]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.20:381][149]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.20:381][149]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.20:381][149]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.25:611][403]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.25:613][403]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.25:613][403]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.25:613][403]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.31:004][661]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.31:008][661]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.31:009][661]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.31:009][661]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.41:864][165]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.41:866][165]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.41:866][165]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.41:866][165]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.46:659][398]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.46:662][398]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.46:662][398]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.46:662][398]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.48:665][490]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.48:669][490]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.48:670][490]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.48:670][490]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.51:892][641]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.55.51:896][641]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.55.51:896][641]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.55.51:896][641]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.55.51:934][641]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.12.04-20.56.25:010][195]LogEditorTransaction: Undo Move Nodes
+[2018.12.04-20.56.25:108][195]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.56.25:110][195]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.56.25:110][195]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.56.25:110][195]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.56.58:592][646]LogMaterialEditor: Saving and Compiling material Master_Rug
+[2018.12.04-20.57.00:703][646]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2018.12.04-20.57.02:158][646]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.57.02:163][646]LogMaterial: Warning: /Engine/Transient.Master_Rug (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.57.02:163][646]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.57.02:163][646]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.57.02:245][646]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.57.02:250][646]LogMaterial: Warning: C:\Users\reseo\Documents\Unreal Projects\Manoir\RendusManoir\Projet Final Manoir\ProjetManoir 4.20\Content\Materials\Master_Rug.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.57.02:250][646]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.57.02:250][646]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.57.02:260][646]LogMaterial: Display: Missing cached shader map for material Master_Rug, compiling. 
+[2018.12.04-20.57.02:264][646]LogMaterial: Warning: C:\Users\reseo\Documents\Unreal Projects\Manoir\RendusManoir\Projet Final Manoir\ProjetManoir 4.20\Content\Materials\Master_Rug.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.12.04-20.57.02:264][646]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.12.04-20.57.02:264][646]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.12.04-20.57.02:325][646]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Master_Rug, compiling. 
+[2018.12.04-20.57.02:329][646]TextureStreamingBuild: Display: Compiling optional shaders took 0.028 seconds.
+[2018.12.04-20.57.02:534][646]LogSavePackage: Moving '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Master_Rug948416BD4B3452CD4755F49C2328E77F.tmp' to '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Master_Rug.uasset'
+[2018.12.04-20.57.46:708][368]LogMaterialEditor: Saving and Compiling material Master_Rug
+[2018.12.04-20.57.46:772][368]LogSavePackage: Moving '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Master_RugCEB1882D4F4236DDA56E78B4841324B8.tmp' to '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Master_Rug.uasset'
+[2018.12.04-20.57.51:901][595]LogSlate: Window 'Master_Rug' being destroyed
+[2018.12.04-20.57.51:908][595]LogSlate: Window 'Master_Rug' being destroyed
+[2018.12.04-20.58.17:552][791]LogSavePackage: Moving '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/M_Rug_Inst8CAC7BC74CA204E8ABBBFE819AA24212.tmp' to '../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/M_Rug_Inst.uasset'
+[2018.12.04-20.58.53:191][173]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.12.04-20.58.53:191][173]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.12.04-20.58.53:191][173]LogStaticMesh: Building static mesh AR-StaircaseRug_01...
+[2018.12.04-20.58.53:503][173]LogStaticMesh: Built static mesh [0.34s] /Game/Assets/AR-StaircaseRug_01.AR-StaircaseRug_01
+[2018.12.04-20.58.53:741][173]LogStaticMesh: Building static mesh AR-StairCaseRampCorner_01...
+[2018.12.04-20.58.53:765][173]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/AR-StairCaseRampCorner_01.AR-StairCaseRampCorner_01
+[2018.12.04-20.58.53:787][173]LogStaticMesh: Building static mesh AR-Wall_2M_01...
+[2018.12.04-20.58.53:799][173]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Wall_2M_01.AR-Wall_2M_01
+[2018.12.04-20.58.53:980][173]LogStaticMesh: Building static mesh AR-WallCorner_01...
+[2018.12.04-20.58.53:982][173]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-WallCorner_01.AR-WallCorner_01
+[2018.12.04-20.58.55:822][173]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.12.04-20.58.55:822][173]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.12.04-20.58.56:081][173]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 2048X1024)
+[2018.12.04-20.58.56:133][173]LogStaticMesh: Building static mesh AR-Ceiling_01...
+[2018.12.04-20.58.56:146][173]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-Ceiling_01.AR-Ceiling_01
+[2018.12.04-20.58.56:171][173]LogStaticMesh: Building static mesh AR-Ceiling_02...
+[2018.12.04-20.58.56:177][173]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-Ceiling_02.AR-Ceiling_02
+[2018.12.04-20.58.56:271][173]LogStaticMesh: Building static mesh AR-CeilingBeam_02...
+[2018.12.04-20.58.56:309][173]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/AR-CeilingBeam_02.AR-CeilingBeam_02
+[2018.12.04-20.58.56:460][173]LogStaticMesh: Building static mesh AR-CorridorFake_01...
+[2018.12.04-20.58.56:485][173]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-CorridorFake_01.AR-CorridorFake_01
+[2018.12.04-20.58.56:552][173]LogStaticMesh: Building static mesh AR-CorridorFake_01a...
+[2018.12.04-20.58.56:557][173]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-CorridorFake_01a.AR-CorridorFake_01a
+[2018.12.04-20.58.56:658][173]LogStaticMesh: Building static mesh AR-Curtain01...
+[2018.12.04-20.58.56:686][173]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/AR-Curtain01.AR-Curtain01
+[2018.12.04-20.58.56:798][173]LogStaticMesh: Building static mesh AR-Door_01...
+[2018.12.04-20.58.56:801][173]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-Door_01.AR-Door_01
+[2018.12.04-20.58.56:892][173]LogStaticMesh: Building static mesh AR-DoorFrame_150cm_01...
+[2018.12.04-20.58.56:902][173]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/AR-DoorFrame_150cm_01.AR-DoorFrame_150cm_01
+[2018.12.04-20.58.56:986][173]LogStaticMesh: Building static mesh AR-DoorFrame_2M_003...
+[2018.12.04-20.58.56:992][173]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/AR-DoorFrame_2M_003.AR-DoorFrame_2M_003
+[2018.12.04-20.58.57:088][173]LogStaticMesh: Building static mesh AR-DoorFrame_2M_02...
+[2018.12.04-20.58.57:118][173]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/AR-DoorFrame_2M_02.AR-DoorFrame_2M_02
+[2018.12.04-20.58.57:140][173]LogStaticMesh: Building static mesh AR-Exterior01...
+[2018.12.04-20.58.57:148][173]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Exterior01.AR-Exterior01
+[2018.12.04-20.58.57:184][173]LogStaticMesh: Building static mesh AR-Fireplace_01...
+[2018.12.04-20.58.57:208][173]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-Fireplace_01.AR-Fireplace_01
+[2018.12.04-20.58.57:238][173]LogStaticMesh: Building static mesh AR-Floor_2X2_01...
+[2018.12.04-20.58.57:240][173]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-Floor_2X2_01.AR-Floor_2X2_01
+[2018.12.04-20.58.57:372][173]LogStaticMesh: Building static mesh AR-RampPost_01...
+[2018.12.04-20.58.57:394][173]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-RampPost_01.AR-RampPost_01
+[2018.12.04-20.58.57:612][173]LogStaticMesh: Building static mesh AR-RampPost_02...
+[2018.12.04-20.58.57:633][173]LogStaticMesh: Built static mesh [0.15s] /Game/Assets/AR-RampPost_02.AR-RampPost_02
+[2018.12.04-20.58.57:739][173]LogStaticMesh: Building static mesh AR-Staircase_01...
+[2018.12.04-20.58.57:850][173]LogStaticMesh: Built static mesh [0.11s] /Game/Assets/AR-Staircase_01.AR-Staircase_01
+[2018.12.04-20.58.57:985][173]LogStaticMesh: Building static mesh AR-Staircase_02...
+[2018.12.04-20.58.58:135][173]LogStaticMesh: Built static mesh [0.23s] /Game/Assets/AR-Staircase_02.AR-Staircase_02
+[2018.12.04-20.58.58:213][173]LogStaticMesh: Building static mesh AR-StaircaseFloor_01...
+[2018.12.04-20.58.58:215][173]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-StaircaseFloor_01.AR-StaircaseFloor_01
+[2018.12.04-20.58.58:403][173]LogStaticMesh: Building static mesh AR-StairCaseWall_01...
+[2018.12.04-20.58.58:421][173]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/AR-StairCaseWall_01.AR-StairCaseWall_01
+[2018.12.04-20.58.58:466][173]LogStaticMesh: Building static mesh AR-StairCaseWall_02...
+[2018.12.04-20.58.58:531][173]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/AR-StairCaseWall_02.AR-StairCaseWall_02
+[2018.12.04-20.58.58:792][173]LogStaticMesh: Building static mesh AR-StairCaseWall_02a...
+[2018.12.04-20.58.58:798][173]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-StairCaseWall_02a.AR-StairCaseWall_02a
+[2018.12.04-20.58.58:974][173]LogStaticMesh: Building static mesh AR-StairCaseWall_03...
+[2018.12.04-20.58.59:012][173]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/AR-StairCaseWall_03.AR-StairCaseWall_03
+[2018.12.04-20.58.59:193][173]LogStaticMesh: Building static mesh AR-TopWallTrim_01...
+[2018.12.04-20.58.59:201][173]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/AR-TopWallTrim_01.AR-TopWallTrim_01
+[2018.12.04-20.58.59:260][173]LogStaticMesh: Building static mesh AR-Wall_1M_01...
+[2018.12.04-20.58.59:268][173]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/AR-Wall_1M_01.AR-Wall_1M_01
+[2018.12.04-20.58.59:409][173]LogStaticMesh: Building static mesh AR-WallCornerRound_01...
+[2018.12.04-20.58.59:468][173]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/AR-WallCornerRound_01.AR-WallCornerRound_01
+[2018.12.04-20.58.59:540][173]LogStaticMesh: Building static mesh AR-WallStairs_01...
+[2018.12.04-20.58.59:548][173]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-WallStairs_01.AR-WallStairs_01
+[2018.12.04-20.58.59:639][173]LogStaticMesh: Building static mesh AR-WallStairs_02...
+[2018.12.04-20.58.59:643][173]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-WallStairs_02.AR-WallStairs_02
+[2018.12.04-20.58.59:693][173]LogStaticMesh: Building static mesh AR-WallStairs_03...
+[2018.12.04-20.58.59:696][173]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/AR-WallStairs_03.AR-WallStairs_03
+[2018.12.04-20.58.59:747][173]LogStaticMesh: Building static mesh AR-WallTop_2M_01...
+[2018.12.04-20.58.59:756][173]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-WallTop_2M_01.AR-WallTop_2M_01
+[2018.12.04-20.58.59:796][173]LogStaticMesh: Building static mesh AR-WallTop_7M_01...
+[2018.12.04-20.58.59:824][173]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/AR-WallTop_7M_01.AR-WallTop_7M_01
+[2018.12.04-20.58.59:886][173]LogStaticMesh: Building static mesh AR-Window_4M_01...
+[2018.12.04-20.58.59:924][173]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/AR-Window_4M_01.AR-Window_4M_01
+[2018.12.04-20.58.59:929][173]LogStaticMesh: Building static mesh AR-Window_4M_01a...
+[2018.12.04-20.58.59:935][173]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/AR-Window_4M_01a.AR-Window_4M_01a
+[2018.12.04-20.59.00:078][173]LogStaticMesh: Building static mesh DS-BeamLong_01...
+[2018.12.04-20.59.00:085][173]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/DS-BeamLong_01.DS-BeamLong_01
+[2018.12.04-20.59.00:228][173]LogStaticMesh: Building static mesh PR-Carpet_01...
+[2018.12.04-20.59.00:232][173]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/PR-Carpet_01.PR-Carpet_01
+[2018.12.04-20.59.00:556][173]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2018.12.04-20.59.01:600][173]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.12.04-20.59.01:600][173]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.12.04-20.59.01:600][173]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.04-20.59.01:600][173]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial2side, compiling. 
+[2018.12.04-20.59.01:693][173]LogAIModule: Creating AISystem for world Manoir
+[2018.12.04-20.59.01:909][173]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Manoir.Manoir
+[2018.12.04-20.59.02:142][173]Cmd: MAP LOAD FILE="../../../../../../Users/reseo/Documents/Unreal Projects/Manoir/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Maps/Manoir.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.04-20.59.02:144][173]LightingResults: New page: Lighting Build
+[2018.12.04-20.59.02:147][173]LoadErrors: New page: Loading map: Manoir.umap
+[2018.12.04-20.59.02:191][173]MapCheck: New page: Map Check
+[2018.12.04-20.59.02:191][173]LightingResults: New page: Lighting Build
+[2018.12.04-20.59.04:693][173]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.04-20.59.04:780][173]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.04-20.59.05:051][173]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 271.714ms to complete.
+[2018.12.04-20.59.05:054][173]LogFileHelpers: Loading map 'Manoir' took 2.914
+[2018.12.04-20.59.15:154][176]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.12.04-20.59.21:387][197]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.12.04-20.59.23:882][218]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.12.04-20.59.31:129][321]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.04-20.59.33:646][338]LogShaderCompilers: Display: Shaders left to compile 9
