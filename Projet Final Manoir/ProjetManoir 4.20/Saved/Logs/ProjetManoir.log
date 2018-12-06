@@ -827,3 +827,653 @@ LogInit: Object subsystem initialized
 [2018.12.06-02.36.07:645][947]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/rug_INST_normal63A7B9B04BAA7F48493D1A95615408B3.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Rug/rug_INST_normal.uasset'
 [2018.12.06-02.36.07:746][947]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/rug_INST_roughness9B883DFE44AFE2EBEEF4A18A8E63C11D.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Rug/rug_INST_roughness.uasset'
 [2018.12.06-02.36.07:865][947]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/rug_MATF107576D443553C0B37E93BB21D234EB.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Rug/rug_MAT.uasset'
+[2018.12.06-02.37.43:182][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.37.46:460][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.37.50:575][552]Cmd: TRANSACTION UNDO
+[2018.12.06-02.37.50:575][552]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.37.51:269][603]Cmd: TRANSACTION UNDO
+[2018.12.06-02.37.51:269][603]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.37.51:870][664]Cmd: TRANSACTION UNDO
+[2018.12.06-02.37.51:870][664]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.37.54:884][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_6)
+[2018.12.06-02.37.58:197][292]Cmd: TRANSACTION UNDO
+[2018.12.06-02.37.58:197][292]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.38.06:872][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Staircase_01)
+[2018.12.06-02.38.08:056][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_15)
+[2018.12.06-02.38.10:245][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_26)
+[2018.12.06-02.38.11:229][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_15)
+[2018.12.06-02.38.13:321][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.38.14:197][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_15)
+[2018.12.06-02.38.21:057][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_26)
+[2018.12.06-02.38.22:389][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_15)
+[2018.12.06-02.38.25:251][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_26)
+[2018.12.06-02.38.28:718][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_19)
+[2018.12.06-02.38.29:543][348]Cmd: DELETE
+[2018.12.06-02.38.29:543][348]Cmd: ACTOR DELETE
+[2018.12.06-02.38.29:549][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.38.29:589][348]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2018.12.06-02.38.29:847][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_18)
+[2018.12.06-02.38.29:936][379]Cmd: DELETE
+[2018.12.06-02.38.29:936][379]Cmd: ACTOR DELETE
+[2018.12.06-02.38.29:941][379]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.38.29:982][379]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2018.12.06-02.38.30:297][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_15)
+[2018.12.06-02.38.30:418][420]Cmd: DELETE
+[2018.12.06-02.38.30:418][420]Cmd: ACTOR DELETE
+[2018.12.06-02.38.30:423][420]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.38.30:458][420]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.12.06-02.38.31:437][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.38.32:205][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_16)
+[2018.12.06-02.38.34:392][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.38.34:469][859]Cmd: MODE GRID=1
+[2018.12.06-02.38.37:476][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.38.43:502][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_16)
+[2018.12.06-02.38.43:830][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_12)
+[2018.12.06-02.38.44:349][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_16)
+[2018.12.06-02.38.47:653][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_18)
+[2018.12.06-02.38.47:999][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_18)
+[2018.12.06-02.38.48:297][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.38.49:412][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_18)
+[2018.12.06-02.38.54:412][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_19)
+[2018.12.06-02.38.56:477][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_25)
+[2018.12.06-02.38.57:826][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.39.05:569][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_28)
+[2018.12.06-02.39.09:540][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.39.11:571][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.39.13:598][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_16)
+[2018.12.06-02.39.14:806][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.39.15:552][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_18)
+[2018.12.06-02.39.16:330][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.39.17:431][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_19)
+[2018.12.06-02.39.18:455][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.39.19:070][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_27)
+[2018.12.06-02.39.21:269][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.39.26:064][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_24)
+[2018.12.06-02.39.28:606][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.39.33:439][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.12.06-02.39.35:019][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.39.36:471][705]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.39.40:577][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_4)
+[2018.12.06-02.39.41:666][283]Cmd: DELETE
+[2018.12.06-02.39.41:666][283]Cmd: ACTOR DELETE
+[2018.12.06-02.39.41:672][283]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.39.41:711][283]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.12.06-02.39.42:683][398]Cmd: TRANSACTION UNDO
+[2018.12.06-02.39.42:683][398]LogEditorTransaction: Undo Delete Actors
+[2018.12.06-02.39.43:715][500]Cmd: TRANSACTION UNDO
+[2018.12.06-02.39.43:715][500]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.39.44:829][617]Cmd: TRANSACTION UNDO
+[2018.12.06-02.39.44:829][617]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.39.47:298][898]Cmd: DELETE
+[2018.12.06-02.39.47:298][898]Cmd: ACTOR DELETE
+[2018.12.06-02.39.47:304][898]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.39.47:304][898]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.39.47:345][898]LogEditorActor: Deleted 2 Actors (0.047 secs)
+[2018.12.06-02.39.48:393][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_4)
+[2018.12.06-02.39.49:806][172]Cmd: TRANSACTION UNDO
+[2018.12.06-02.39.49:806][172]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.39.50:241][218]Cmd: TRANSACTION UNDO
+[2018.12.06-02.39.50:241][218]LogEditorTransaction: Undo Delete Actors
+[2018.12.06-02.39.52:386][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_2M_4)
+[2018.12.06-02.39.53:241][544]Cmd: DELETE
+[2018.12.06-02.39.53:241][544]Cmd: ACTOR DELETE
+[2018.12.06-02.39.53:247][544]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.39.53:287][544]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2018.12.06-02.39.54:086][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.39.54:695][698]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.39.58:222][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_23)
+[2018.12.06-02.40.04:503][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.40.07:189][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.12.06-02.40.09:480][291]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane10)
+[2018.12.06-02.40.09:814][318]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane5)
+[2018.12.06-02.40.10:086][339]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane11)
+[2018.12.06-02.40.10:492][379]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane6)
+[2018.12.06-02.40.10:738][399]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane12)
+[2018.12.06-02.40.11:105][433]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane7)
+[2018.12.06-02.40.11:751][500]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane13)
+[2018.12.06-02.40.12:726][601]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane14)
+[2018.12.06-02.40.13:091][635]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane8)
+[2018.12.06-02.40.17:045][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.12.06-02.40.18:660][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Staircase_02)
+[2018.12.06-02.40.19:312][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane8)
+[2018.12.06-02.40.19:817][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane9)
+[2018.12.06-02.40.25:189][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.40.28:189][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_16)
+[2018.12.06-02.40.30:137][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_18)
+[2018.12.06-02.40.32:000][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_19)
+[2018.12.06-02.40.38:201][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.40.43:876][769]Cmd: TRANSACTION UNDO
+[2018.12.06-02.40.43:876][769]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.40.44:739][829]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AR-Wall_1M_11)
+[2018.12.06-02.40.44:789][829]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-02.40.44:966][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_11)
+[2018.12.06-02.40.46:292][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_26)
+[2018.12.06-02.40.51:080][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.40.53:040][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.40.55:870][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.40.58:276][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.12.06-02.41.01:119][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.41.02:643][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.41.04:031][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.41.06:663][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.41.10:499][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.41.14:087][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.41.14:753][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.41.17:298][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.41.21:471][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.41.23:079][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.41.26:489][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.41.27:584][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.41.29:761][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.41.31:518][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_23)
+[2018.12.06-02.41.36:812][ 44]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.36:812][ 44]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.37:167][ 70]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.37:167][ 70]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.37:406][ 93]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.37:406][ 93]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.37:592][105]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.37:592][105]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.37:848][131]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.37:848][131]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.52:454][734]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.52:454][734]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.52:718][743]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.52:718][743]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.52:932][753]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.52:932][753]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.53:098][763]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.53:098][763]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.53:413][793]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.53:413][793]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.53:656][819]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.53:656][819]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.53:843][833]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.53:843][833]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.54:057][850]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.54:057][850]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.54:248][870]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.54:248][870]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.54:437][884]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.54:437][884]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.54:694][905]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.54:694][905]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.54:884][925]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.54:884][925]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.55:051][936]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.55:051][936]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.55:226][947]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.55:226][947]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.55:395][964]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.55:395][964]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.55:543][974]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.55:543][974]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.55:675][982]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.55:675][982]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.55:816][995]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.55:816][995]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.55:953][  3]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.55:953][  3]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.56:099][ 16]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.56:099][ 16]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.56:288][ 30]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.56:288][ 30]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.41.56:473][ 49]Cmd: TRANSACTION UNDO
+[2018.12.06-02.41.56:473][ 49]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.41.57:236][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.41.58:457][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.42.01:810][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.42.02:943][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.42.04:336][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.42.05:678][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.42.06:769][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.42.09:071][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_16)
+[2018.12.06-02.42.10:840][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.42.13:041][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_18)
+[2018.12.06-02.42.13:881][811]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_19)
+[2018.12.06-02.42.14:844][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.42.15:257][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_28)
+[2018.12.06-02.42.25:298][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.12.06-02.42.26:496][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.12.06-02.42.33:198][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Curtain2)
+[2018.12.06-02.42.37:072][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.12.06-02.42.38:216][360]Cmd: TRANSACTION UNDO
+[2018.12.06-02.42.38:216][360]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.42.38:548][385]Cmd: TRANSACTION UNDO
+[2018.12.06-02.42.38:548][385]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.42.38:840][413]Cmd: TRANSACTION UNDO
+[2018.12.06-02.42.38:840][413]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.42.39:222][447]Cmd: TRANSACTION UNDO
+[2018.12.06-02.42.39:222][447]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.42.40:162][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Door_2)
+[2018.12.06-02.42.42:982][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.42.53:732][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.42.56:608][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_17)
+[2018.12.06-02.42.57:723][356]Cmd: DELETE
+[2018.12.06-02.42.57:723][356]Cmd: ACTOR DELETE
+[2018.12.06-02.42.57:728][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.42.57:763][356]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.12.06-02.42.58:096][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_16)
+[2018.12.06-02.42.58:198][397]Cmd: DELETE
+[2018.12.06-02.42.58:198][397]Cmd: ACTOR DELETE
+[2018.12.06-02.42.58:204][397]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.42.58:243][397]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.12.06-02.42.58:444][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_18)
+[2018.12.06-02.42.58:576][425]Cmd: DELETE
+[2018.12.06-02.42.58:576][425]Cmd: ACTOR DELETE
+[2018.12.06-02.42.58:582][425]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.42.58:619][425]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2018.12.06-02.42.58:970][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_19)
+[2018.12.06-02.42.59:058][466]Cmd: DELETE
+[2018.12.06-02.42.59:058][466]Cmd: ACTOR DELETE
+[2018.12.06-02.42.59:064][466]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.42.59:102][466]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2018.12.06-02.42.59:974][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.43.10:429][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.43.18:659][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_20)
+[2018.12.06-02.43.19:083][514]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.43.19:398][542]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.43.24:564][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_23)
+[2018.12.06-02.43.32:875][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.43.33:283][  2]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_21)
+[2018.12.06-02.43.33:829][ 53]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_11)
+[2018.12.06-02.43.34:140][ 79]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_22)
+[2018.12.06-02.43.34:431][103]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_12)
+[2018.12.06-02.43.35:238][182]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_23)
+[2018.12.06-02.43.36:331][294]Cmd: EDIT CUT
+[2018.12.06-02.43.36:342][294]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.43.36:343][294]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.43.36:343][294]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.43.36:343][294]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.43.36:344][294]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.43.36:344][294]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.43.36:382][294]LogEditorActor: Deleted 6 Actors (0.046 secs)
+[2018.12.06-02.43.37:730][454]Cmd: TRANSACTION UNDO
+[2018.12.06-02.43.37:730][454]LogEditorTransaction: Undo Cut
+[2018.12.06-02.43.38:527][527]Cmd: TRANSACTION UNDO
+[2018.12.06-02.43.38:527][527]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.43.38:531][527]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Manoir.Manoir:PersistentLevel.AR-TopWallTrim_22.StaticMeshComponent0) Component already registered.
+[2018.12.06-02.43.39:964][687]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_24)
+[2018.12.06-02.43.40:452][736]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_8)
+[2018.12.06-02.43.41:472][835]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.12.06-02.43.41:943][879]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.43.42:436][926]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.43.42:975][980]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-DoorFrame_150cm_01)
+[2018.12.06-02.43.44:231][106]Cmd: TRANSACTION UNDO
+[2018.12.06-02.43.44:231][106]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.43.44:241][106]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Manoir.Manoir:PersistentLevel.AR-Wall_1M_14.StaticMeshComponent0) Component already registered.
+[2018.12.06-02.43.44:242][106]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Manoir.Manoir:PersistentLevel.AR-TopWallTrim_24.StaticMeshComponent0) Component already registered.
+[2018.12.06-02.43.45:232][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_150cm_01)
+[2018.12.06-02.43.47:001][398]Cmd: TRANSACTION UNDO
+[2018.12.06-02.43.47:001][398]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.43.48:086][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_150cm_01)
+[2018.12.06-02.43.48:795][589]Cmd: TRANSACTION UNDO
+[2018.12.06-02.43.48:795][589]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.06-02.43.57:696][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane10)
+[2018.12.06-02.43.58:235][609]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane)
+[2018.12.06-02.43.59:258][715]Cmd: TRANSACTION UNDO
+[2018.12.06-02.43.59:258][715]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.43.59:774][762]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane5)
+[2018.12.06-02.44.00:096][791]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane11)
+[2018.12.06-02.44.00:433][813]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane12)
+[2018.12.06-02.44.00:781][841]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane6)
+[2018.12.06-02.44.01:077][867]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane7)
+[2018.12.06-02.44.01:438][894]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane13)
+[2018.12.06-02.44.02:373][986]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane14)
+[2018.12.06-02.44.02:660][ 12]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane8)
+[2018.12.06-02.44.03:014][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane9)
+[2018.12.06-02.44.07:682][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_24)
+[2018.12.06-02.44.16:030][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.12.06-02.44.19:597][809]Cmd: DELETE
+[2018.12.06-02.44.19:597][809]Cmd: ACTOR DELETE
+[2018.12.06-02.44.19:603][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.44.19:639][809]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2018.12.06-02.44.21:539][ 34]Cmd: TRANSACTION UNDO
+[2018.12.06-02.44.21:539][ 34]LogEditorTransaction: Undo Delete Actors
+[2018.12.06-02.44.27:118][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.12.06-02.44.27:592][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.12.06-02.44.32:932][145]Cmd: TRANSACTION UNDO
+[2018.12.06-02.44.32:932][145]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.44.59:027][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.45.01:140][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_21)
+[2018.12.06-02.45.04:372][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_2)
+[2018.12.06-02.45.11:699][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.45.19:831][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.45.20:674][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_11)
+[2018.12.06-02.45.24:377][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_12)
+[2018.12.06-02.45.26:688][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.12.06-02.45.27:576][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_26)
+[2018.12.06-02.45.28:157][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.12.06-02.45.29:678][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_26)
+[2018.12.06-02.45.30:398][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.45.32:424][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.45.34:043][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_28)
+[2018.12.06-02.45.36:647][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.45.41:215][886]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-02.45.42:367][  6]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-02.45.47:203][  6]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/ManoirE31397344B738033A6A73DB65CD63815.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Maps/Manoir.umap'
+[2018.12.06-02.45.47:279][  6]LogFileHelpers: Saving map 'Manoir' took 4.909
+[2018.12.06-02.45.49:008][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.45.49:199][208]LogSlate: Window 'ProjetManoir - Unreal Editor' being destroyed
+[2018.12.06-02.45.49:406][209]Cmd: QUIT_EDITOR
+[2018.12.06-02.45.49:447][209]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.06-02.45.49:470][209]LogExit: Preparing to exit.
+[2018.12.06-02.45.49:701][209]LogExit: Editor shut down
+[2018.12.06-02.45.49:702][209]LogExit: Transaction tracking system shut down
+[2018.12.06-02.45.50:657][209]LogExit: Object subsystem successfully closed.
+[2018.12.06-02.45.50:694][209]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.06-02.45.50:698][209]LogD3D11RHI: Shutdown
+[2018.12.06-02.45.50:698][209]LogD3D11RHI: CleanupD3DDevice
+[2018.12.06-02.45.50:702][209]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.06-02.45.50:726][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (620)
+[2018.12.06-02.45.50:726][209]LogModuleManager: Shutting down and abandoning module SceneOutliner (618)
+[2018.12.06-02.45.50:726][209]LogModuleManager: Shutting down and abandoning module AddContentDialog (616)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module WidgetCarousel (615)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module EditorWidgets (612)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module CollectionManager (610)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (608)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module StatsViewer (606)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module FoliageEdit (604)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module LandscapeEditor (602)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module MeshPaintMode (600)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (598)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module ActorPickerMode (596)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module GeometryMode (594)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module TextureAlignMode (592)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module BspMode (590)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (588)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (586)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module AutomationWorker (584)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (582)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (578)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (576)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module PlacementMode (575)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module MaterialEditor (574)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (570)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (568)
+[2018.12.06-02.45.50:732][209]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (564)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (562)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (560)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (558)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (556)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (554)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (552)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (550)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (548)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (546)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module CharacterAI (544)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module SmartSnapping (542)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module SessionServices (540)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module ViewportSnapping (538)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module ViewportInteraction (536)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module ClothPainter (534)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (533)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module LogVisualizer (530)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module IntroTutorials (528)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (527)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (524)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (522)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (520)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (518)
+[2018.12.06-02.45.50:733][209]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (517)
+[2018.12.06-02.45.50:941][209]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (514)
+[2018.12.06-02.45.50:941][209]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (512)
+[2018.12.06-02.45.50:941][209]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (510)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (508)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module InputBindingEditor (506)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module MergeActors (504)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (502)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module LocalizationService (501)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module HardwareTargeting (498)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (496)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module UndoHistory (494)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module XmlParser (492)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module Blutility (490)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (488)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (487)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (484)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module SettingsEditor (482)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module ProjectLauncher (480)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module SessionFrontend (478)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module ProfilerClient (476)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module DeviceManager (474)
+[2018.12.06-02.45.50:942][209]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (473)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module AutomationController (470)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module AutomationWindow (468)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module Layers (466)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (464)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module DetailCustomizations (462)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module PackagesDialog (460)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module Persona (458)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (457)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module AnimGraph (455)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module Kismet (452)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module GraphEditor (450)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module ClassViewer (448)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module Toolbox (446)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module ModuleUI (444)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module MovieSceneTools (442)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module OutputLog (440)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module GammaUI (438)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module Documentation (436)
+[2018.12.06-02.45.51:008][209]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2018.12.06-02.45.51:009][209]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2018.12.06-02.45.51:192][209]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2018.12.06-02.45.51:192][209]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (404)
+[2018.12.06-02.45.51:192][209]LogModuleManager: Shutting down and abandoning module SubstanceSource (402)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module SubstanceEditor (400)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.12.06-02.45.51:193][209]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.12.06-02.45.51:200][209]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.12.06-02.45.51:201][209]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.12.06-02.45.51:353][209]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (290)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (288)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2018.12.06-02.45.51:354][209]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2018.12.06-02.45.51:455][209]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2018.12.06-02.45.51:556][209]LogModuleManager: Shutting down and abandoning module SubstanceCore (280)
+[2018.12.06-02.45.51:561][209]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.12.06-02.45.51:561][209]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.12.06-02.45.51:561][209]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.12.06-02.45.51:561][209]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.12.06-02.45.51:561][209]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.12.06-02.45.51:561][209]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.12.06-02.45.51:561][209]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.12.06-02.45.51:562][209]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.12.06-02.45.51:562][209]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.12.06-02.45.51:562][209]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.12.06-02.45.51:562][209]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.12.06-02.45.51:563][209]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.12.06-02.45.51:564][209]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.12.06-02.45.51:564][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.12.06-02.45.51:564][209]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.12.06-02.45.51:564][209]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.12.06-02.45.51:564][209]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.12.06-02.45.51:564][209]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.12.06-02.45.51:566][209]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.12.06-02.45.51:572][209]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.12.06-02.45.51:572][209]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.12.06-02.45.51:572][209]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.12.06-02.45.51:572][209]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.12.06-02.45.51:572][209]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.12.06-02.45.51:572][209]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.12.06-02.45.51:572][209]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.12.06-02.45.51:572][209]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.12.06-02.45.51:573][209]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.12.06-02.45.51:574][209]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.12.06-02.45.51:574][209]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.12.06-02.45.51:574][209]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.12.06-02.45.51:574][209]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.12.06-02.45.51:574][209]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.12.06-02.45.51:574][209]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.12.06-02.45.51:574][209]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.12.06-02.45.51:574][209]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.12.06-02.45.51:575][209]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.12.06-02.45.51:647][209]LogDerivedDataCache: Shutdown
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.12.06-02.45.51:648][209]LogXGEController: Cleaning working directory: C:/Users/ccote/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.12.06-02.45.51:648][209]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.12.06-02.45.51:649][209]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.12.06-02.45.51:649][209]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.12.06-02.45.51:649][209]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.12.06-02.45.51:649][209]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.12.06-02.45.51:655][209]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.12.06-02.45.51:656][209]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.12.06-02.45.51:656][209]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.12.06-02.45.51:656][209]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.12.06-02.45.51:656][209]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.12.06-02.45.51:656][209]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.06-02.45.51:657][209]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.06-02.45.51:675][209]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.06-02.45.51:675][209]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.06-02.45.51:675][209]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7491D2DE-4D8D-6FCD-EF66-BBAC5C6D0314%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=e2eef5974901a565799c4fbf12965752%7C2ac4c091199148449dbeb699f6040216%7Cd9817026-e36a-4726-b12f-229ae1a53dac&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.06-02.45.51:701][209]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.06-02.45.51:703][209]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.06-02.45.51:703][209]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.06-02.45.51:704][209]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.06-02.45.51:704][209]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.06-02.45.51:704][209]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.06-02.45.51:704][209]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.06-02.45.51:704][209]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.06-02.45.51:704][209]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.06-02.45.51:705][209]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.06-02.45.51:705][209]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.06-02.45.51:705][209]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.06-02.45.51:705][209]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.06-02.45.51:705][209]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.06-02.45.51:705][209]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.06-02.45.51:705][209]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.06-02.45.51:705][209]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.06-02.45.51:723][209]LogExit: Exiting.
+[2018.12.06-02.45.51:725][209]Log file closed, 12/05/18 21:45:51
