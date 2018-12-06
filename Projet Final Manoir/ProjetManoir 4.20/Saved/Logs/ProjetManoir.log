@@ -4310,3 +4310,297 @@ LogInit: Object subsystem initialized
 [2018.12.06-02.12.51:910][167]LogShaderCompilers: Display: Shaders left to compile 2
 [2018.12.06-02.12.51:912][167]TextureStreamingBuild: Display: Compiling optional shaders took 1.169 seconds.
 [2018.12.06-02.12.55:293][167]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Wood_Wall_Cathouse_MAT2F6FF5A848C49D23A5A29E89A279A9A2.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Wood_Wall_Cathouse_MAT.uasset'
+[2018.12.06-02.14.27:342][660]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Wood_Wall_Cathouse_MAT_Inst.Wood_Wall_Cathouse_MAT_Inst
+[2018.12.06-02.14.33:767][ 13]LogSlate: Window 'Message' being destroyed
+[2018.12.06-02.14.34:562][ 13]LogMaterial: Display: Missing cached shader map for material Wood_Stairs_MAT, compiling. 
+[2018.12.06-02.14.34:647][ 13]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.06-02.14.34:647][ 13]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.12.06-02.14.34:647][ 13]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.12.06-02.14.34:647][ 13]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.12.06-02.14.34:647][ 13]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.12.06-02.14.34:647][ 13]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.12.06-02.14.34:648][ 13]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.06-02.14.34:648][ 13]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.06-02.14.34:648][ 13]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.06-02.14.34:648][ 13]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.06-02.14.34:648][ 13]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.06-02.14.34:648][ 13]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.06-02.14.34:657][ 13]LogMaterial: Display: Missing cached shader map for material Wood_Stairs_MAT, compiling. 
+[2018.12.06-02.14.34:679][ 13]LogMaterial: Display: Missing cached shader map for material Wood_Stairs_MAT, compiling. 
+[2018.12.06-02.14.34:744][ 13]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Wood_Stairs_MAT, compiling. 
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.06-02.14.36:289][ 13]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.06-02.14.36:291][ 13]TextureStreamingBuild: Display: Compiling optional shaders took 1.554 seconds.
+[2018.12.06-02.14.36:334][ 13]LogSlate: Window 'Wood_Wall_Cathouse_MAT_Inst*' being destroyed
+[2018.12.06-02.14.36:336][ 13]LogSlate: Window 'Wood_Wall_Cathouse_MAT_Inst*' being destroyed
+[2018.12.06-02.14.36:762][ 13]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Wood_Wall_Cathouse_MAT_Inst, compiling. 
+[2018.12.06-02.14.37:012][ 13]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.06-02.14.37:014][ 13]TextureStreamingBuild: Display: Compiling optional shaders took 0.255 seconds.
+[2018.12.06-02.14.43:635][604]Cmd: TRANSACTION UNDO
+[2018.12.06-02.14.43:635][604]LogEditorTransaction: Undo Create Actors
+[2018.12.06-02.14.45:244][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_11)
+[2018.12.06-02.14.47:135][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.14.53:112][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.15.11:097][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_12)
+[2018.12.06-02.15.11:824][575]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.15.12:336][625]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.15.12:773][665]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.12.06-02.15.14:174][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.15.19:250][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.15.20:332][423]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.15.21:402][538]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.15.21:775][573]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_8)
+[2018.12.06-02.15.22:776][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.15.26:562][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.15.26:983][101]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.15.28:052][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.15.31:681][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.12.06-02.15.33:255][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.15.37:505][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.12.06-02.15.38:676][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.15.44:329][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.15.52:956][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_01)
+[2018.12.06-02.15.53:894][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.15.56:200][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_2)
+[2018.12.06-02.15.56:598][228]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_17)
+[2018.12.06-02.15.59:654][544]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_3)
+[2018.12.06-02.16.00:054][570]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_18)
+[2018.12.06-02.16.00:861][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.16.04:064][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Door_01)
+[2018.12.06-02.16.04:724][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCornerRound_01)
+[2018.12.06-02.16.05:813][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.16.23:180][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Staircase_01)
+[2018.12.06-02.16.24:749][858]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.16.29:852][331]Cmd: EDIT CUT
+[2018.12.06-02.16.29:864][331]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.06-02.16.29:900][331]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.12.06-02.16.29:901][331]Cmd: TRANSACTION UNDO
+[2018.12.06-02.16.29:901][331]LogEditorTransaction: Undo Cut
+[2018.12.06-02.16.30:201][350]Cmd: TRANSACTION UNDO
+[2018.12.06-02.16.30:201][350]LogEditorTransaction: Undo Replace component used material
+[2018.12.06-02.16.30:708][399]Cmd: TRANSACTION UNDO
+[2018.12.06-02.16.30:708][399]LogEditorTransaction: Undo Replace component used material
+[2018.12.06-02.16.31:075][438]Cmd: TRANSACTION UNDO
+[2018.12.06-02.16.31:075][438]LogEditorTransaction: Undo Replace component used material
+[2018.12.06-02.16.33:965][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_01)
+[2018.12.06-02.16.35:069][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.16.42:428][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_02)
+[2018.12.06-02.16.44:270][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.16.47:277][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.16.56:094][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_2)
+[2018.12.06-02.16.58:373][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.17.04:125][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_8)
+[2018.12.06-02.17.05:414][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.17.08:188][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_7)
+[2018.12.06-02.17.08:676][394]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_6)
+[2018.12.06-02.17.09:268][454]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_5)
+[2018.12.06-02.17.09:605][484]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_9)
+[2018.12.06-02.17.09:949][513]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_10)
+[2018.12.06-02.17.11:057][624]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_11)
+[2018.12.06-02.17.13:113][820]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_4)
+[2018.12.06-02.17.13:731][867]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_3)
+[2018.12.06-02.17.14:160][907]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_2)
+[2018.12.06-02.17.15:145][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_01)
+[2018.12.06-02.17.16:536][160]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-StairCaseWall_02)
+[2018.12.06-02.17.17:666][278]Cmd: TRANSACTION UNDO
+[2018.12.06-02.17.17:666][278]LogEditorTransaction: Undo Move Actors
+[2018.12.06-02.17.17:671][278]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Manoir.Manoir:PersistentLevel.AR-TopWallTrim_10.StaticMeshComponent0) Component already registered.
+[2018.12.06-02.17.17:672][278]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Manoir.Manoir:PersistentLevel.AR-StairCaseWall_02_8.StaticMeshComponent0) Component already registered.
+[2018.12.06-02.17.24:166][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_2)
+[2018.12.06-02.17.25:726][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.17.27:226][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_01)
+[2018.12.06-02.17.28:274][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.17.37:298][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.17.37:453][390]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Wood_Wall_Cathouse_MAT_Inst.Wood_Wall_Cathouse_MAT_Inst
+[2018.12.06-02.17.46:955][  4]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.06-02.17.47:611][ 59]LogSlate: Window 'Wood_Wall_Cathouse_MAT_Inst*' being destroyed
+[2018.12.06-02.17.47:615][ 59]LogSlate: Window 'Wood_Wall_Cathouse_MAT_Inst*' being destroyed
+[2018.12.06-02.17.47:660][ 59]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Wood_Wall_Cathouse_MAT_Inst, compiling. 
+[2018.12.06-02.17.48:367][ 59]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.06-02.17.48:370][ 59]TextureStreamingBuild: Display: Compiling optional shaders took 0.714 seconds.
+[2018.12.06-02.17.56:528][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.01:930][452]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Wood_Wall_Cathouse_MAT_Inst1.Wood_Wall_Cathouse_MAT_Inst1
+[2018.12.06-02.18.19:678][731]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.06-02.18.21:917][866]LogSlate: Window 'Wood_Wall_Cathouse_MAT_Inst1*' being destroyed
+[2018.12.06-02.18.21:922][866]LogSlate: Window 'Wood_Wall_Cathouse_MAT_Inst1*' being destroyed
+[2018.12.06-02.18.21:964][866]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Wood_Wall_Cathouse_MAT_Inst1, compiling. 
+[2018.12.06-02.18.22:724][866]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.06-02.18.22:727][866]TextureStreamingBuild: Display: Compiling optional shaders took 0.766 seconds.
+[2018.12.06-02.18.24:591][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_11)
+[2018.12.06-02.18.25:630][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.27:788][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.18.28:709][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.30:703][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_12)
+[2018.12.06-02.18.31:483][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.32:688][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.18.33:608][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.34:362][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.12.06-02.18.35:155][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.35:779][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.18.37:041][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.37:575][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_8)
+[2018.12.06-02.18.38:470][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.41:337][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.18.41:487][662]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Wood_Wall_Cathouse_MAT_Inst1.Wood_Wall_Cathouse_MAT_Inst1
+[2018.12.06-02.19.01:517][ 28]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.06-02.19.11:549][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.19.18:149][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.19.26:813][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCornerRound_01)
+[2018.12.06-02.19.28:651][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.19.33:582][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.19.46:087][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.19.55:524][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_01)
+[2018.12.06-02.19.56:892][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.19.59:449][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_2)
+[2018.12.06-02.20.00:510][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.01:531][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Fireplace_01)
+[2018.12.06-02.20.03:053][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_19)
+[2018.12.06-02.20.05:052][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.08:078][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_01)
+[2018.12.06-02.20.12:046][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_17)
+[2018.12.06-02.20.14:196][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.16:347][774]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2018.12.06-02.20.18:370][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.12.06-02.20.19:879][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.25:026][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.27:299][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_02)
+[2018.12.06-02.20.28:768][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.29:953][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.20.37:794][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.38:718][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_15)
+[2018.12.06-02.20.39:242][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_16)
+[2018.12.06-02.20.40:307][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.40:833][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.12.06-02.20.41:929][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.44:648][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-CeilingBeam_02)
+[2018.12.06-02.20.45:547][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.45:633][857]LogMaterial: Warning: Material /Game/Materials/Wood_Wall_Cathouse_MAT.Wood_Wall_Cathouse_MAT needed to have new flag set bUsedWithStaticLighting !
+[2018.12.06-02.20.45:635][857]LogMaterial: Display: Missing cached shader map for material Wood_Wall_Cathouse_MAT, compiling. 
+[2018.12.06-02.20.45:676][858]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.06-02.20.45:676][858]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.06-02.20.45:676][858]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.06-02.20.45:676][858]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.06-02.20.51:851][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.12.06-02.20.54:333][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-WallCorner_01)
+[2018.12.06-02.20.55:226][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.20.57:608][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-CeilingBeam_02)
+[2018.12.06-02.20.58:760][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.00:107][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_6)
+[2018.12.06-02.21.02:214][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.05:084][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_11)
+[2018.12.06-02.21.05:853][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.09:306][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_12)
+[2018.12.06-02.21.09:939][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.10:432][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.12.06-02.21.11:245][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.12:218][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.21.12:681][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.21.13:142][444]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_8)
+[2018.12.06-02.21.13:786][511]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.21.14:639][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.15:923][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_11)
+[2018.12.06-02.21.16:384][755]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_12)
+[2018.12.06-02.21.16:704][783]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_7)
+[2018.12.06-02.21.16:968][805]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_13)
+[2018.12.06-02.21.17:224][827]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_14)
+[2018.12.06-02.21.17:584][860]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-Wall_1M_8)
+[2018.12.06-02.21.19:426][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.21:421][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_28)
+[2018.12.06-02.21.26:928][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Window_4M_01)
+[2018.12.06-02.21.32:563][380]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_03)
+[2018.12.06-02.21.34:598][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.43:998][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.51:127][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.21.55:816][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_03)
+[2018.12.06-02.21.57:742][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_150cm_01)
+[2018.12.06-02.21.59:498][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.22.03:155][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_03)
+[2018.12.06-02.22.04:801][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_27)
+[2018.12.06-02.22.07:611][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.22.09:350][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_20)
+[2018.12.06-02.22.10:165][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.22.10:934][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-CorridorFake_01)
+[2018.12.06-02.22.13:369][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.22.26:126][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_2)
+[2018.12.06-02.22.32:517][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_01)
+[2018.12.06-02.22.34:761][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.22.51:736][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_02)
+[2018.12.06-02.22.52:819][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.22.54:730][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_2)
+[2018.12.06-02.22.55:652][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.23.04:211][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-DoorFrame_2M_003)
+[2018.12.06-02.23.08:925][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_7)
+[2018.12.06-02.23.10:082][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.23.14:536][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_6)
+[2018.12.06-02.23.15:527][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.23.17:638][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_5)
+[2018.12.06-02.23.18:141][291]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_9)
+[2018.12.06-02.23.18:491][323]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_10)
+[2018.12.06-02.23.19:630][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.23.21:507][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_11)
+[2018.12.06-02.23.21:814][682]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_4)
+[2018.12.06-02.23.22:122][710]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (AR-TopWallTrim_3)
+[2018.12.06-02.23.24:075][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.23.26:439][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-TopWallTrim_8)
+[2018.12.06-02.23.47:223][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-StairCaseWall_02)
+[2018.12.06-02.23.52:278][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.23.59:543][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Fireplace_01)
+[2018.12.06-02.24.00:712][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.24.14:496][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.24.27:346][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Ceiling_01)
+[2018.12.06-02.24.30:650][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.24.34:513][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Staircase_02)
+[2018.12.06-02.24.36:496][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.24.41:458][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_19)
+[2018.12.06-02.24.44:053][364]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2018.12.06-02.24.45:141][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.24.48:897][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Floor_2X2_9)
+[2018.12.06-02.24.49:228][921]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2018.12.06-02.24.51:620][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.25.03:297][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Wall_1M_9)
+[2018.12.06-02.25.05:411][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.25.12:322][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.25.18:720][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.25.23:587][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-02.25.25:720][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AR-Staircase_01)
+[2018.12.06-02.25.47:906][135]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-02.25.49:156][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-02.25.54:942][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Manoir3FE7665D46637EAB2F77AEBFA6579DFB.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Maps/Manoir.umap'
+[2018.12.06-02.25.55:080][272]LogFileHelpers: Saving map 'Manoir' took 5.918
+[2018.12.06-02.25.55:297][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Wood_Stairs_MATD661C2174105FD8A2EB1D0AD5B43D473.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Wood_Stairs_MAT.uasset'
+[2018.12.06-02.25.58:986][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Wood_Stairs_Cathouse_basecolor795F7D0C46F9583898F9EA9DDFE796BC.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Wood_Stairs/Wood_Stairs_Cathouse_basecolor.uasset'
+[2018.12.06-02.25.59:139][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/M_Rug_Inst27C7416D44A9ADF75614DCB3CB804FA3.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/M_Rug_Inst.uasset'
+[2018.12.06-02.25.59:266][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Master_Rug_InstE1E92DD149D8064E2BA0EA95ED3FFE5A.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Master_Rug_Inst.uasset'
+[2018.12.06-02.25.59:327][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Wood_Stairs_MAT_Inst13BD777A41CB6A431F466FAFA9DACEF6.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Wood_Stairs_MAT_Inst.uasset'
+[2018.12.06-02.25.59:431][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/SM_Sofa_Object70ABEBF149CD5A328E9074BCE76F569B.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Assets/Personalized/SM_Sofa_Object.uasset'
+[2018.12.06-02.26.00:086][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/SM_Sofa_Box05F84FD65E44F41D009508D7A27C22AD13.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Assets/Personalized/SM_Sofa_Box05.uasset'
+[2018.12.06-02.26.00:215][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/NewBlueprintA05F5EDD49400F8F467C1C9A53445D2A.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Assets/Personalized/NewBlueprint.uasset'
+[2018.12.06-02.26.00:326][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/SM_Pillow887B739A444E373CE4B7298A7CFF6286.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Assets/Personalized/SM_Pillow.uasset'
+[2018.12.06-02.26.00:424][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/New_Graph_basecolor023E24DE4E14A2478FF062BB8C1AE6B1.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Wood_Stairs/New_Graph_basecolor.uasset'
+[2018.12.06-02.26.00:539][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Wood_Wall_Cathouse_MAT_Inst8943FC2E4493B0ED2EA222BAE4E5C731.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Wood_Wall_Cathouse_MAT_Inst.uasset'
+[2018.12.06-02.26.00:644][272]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Wood_Wall_Cathouse_MAT_Inst1, compiling. 
+[2018.12.06-02.26.01:383][272]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.06-02.26.01:385][272]TextureStreamingBuild: Display: Compiling optional shaders took 0.745 seconds.
+[2018.12.06-02.26.01:758][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Wood_Wall_Cathouse_MAT_Inst18A62D2744F57A2F4D21BB699F27DEA14.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Wood_Wall_Cathouse_MAT_Inst1.uasset'
+[2018.12.06-02.26.02:393][272]LogSavePackage: Moving '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Saved/Wood_Wall_Cathouse_MATFE22AA5B48B72F81B81B0E866C3AE2BB.tmp' to '//rd-srvhd2/Enseignement/Utilisateurs/ccote/Home/Documents/Unreal Projects/ProjetManoir_final/RendusManoir/Projet Final Manoir/ProjetManoir 4.20/Content/Materials/Wood_Wall_Cathouse_MAT.uasset'
